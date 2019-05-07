@@ -1,0 +1,36 @@
+```{r}
+data("iris")
+library(ggplot2)
+# library(caret)
+# #This way is straigtforward
+# inTrain <- createDataPartition(y=iris$Species,
+#                               p=0.7, list=FALSE)
+#this way is smarter and simpler, no need to use package caret
+inTrain = sample(c(TRUE,FALSE), length(iris$Species),replace = T,prob = c(0.7,0.3))
+
+training <- iris[inTrain,]
+testing <- iris[-inTrain,]
+dim(training)
+dim(testing)
+
+
+library(tidyverse)
+kMeans1 <- kmeans(select(training,-Species),centers=3)
+#cluster is categorical variable
+training$clusters <- as.factor(kMeans1$cluster)
+qplot(Petal.Width,Petal.Length,colour=clusters,data=training)
+
+
+#compare clustering results to real labels
+table(kMeans1$cluster,training$Species)
+
+#Build predictor - decision tree
+modFit <- train(clusters ~.,data=select(training,-Species),method="rpart")
+table(predict(modFit,training),training$Species)
+
+#Apply on test
+testClusterPred <- predict(modFit,testing) 
+table(testClusterPred ,testing$Species)
+
+```
+
