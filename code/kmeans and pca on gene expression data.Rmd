@@ -8,7 +8,9 @@ set.seed(100)
 raw_dat = read.table('https://raw.githubusercontent.com/LuchaoQi/hw/master/applied_genomics/hw5/expression.txt',header = 1,row.names = 'name')
 raw_dat = as.matrix(raw_dat)
 
-
+#because it's worth repeating:
+#transpose the data before kmeans!!!
+#transpose the data before kmeans!!!
 #transpose the data before kmeans!!!
 dat = kmeans(t(scale(t(raw_dat))),iter.max=20,centers = 3)
 dat
