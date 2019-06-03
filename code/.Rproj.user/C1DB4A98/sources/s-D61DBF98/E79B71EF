@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1559597996309.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1865444402",
+    "id" : "E79B71EF",
+    "lastKnownWriteTime" : 1559598989,
+    "last_content_update" : 1559598989278,
+    "path" : "C:/Users/lcqi/OneDrive/Desktop/machine-learning/code/Step 1 – Data Exploration.Rmd",
+    "project_path" : "Step 1 – Data Exploration.Rmd",
+    "properties" : {
+        "cursorPosition" : "49,0",
+        "last_setup_crc32" : "D61DBF9870023a55",
+        "scrollLine" : "42",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
