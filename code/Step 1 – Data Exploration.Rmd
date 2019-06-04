@@ -67,5 +67,7 @@ vectorReligions <- c(
 dtFlag[, religion := factor(religion,
 labels=vectorReligions)]
 
+
+str(dfFlag)
 ```
 

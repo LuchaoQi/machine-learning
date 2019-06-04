@@ -1,6 +1,0 @@
-"0","dtFlag[, continent = factor(continent,
-labels=vectorContinents)]
-"
-"2","Error in `[.data.table`(dtFlag, , continent = factor(continent, labels = vectorContinents)) : 
-  unused argument (continent = factor(continent, labels = vectorContinents))
-"
