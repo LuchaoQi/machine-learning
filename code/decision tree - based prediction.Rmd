@@ -33,6 +33,5 @@ table(predict(modFit,training),training$Species)
 #Apply on test
 testClusterPred <- predict(modFit,testing) 
 table(testClusterPred ,testing$Species)
-
 ```
 
