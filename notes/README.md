@@ -1,4 +1,4 @@
-> `Great Intro`
+> * Great Intro
 >
 > https://medium.com/@srnghn/deep-learning-overview-of-neurons-and-activation-functions-1d98286cf1e4
 >
