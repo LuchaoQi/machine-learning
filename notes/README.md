@@ -20,29 +20,29 @@ Loss/cost function
 
 Know what's Neural Network
 
-https://medium.com/@srnghn/deep-learning-overview-of-neurons-and-activation-functions-1d98286cf1e4
-
-Next:
-
-Know how to auto learn/adjust network
-
-Optimization of network
+> https://medium.com/@srnghn/deep-learning-overview-of-neurons-and-activation-functions-1d98286cf1e4
+>
+> Next:
+>
+> Know how to auto learn/adjust network
+>
+> Optimization of network
 
 ---
 
-Code
-
-https://github.com/LuchaoQi/deep-learning
-
-Project
-
-https://www.d2l.ai/chapter_optimization/minibatch-sgd.html
-
-http://neuralnetworksanddeeplearning.com/
-
-Video
-
-https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+> Code
+>
+> https://github.com/LuchaoQi/deep-learning
+>
+> Project
+>
+> https://www.d2l.ai/chapter_optimization/minibatch-sgd.html
+>
+> http://neuralnetworksanddeeplearning.com/
+>
+> Video
+>
+> https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 
 
