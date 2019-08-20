@@ -1,9 +1,9 @@
 # deep-learning
 My deep learning journey
 
+Check the notes in this repo for more info
+
 *  Resources:  
->
->
 >
 >
 >---
