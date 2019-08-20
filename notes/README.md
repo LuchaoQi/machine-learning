@@ -1,6 +1,10 @@
 Back propagation
 
-> 
+> Get weights through calculus and average over all desired changes of weights
+>
+> https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4
+>
+> Mini-batches is able to trade-off the convergence speed and computation efficiency
 
 ---
 
@@ -31,6 +35,8 @@ Code
 https://github.com/LuchaoQi/deep-learning
 
 Project
+
+https://www.d2l.ai/chapter_optimization/minibatch-sgd.html
 
 http://neuralnetworksanddeeplearning.com/
 
