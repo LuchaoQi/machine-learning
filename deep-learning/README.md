@@ -1,6 +1,8 @@
 # deep-learning
 My deep learning journey
 
+> Check [`rnhanes`](https://github.com/LuchaoQi/rnhanesdata) project for more detailed info
+
 Back propagation
 
 > Get weights through calculus and average over all desired changes of weights
