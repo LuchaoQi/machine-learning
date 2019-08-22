@@ -8,12 +8,16 @@ PCA
 > dimension reduction  - time series data
 >
 > based on PC rotations we can do further analysis
+>
+> check rnhanes project
 
 ---
 
 Multinomial regression
 
 >classification
+>
+>check rnhanes project
 
 ---
 
