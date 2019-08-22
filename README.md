@@ -61,7 +61,7 @@ Logistic regression/Linear regression
 >
 > Linear regression
 >
-> proj
+> project
 >
 > rnhanes 5_continuous_BMI
 >
