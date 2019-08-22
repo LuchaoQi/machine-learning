@@ -58,6 +58,14 @@ Logistic regression/Linear regression
 > hw
 >
 > https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_BME/hw7/hw7.pdf
+>
+> Linear regression
+>
+> proj
+>
+> rnhanes 5_continuous_BMI
+>
+> visualization of results in ggplot2
 
 ---
 
