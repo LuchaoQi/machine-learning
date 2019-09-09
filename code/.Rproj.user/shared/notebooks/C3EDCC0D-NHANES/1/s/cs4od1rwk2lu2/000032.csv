@@ -1,168 +1,0 @@
-"1","
-"
-"1","  Binaries will be installed
-"
-"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/ellipsis_0.1.0.zip'
-"
-"2","Content type 'application/zip'"
-"2"," length 32584 bytes (31 KB)
-"
-"2","downloaded 31 KB
-
-"
-"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/mvtnorm_1.0-10.zip'
-"
-"2","Content type 'application/zip'"
-"2","downloaded 264 KB
-
-"
-"1","package ‘ellipsis’ successfully unpacked and MD5 sums checked
-"
-"1","package ‘mvtnorm’ successfully unpacked and MD5 sums checked
-"
-"1","
-"
-"1","The downloaded binary packages are in
-	C:\Windows\Temp\RtmpAnY4tD\downloaded_packages"
-"1","
-"
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","[32m√[39m  [38;5;247mchecking for file 'C:\Windows\Temp\RtmpAnY4tD\remotes4f5863e94f18\andrew-leroux-rnhanesdata-9f6bd08/DESCRIPTION'[39m[36m[36m (588ms)[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247mpreparing 'rnhanesdata':[39m[36m[36m (1.7s)[36m[39m"
-"1","
-"
-"1","[32m√[39m  [38;5;247mchecking DESCRIPTION meta-information[39m[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247minstalling the package to build vignettes[39m[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","   creating vignettes ..."
-"1",""
-"1","  "
-"1","   creating vignettes ... "
-"1",""
-"1","  "
-"1","[32m√[39m  [38;5;247mcreating vignettes[39m[36m[36m (6m 12.2s)[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247mchecking for LF line-endings in source and make files and shell scripts[39m[36m[36m (401ms)[36m[39m"
-"1","
-"
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247mchecking for empty or unneeded directories[39m[36m[39m"
-"1","
-"
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247mlooking to see if a 'data/datalist' file should be added[39m[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","  "
-"1",""
-"1","  "
-"1","[38;5;247m-[39m[38;5;247m  [39m[38;5;247mbuilding 'rnhanesdata_1.01.tar.gz'[39m[36m[36m (17.9s)[36m[39m"
-"1","
-"
-"1",""
-"1","  "
-"1","   "
-"1","
-"
-"1",""
-"1","* installing *source* package 'rnhanesdata' ...
-"
-"1","** R
-"
-"1","** data
-"
-"1","*** moving datasets to lazyload DB
-"
-"1","** inst
-"
-"1","** byte-compile and prepare package for lazy loading
-"
-"1","** help
-"
-"1","*** installing help indices
-"
-"1","  converting help for package 'rnhanesdata'
-"
-"1","    finding HTML links ... done
-"
-"1","    Covariate_C                             html  
-"
-"1","    Covariate_D                             html  
-"
-"1","    Flags_C                                 html  
-"
-"1","    Flags_D                                 html  
-"
-"1","    Mortality_2011_C                        html  
-"
-"1","    Mortality_2011_D                        html  
-"
-"1","    Mortality_2015_C                        html  
-"
-"1","    Mortality_2015_D                        html  
-"
-"1","    PAXINTEN_C                              html  
-"
-"1","    PAXINTEN_D                              html  
-"
-"1","    exclude_accel                           html  
-"
-"1","    process_accel                           html  
-"
-"1","    process_covar                           html  
-"
-"1","    process_flags                           html  
-"
-"1","    finding level-2 HTML links ... done
-"
-"1","
-"
-"1","    process_mort                            html  
-"
-"1","    reweight_accel                          html  
-"
-"1","    rnhanesdata-package                     html  
-"
-"1","** building package indices
-"
-"1","** installing vignettes
-"
-"1","** testing if installed package can be loaded
-"
-"1","*** arch - i386
-"
-"1","*** arch - x64
-"
-"1","* DONE (rnhanesdata)
-"
-"1","In R CMD INSTALL
-"

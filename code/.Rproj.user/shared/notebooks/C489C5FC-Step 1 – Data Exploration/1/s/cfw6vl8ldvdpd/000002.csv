@@ -1,2 +1,0 @@
-"0","rm(list = ls())"
-"0","dfFlag <- read.csv('C:/Users/lcqi/OneDrive/Desktop/machine-learning/data/flag.data', header=FALSE)"
