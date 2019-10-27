@@ -1,12 +1,12 @@
-# Random Fores
+# Random Forest
 
 ### Model
 
 1. Bootstrap
-2. Randoly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we got a random forest
+2. Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we can get a random forest
 3. Usage
 
-Run each subject data (e.g. 0/1 response) over the whole random forest e.g. 501 trees so we got a contingency matrix for each subject
+Run each subject data (0/1 response) over the whole random forest (501 trees) so we got a contingency matrix for each subject
 
 |  0   |  1   |
 | :--: | :--: |
