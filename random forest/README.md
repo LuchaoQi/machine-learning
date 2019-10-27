@@ -2,6 +2,8 @@
 
 ### Model
 
+[StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
+
 1. Bootstrap
 2. Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we can get a random forest
 3. Usage
@@ -36,7 +38,7 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 ### Gini
 
-
+[StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
 
 
@@ -53,6 +55,3 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
 
-### Resources
-
-[StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
