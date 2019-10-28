@@ -15,12 +15,13 @@
 ### Pros
 
 * Do not require feature engineering (scaling and normalization)
-* Can be used to extract variable importance (varImpPlot)
+* Can be used to extract variable importance (ISLR page 330)
 
+<img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom:50%;" />
 
+* Can be used to autofill missing value [StatQuest: Random Forests Part 2: Missing data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&feature=youtu.be)
 
-* Can be used to autofill missing value
-* Robust to outliers ([How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07))
+* Robust to outliers [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
 
 ### Cons
 
