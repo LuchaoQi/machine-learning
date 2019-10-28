@@ -1,7 +1,7 @@
 # deep-learning
 My deep learning journey
 
-> Check [`rnhanes`](https://github.com/LuchaoQi/rnhanesdata) project for more detailed info
+> Check [`nhanes`](https://github.com/LuchaoQi/NHANES) project for more detailed info
 
 Back propagation
 
