@@ -12,8 +12,6 @@
 
 
 
-
-
 ### Pros
 
 * Do not require feature engineering (scaling and normalization)
@@ -24,6 +22,3 @@
 ### Cons
 
 * Overfitting in case of noisy data
-
-
-
