@@ -1,6 +1,6 @@
 *.Rdata
 *.Rhistory
 
-books/**.pdf
+books/
 data/
 miscellaneous code/
