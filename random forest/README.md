@@ -19,9 +19,17 @@
 
 <img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom:50%;" />
 
-* Can be used to autofill missing value [StatQuest: Random Forests Part 2: Missing data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&feature=youtu.be)
+* Autofill missing value and able to handle missing data
 
-* Robust to outliers [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
+  [StatQuest: Random Forests Part 2: Missig data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&feature=youtu.be)
+
+  [Jump Start your Modeling with Random Forests](https://www.elderresearch.com/blog/modeling-with-random-forests)
+
+* Robust to outliers 
+
+  [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
+  
+  [Jump Start your Modeling with Random Forests](https://www.elderresearch.com/blog/modeling-with-random-forests)
 
 ### Cons
 
