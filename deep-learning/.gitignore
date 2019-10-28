@@ -1,5 +1,8 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.RDataTmp
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.RDataTmp
+
+books/
+code/
