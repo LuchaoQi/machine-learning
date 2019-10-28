@@ -1,4 +1,4 @@
 **.Rdata
 **.Rhistory
-/books/
-/data/**
+books/**
+data/**
