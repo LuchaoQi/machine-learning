@@ -1,8 +1,5 @@
-**.Rdata
-**.Rhistory
-books/**
-data/**
-miscellaneous code/**
+*.Rdata
+*.Rhistory
 
 books/
 data/
