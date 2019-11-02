@@ -31,3 +31,6 @@ we can get a contingency matrix of prediction
 |         90          |           10            |
 
 So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
+
+
+

@@ -1,23 +1,31 @@
 # Random Forest
 
-### Resources
+### Intro
+
+**Trees & GINI**
 
 [StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
 
+**Model**
+
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
 
+[Build a Random Forest Algorithm](https://enlight.nyc/projects/random-forest)
+
+**Details**
+
+[How is Variable Importance Calculated for a Random Forest?](https://www.displayr.com/how-is-variable-importance-calculated-for-a-random-forest/)
+
 [How to interpret Mean Decrease in Accuracy and Mean Decrease GINI in Random Forest models](https://stats.stackexchange.com/questions/197827/how-to-interpret-mean-decrease-in-accuracy-and-mean-decrease-gini-in-random-fore)
-
-
 
 ### Pros
 
 * Do not require feature engineering (scaling and normalization)
 * Can be used to extract variable importance (ISLR page 330)
 
-<img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom: 50%;" />
 
 * Autofill missing value and able to handle missing data
 
