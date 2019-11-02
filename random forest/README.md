@@ -23,11 +23,12 @@
 ### Pros
 
 * Do not require feature engineering (scaling and normalization)
+
 * Can be used to extract variable importance (ISLR page 330)
 
-<img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom: 50%;" />
+  > <img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom: 50%;">
 
-* Autofill missing value and able to handle missing data
+* Autofill missing value & ability to handle missing data
 
   [StatQuest: Random Forests Part 2: Missig data and clustering](https://www.youtube.com/watch?v=nyxTdL_4Q-Q&feature=youtu.be)
 
@@ -37,7 +38,9 @@
 
   [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
   
-  [Jump Start your Modeling with Random Forests](https://www.elderresearch.com/blog/modeling-with-random-forests)
+  [Why are tree-based models robust to outliers?](https://www.quora.com/Why-are-tree-based-models-robust-to-outliers)
+  
+  > **Robustness to Outliers** – Random Forests use trees, which split the data into groups (repeatedly) according to whether a case is above or below a selected threshold value on a selected feature variable.  It doesn’t matter how much higher it is, for instance, just if it’s higher.  Thus, *input outliers* don’t have extra influence, like they do in regression, for instance, where they can become known as leverage points.  Also, *output outliers* will affect the estimate of the leaf node they are in, but not the values of any other leaf node.  Again, this is different from other methods – ones John Elder calls “consensus” methods, like regression or neural networks – where every data point affects the estimate at every other data point.  Instead, tree methods are “contributory” methods, where only local points – those in the same leaf node – affect a given point’s estimate.  So output outliers have a “quarantined” effect. Thus, outliers that would wildly distort the accuracy of some algorithms have less of an effect on the prediction of a Random Forest. ([Jump Start your Modeling with Random Forests](https://www.elderresearch.com/blog/modeling-with-random-forests))
 
 ### Cons
 
