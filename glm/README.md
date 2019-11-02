@@ -2,7 +2,7 @@
 
 **Always check non-linearity**
 
-[Detecting Multicollinearity](https://www.edupristine.com/blog/detecting-multicollinearity)
+**[Detecting Multicollinearity](https://www.edupristine.com/blog/detecting-multicollinearity)**
 
 [Partial regression plots](https://rpubs.com/Hank_Stevens/prp)
 
