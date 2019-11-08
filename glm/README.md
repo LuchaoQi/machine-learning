@@ -1,6 +1,6 @@
 # GLM
 
-**Always check non-linearity - VIF/avPlots**
+**Always check non-linearity/co-linearity - VIF/avPlots**
 
 **[Detecting Multicollinearity](https://www.edupristine.com/blog/detecting-multicollinearity)**
 
