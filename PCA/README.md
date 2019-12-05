@@ -18,6 +18,12 @@ http://blog.codinglabs.org/articles/pca-tutorial.html
 
 **Example**
 
+github has problem rendering latex
+
+
+
+
+
 centering the data before PCA
 
 e.g. we have five 2-D data points after centering
