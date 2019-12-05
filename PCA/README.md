@@ -18,7 +18,11 @@ http://blog.codinglabs.org/articles/pca-tutorial.html
 
 **Example**
 
-<!---as--->
+it seems github has problem rendering latex
+
+![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/pca.png?raw=true)
+
+
 
 centering the data before PCA
 
@@ -86,15 +90,14 @@ Y=\begin{pmatrix} 1/\sqrt2 & 1/\sqrt2 \end{pmatrix}\left(\begin{array}{llllll}{-
 $$
 
 
+
 DONE! the projected 1-D points are shown as below
 
 ![](http://blog.codinglabs.org/uploads/pictures/pca-tutorial/07.png)
 
 
 
-it seems github has problem rendering latex
 
-![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/pca.png?raw=true)
 
 ---
 
