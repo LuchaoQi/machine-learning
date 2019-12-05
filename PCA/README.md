@@ -14,29 +14,15 @@ http://blog.codinglabs.org/articles/pca-tutorial.html
 
 [Understanding the Role of Eigenvectors and Eigenvalues in PCA Dimensionality Reduction.](https://medium.com/@dareyadewumi650/understanding-the-role-of-eigenvectors-and-eigenvalues-in-pca-dimensionality-reduction-10186dad0c5c)
 
-
+---
 
 **Example**
 
-it seems github has problem rendering latex
+it seems github has problem rendering latex so I used img here
 
 ![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/pca.png?raw=true)
 
-
-
-
-
-DONE! the projected 1-D points are shown as below
-
-![](http://blog.codinglabs.org/uploads/pictures/pca-tutorial/07.png)
-
-
-
-
-
 ---
-
-
 
 Python
 

@@ -67,3 +67,8 @@ $$
 Y=\begin{pmatrix} 1/\sqrt2 & 1/\sqrt2 \end{pmatrix}\left(\begin{array}{llllll}{-1} & {-1} & {0} & {2} & {0} \\ {-2} & {0} & {0} & {1} & {1}\end{array}\right)=\left(\begin{array}{cccc}{-3 / \sqrt{2}} & {-1 / \sqrt{2}} & {0} & {3 / \sqrt{2}} & {-1 / \sqrt{2}}\end{array}\right)
 $$
 
+
+
+DONE! the projected 1-D points are shown as below
+
+![](http://blog.codinglabs.org/uploads/pictures/pca-tutorial/07.png)
