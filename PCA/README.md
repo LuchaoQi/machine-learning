@@ -6,6 +6,8 @@
 
 Miscellaneous
 
+[eigenvalues/eigenvectors](http://setosa.io/ev/eigenvectors-and-eigenvalues/)
+
 https://www.zhihu.com/question/30094611
 
 https://www.cnblogs.com/pinard/p/6239403.html
