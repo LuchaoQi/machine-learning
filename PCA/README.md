@@ -18,7 +18,7 @@ http://blog.codinglabs.org/articles/pca-tutorial.html
 
 **Example**
 
-
+<!---as--->
 
 centering the data before PCA
 
