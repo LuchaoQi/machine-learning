@@ -12,7 +12,9 @@ Grid Search
 >
 >[An introduction to Grid Search](https://medium.com/datadriveninvestor/an-introduction-to-grid-search-ff57adcc0998)
 >
+>pima dataset 
 >
+><a href="https://colab.research.google.com/github/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
