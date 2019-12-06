@@ -1,10 +1,8 @@
 # Random Forest
 
-*Cross validation uses every block of data (k-fold cross validation)one at a time as test data and summarizes the results at the end.*
+> Cross validation uses every block of data (k-fold cross validation)one at a time as test data and summarizes the results at the end.
 
-### Intro
 
-**Model**
 
 [Machine Learning Fundamentals: Cross Validation](https://www.youtube.com/watch?v=fSytzGwwBVw&feature=youtu.be)
 

@@ -4,5 +4,11 @@
 
 
 
-some real python code to achieve different dimension reduction algorithms https://github.com/heucoder/dimensionality_reduction_alo_codes
+I would suggest checking [statquest](https://statquest.org/video-index/) at first to have general understandings of some basic algorithms.
+
+
+
+some real python code to achieve different dimension reduction algorithms
+
+https://github.com/heucoder/dimensionality_reduction_alo_codes
 
