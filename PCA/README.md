@@ -1,4 +1,4 @@
-PCA
+# PCA
 
 >Reduce dimension using the eigenpairs of covariance matrix
 
@@ -28,11 +28,13 @@ Does mean centering or feature scaling affect a Principal Component Analysis?
 
 https://sebastianraschka.com/faq/docs/pca-scaling.html
 
-why we use covariance matrix?
-
-why we use eigenpairs?
 
 
+why we use covariance matrix and why we use eigenpairs?
+
+
+
+![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/Intuition.png?raw=true)
 
 
 
