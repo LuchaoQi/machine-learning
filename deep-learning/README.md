@@ -1,19 +1,17 @@
 # deep-learning
-Back propagation
+Background
 
-> Get weights through calculus and average over all desired changes of weights
+> https://github.com/bcaffo/ds4bme 
 >
-> https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4
+> http://pzs.dstu.dp.ua/DataMining/bibl/practical/R%20Deep%20Learning%20Essentials.pdf
 >
-> Mini-batches is able to trade-off the convergence speed and computation efficiency
+> http://deeplearning.mit.edu](http://deeplearning.mit.edu/
 
-Loss/cost function
+Intro
 
-> Add up the squares of differences between trash output from network and the value you want.
+> https://medium.com/@srnghn/deep-learning-overview-of-neurons-and-activation-functions-1d98286cf1e4
 >
-> Get local minimum of cost function: when the slope is flattening out towards the minimum your steps get smaller to help you from `overshooting` . 
->
-> For multivariable calculus, check chain rule. Imagine a ball rolling down a hill. All we need to do is to get the minima so calculate gradient and return it back to parameters.
+> https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 Know what's Neural Network
 
@@ -29,16 +27,18 @@ Know what's Neural Network
 >
 > https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi 
 
-Intro
+Loss/cost function
 
-> https://medium.com/@srnghn/deep-learning-overview-of-neurons-and-activation-functions-1d98286cf1e4
+> Add up the squares of differences between trash output from network and the value you want.
 >
-> https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+> Get local minimum of cost function: when the slope is flattening out towards the minimum your steps get smaller to help you from `overshooting` . 
+>
+> For multivariable calculus, check chain rule. Imagine a ball rolling down a hill. All we need to do is to get the minima so calculate gradient and return it back to parameters.
 
-Background
+Back propagation
 
-> https://github.com/bcaffo/ds4bme 
+> Get weights through calculus and average over all desired changes of weights
 >
-> http://pzs.dstu.dp.ua/DataMining/bibl/practical/R%20Deep%20Learning%20Essentials.pdf
+> https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4
 >
-> http://deeplearning.mit.edu](http://deeplearning.mit.edu/
+> Mini-batches is able to trade-off the convergence speed and computation efficiency
