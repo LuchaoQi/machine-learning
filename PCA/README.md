@@ -4,7 +4,7 @@
 
 
 
-
+https://www.bilibili.com/video/av70839977?p=24
 
 [Principal Component Analysis (PCA) Step-by-Step](https://youtu.be/FgakZw6K1QQ)
 
