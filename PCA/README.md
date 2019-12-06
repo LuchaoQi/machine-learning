@@ -4,6 +4,8 @@
 
 
 
+
+
 https://www.bilibili.com/video/av70839977?p=24
 
 [Principal Component Analysis (PCA) Step-by-Step](https://youtu.be/FgakZw6K1QQ)
@@ -17,6 +19,10 @@ https://www.zhihu.com/question/30094611
 [eigenvalues/eigenvectors](http://setosa.io/ev/eigenvectors-and-eigenvalues/)
 
 [Understanding the Role of Eigenvectors and Eigenvalues in PCA Dimensionality Reduction.](https://medium.com/@dareyadewumi650/understanding-the-role-of-eigenvectors-and-eigenvalues-in-pca-dimensionality-reduction-10186dad0c5c)
+
+
+
+
 
 
 
