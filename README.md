@@ -6,13 +6,9 @@
 
 ## Miscellaneous
 
-Grid Search
+some interesting ML projects with tensorflow code
 
->A brute force way to automatically find the `best combo of parameters` for models (e.g. KNN) that best fits our data with respect to cross-validated accuracy
->
->[An introduction to Grid Search](https://medium.com/datadriveninvestor/an-introduction-to-grid-search-ff57adcc0998)
->
->[pima dataset](https://github.com/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb)
+[Google机器学习速成课程Code](https://github.com/yuanxiaosc/Google-Machine-learning-crash-course/tree/master/Google%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%9F%E6%88%90%E8%AF%BE%E7%A8%8BCode)
 
 
 
