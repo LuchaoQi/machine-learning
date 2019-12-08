@@ -4,7 +4,7 @@ calculate integration in 1min
 
 >>people get annoyed dealing with composite functions when calculating integration
 >>
->>thanks to [张宇](https://www.weibo.com/zhangyumaths) I just realized a useful trick to easily calculate integration
+>>thanks to 张宇 I just realized a useful trick to easily calculate integration
 >
 >For composite functions of the following forms
 >$$
