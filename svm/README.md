@@ -28,7 +28,7 @@ If you subtract them, the distance between planes (i.e. margin) can be presented
 $$
 \frac{\omega^{T}\left(x_{1}-x_{2}\right)}{\|\omega\|}=\frac{2}{\|\omega\|}
 $$
-To maximize the margin is equal to minimize the reciprocal along with monotone
+Maximizing the margin equals to minimizing the reciprocal along with monotone
 $$
 \begin{array}{l}{\max \frac{2}{\| w_{1}\|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}
 $$
