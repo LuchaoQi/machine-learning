@@ -1,5 +1,7 @@
 # Regularization
 
+## Resources
+
 [Regularization Part 1: L2, Ridge Regression](https://youtu.be/Q81RR3yKn30)
 
 [Regularization Part 2: L1, Lasso Regression](https://youtu.be/NGf0voTMlcs)
@@ -12,8 +14,6 @@
 
 
 
-Miscellaneous
+https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
 
-> https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
->
-> https://drsimonj.svbtle.com/ridge-regression-with-glmnet
+https://drsimonj.svbtle.com/ridge-regression-with-glmnet

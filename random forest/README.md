@@ -1,6 +1,6 @@
 # Random Forest
 
-
+## Resources
 
 [StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 

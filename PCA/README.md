@@ -2,7 +2,7 @@
 
 >Reduce dimension using the eigenpairs of covariance matrix
 
-
+## Resources
 
 
 
