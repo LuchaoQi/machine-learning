@@ -19,3 +19,10 @@
 https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
 
 https://drsimonj.svbtle.com/ridge-regression-with-glmnet
+
+
+
+## Intuitions
+
+
+

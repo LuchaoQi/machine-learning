@@ -38,6 +38,8 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 why we use covariance matrix and why we use eigenpairs?
 
+Note $S$ is our covariance matrix
+
 
 
 ![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/Intuition.png?raw=true)
