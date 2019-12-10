@@ -10,9 +10,11 @@
 
 [Regularization Part 4: Ridge, Lasso and Elastic-Net Regression in R](https://youtu.be/ctmNq7FgbvI)
 
+
+
+
+
 [Intuitions on L1 and L2 Regularisation](https://towardsdatascience.com/intuitions-on-l1-and-l2-regularisation-235f2db4c261)
-
-
 
 https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
 
