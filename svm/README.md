@@ -80,6 +80,8 @@ which helps us intuitively understand the `C` term.
 
 ## Example
 
+[SVM 调参策略](https://blog.csdn.net/u014484783/article/details/78220646)
+
 ```python
 # SVM Classifier using cross validation    
 def svm_cross_validation(train_x, train_y):    

@@ -1,5 +1,15 @@
 # Calculus
 
+## Resources
+
+matrix calculus
+
+https://explained.ai/matrix-calculus/index.html
+
+
+
+## Tricks
+
 calculate integration in 1min
 
 >>people get annoyed dealing with composite functions when calculating integration
