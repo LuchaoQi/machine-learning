@@ -18,7 +18,9 @@
 
 ## Intuitions
 
-Besides directly calculating the distance between point and plane, Udacity provides another understanding of optimization problem.
+Besides directly calculating the distance between point and plane
+
+Udacity provides another understanding of optimization problem.
 
 For two vectors
 
@@ -43,18 +45,28 @@ $$
 \begin{array}{l}{\max \frac{2}{\| w_{1}\|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}
 $$
 
-
 So we can further use [Lagrange equation/ KKT conditions](https://github.com/LuchaoQi/Machine-Learning/blob/master/svm/handwritten%20derivation.pdf) to solve this problem.
 
-Also, in soft margin we sometimes use `C` term, similar to L1/L2 regularization, we have the following equation
 
+$$
+\begin{aligned} \min L(w, b, \alpha)=& \frac{1}{2}\|w\|^{2}+\sum_{i=1}^{m} \alpha_{i}\left(-y_{i}\left(w^{T} x_{i}+b\right)+1\right) \\ &=\frac{1}{2} w^{T} w-\sum_{i=1}^{m} \alpha_{i} y_{i} w^{T} x_{i}-b \sum_{i=1}^{m} \alpha_{i} y_{i}+\sum_{i=1}^{m} \alpha_{i} \\ &=\frac{1}{2} w^{T} \sum \alpha_{i} y_{i} x_{i}-\sum_{i=1}^{m} \alpha_{i} y_{i} w^{T} x_{i}+\sum_{i=1}^{m} \alpha_{i} \\ &=\sum_{i=1}^{m} \alpha_{i}-\frac{1}{2} \sum_{i=1}^{m} \alpha_{i} y_{i} w^{T} x_{i} \\ &=\sum_{i=1}^{m} \alpha_{i}-\frac{1}{2} \sum_{i, j=1}^{m} \alpha_{i} \alpha_{j} y_{i} y_{j}\left(x_{i} x_{j}\right) \end{aligned}
+$$
+
+$$
+\begin{array}{l}{\max \sum_{i=1}^{m} \alpha_{i}-\frac{1}{2} \sum_{i, j=1}^{m} \alpha_{i} \alpha_{j} y_{i} y_{j}\left(x_{i} x_{j}\right)=\min \frac{1}{2} \sum_{i, j=1}^{m} \alpha_{i} \alpha_{j} y_{i} y_{j}\left(x_{i} x_{j}\right)-\sum_{i=1}^{m} \alpha_{i}} \\ {\text { s.t. } \sum_{i=1}^{m} \alpha_{i} y_{i}=0} \\ {\alpha_{i} \geq 0, i=1,2, \ldots, m}\end{array}
+$$
+
+
+
+Also, in soft margin we sometimes use `C` term, similar to L1/L2 regularization, we have the following equation
 
 $$
 \frac{1}{2}\|w\|^{2}+C \sum_{i} \max \left(0,1-y_{i}\left(w^{\top} x_{i}+b\right)\right)
 $$
 
-
 which helps us intuitively understand the `C` term.
+
+
 
 
 
