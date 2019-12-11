@@ -4,6 +4,12 @@
 
 ## Resources
 
+Another pretty good introduction
+
+[Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
+
+
+
 [Support Vector Machines](https://medium.com/datadriveninvestor/support-vector-machines-ae0ff2375479)
 
 [Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1)
@@ -71,4 +77,23 @@ which helps us intuitively understand the `C` term.
 
 
 
+
+## Example
+
+```python
+# SVM Classifier using cross validation    
+def svm_cross_validation(train_x, train_y):    
+    from sklearn.grid_search import GridSearchCV    
+    from sklearn.svm import SVC    
+    model = SVC(kernel='rbf', probability=True)    
+    param_grid = {'C': [1e-3, 1e-2, 1e-1, 1, 10, 100, 1000], 'gamma': [0.001, 0.0001]}    
+    grid_search = GridSearchCV(model, param_grid, n_jobs = 8, verbose=1)    
+    grid_search.fit(train_x, train_y)    
+    best_parameters = grid_search.best_estimator_.get_params()    
+    for para, val in list(best_parameters.items()):    
+        print(para, val)    
+    model = SVC(kernel='rbf', C=best_parameters['C'], gamma=best_parameters['gamma'], probability=True)    
+    model.fit(train_x, train_y)    
+    return model
+```
 
