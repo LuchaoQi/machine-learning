@@ -4,6 +4,8 @@
 
 [StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
+> select node based on impurity (Gini)
+
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
 
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
@@ -14,7 +16,7 @@
 
 [How to interpret Mean Decrease in Accuracy and Mean Decrease GINI in Random Forest models](https://stats.stackexchange.com/questions/197827/how-to-interpret-mean-decrease-in-accuracy-and-mean-decrease-gini-in-random-fore)
 
-
+[Adaboost in Random Forest](https://www.youtube.com/watch?v=LsK-xG1cLYA&feature=youtu.be)
 
 ## Intuitions
 
