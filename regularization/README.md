@@ -26,5 +26,5 @@ https://drsimonj.svbtle.com/ridge-regression-with-glmnet
 
 ![image-20191212130550962](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212130550962.png?raw=true)
 
-![image-20191212131239239](C:\Users\lcqi\OneDrive\Desktop\machine learning\regularization\image-20191212131239239.png)
+![image-20191212131239239](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212131239239.png?raw=true)
 
