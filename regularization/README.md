@@ -28,7 +28,7 @@ pretty detailed explanation
 
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
-![image-20191212161333216](C:\Users\lcqi\OneDrive\Desktop\machine learning\regularization\image-20191212161333216.png)
+![image-20191212161333216](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212161333216.png?raw=true)
 
 > Understanding **constrained (penalized) form**
 >
@@ -40,7 +40,7 @@ pretty detailed explanation
 >
 > So the following image makes more sense
 
-![image-20191212162141455](C:\Users\lcqi\OneDrive\Desktop\machine learning\regularization\image-20191212162141455.png)
+![image-20191212162141455](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212162141455.png?raw=true)
 
 > [Regularization Part 2: Lasso Regression](https://www.youtube.com/watch?v=NGf0voTMlcs&feature=youtu.be)
 >
