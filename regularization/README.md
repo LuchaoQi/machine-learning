@@ -18,13 +18,33 @@ https://drsimonj.svbtle.com/ridge-regression-with-glmnet
 
 [Regularization Part 4: Ridge, Lasso and Elastic-Net Regression in R](https://youtu.be/ctmNq7FgbvI)
 
+pretty detailed explanation
+
+[Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
 
-[L1 vs L2](https://www.youtube.com/watch?v=sO4ZirJh9ds)
 
 ## Intuitions
 
-![image-20191212130550962](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212130550962.png?raw=true)
+[Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
+
+![image-20191212161333216](C:\Users\lcqi\OneDrive\Desktop\machine learning\regularization\image-20191212161333216.png)
+
+> Understanding **constrained (penalized) form**
+>
+> https://stats.stackexchange.com/a/349056 
+>
+> [Why are additional constraint and penalty term equivalent in ridge regression?](https://math.stackexchange.com/questions/335306/why-are-additional-constraint-and-penalty-term-equivalent-in-ridge-regression)
+>
+> Note, regularizer's power will help you remember terminology
+>
+> So the following image makes more sense
+
+![image-20191212162141455](C:\Users\lcqi\OneDrive\Desktop\machine learning\regularization\image-20191212162141455.png)
+
+> [Regularization Part 2: Lasso Regression](https://www.youtube.com/watch?v=NGf0voTMlcs&feature=youtu.be)
+>
+> That's why some people use Lasso to "eliminate" lots of useless variables (i.e. $\beta = 0$) .
 
 ![image-20191212131239239](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212131239239.png?raw=true)
 
