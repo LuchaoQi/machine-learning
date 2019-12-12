@@ -10,9 +10,9 @@ https://medium.com/acing-ai/what-is-tf-idf-in-feature-engineering-7f1ba81982bd
 
 ### Example
 
->![](https://nbviewer.jupyter.org/github/fengdu78/Data-Science-Notes/blob/master/9.feature-engineering/images/chapter4/4-1.png)
->
->![](https://nbviewer.jupyter.org/github/fengdu78/Data-Science-Notes/blob/master/9.feature-engineering/images/chapter4/4-2.png)
+![](https://nbviewer.jupyter.org/github/fengdu78/Data-Science-Notes/blob/master/9.feature-engineering/images/chapter4/4-1.png)
+
+![](https://nbviewer.jupyter.org/github/fengdu78/Data-Science-Notes/blob/master/9.feature-engineering/images/chapter4/4-2.png)
 
 
 

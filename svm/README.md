@@ -8,7 +8,7 @@ Another pretty good introduction
 
 [Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
 
-
+![](https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2017/02/kernel.png)
 
 [Support Vector Machines](https://medium.com/datadriveninvestor/support-vector-machines-ae0ff2375479)
 
