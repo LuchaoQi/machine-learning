@@ -2,7 +2,7 @@
 
 > Similar to PCA
 
-## Intro
+## Resources
 
 [StatQuest: Linear Discriminant Analysis (LDA) clearly explained.](https://www.youtube.com/watch?v=azXCzI57Yfc)
 

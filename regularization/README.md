@@ -24,7 +24,7 @@ pretty detailed explanation
 
 
 
-## Intuitions
+## Notes
 
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 

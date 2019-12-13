@@ -18,7 +18,7 @@
 
 [Adaboost in Random Forest](https://www.youtube.com/watch?v=LsK-xG1cLYA&feature=youtu.be)
 
-## Intuitions
+## Notes
 
 
 

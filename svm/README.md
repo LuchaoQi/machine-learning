@@ -22,9 +22,9 @@ Another pretty good introduction
 
 
 
-## Intuitions
+## Notes
 
-Besides directly calculating the distance between point and plane
+Besides directly calculating the distance between point and plane (Euclidean distance)
 
 Udacity provides another understanding of optimization problem.
 
@@ -43,9 +43,9 @@ $$
 \frac{\omega^{T}\left(x_{1}-x_{2}\right)}{\|\omega\|}=\frac{2}{\|\omega\|}
 $$
 
+**Note $w$ is the direction vertical to the hyperplane so the left part means exactly the projected distance between two points!!!**
 
 Maximizing the margin equals to minimizing the reciprocal along with monotone
-
 
 $$
 \begin{array}{l}{\max \frac{2}{\| w_{1}\|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}

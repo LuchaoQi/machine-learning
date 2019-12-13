@@ -26,17 +26,17 @@ https://www.zhihu.com/question/30094611
 
 
 
-## Intuitions
+## Notes
 
 
 
-Does mean centering or feature scaling affect a Principal Component Analysis?
+**Does mean centering or feature scaling affect a Principal Component Analysis?**
 
 https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
 
-why we use covariance matrix and why we use eigenpairs?
+**why we use covariance matrix and why we use eigenpairs?**
 
 Note $S$ is our covariance matrix
 

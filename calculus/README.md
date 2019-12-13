@@ -8,9 +8,9 @@ https://explained.ai/matrix-calculus/index.html
 
 
 
-## Tricks
+## Notes
 
-calculate integration in 1min
+### calculate composite integration in 1min
 
 >>people get annoyed dealing with composite functions when calculating integration
 >>
