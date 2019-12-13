@@ -29,3 +29,9 @@ https://explained.ai/matrix-calculus/index.html
 >e.g.
 >
 >![](https://github.com/LuchaoQi/Machine-Learning/blob/master/calculus/calculus.png?raw=true)
+>
+>
+>
+>Of course you can calculate integration online using calculator
+>
+>https://www.wolframalpha.com/
