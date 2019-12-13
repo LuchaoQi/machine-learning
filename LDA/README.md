@@ -16,5 +16,7 @@
 
 On the projected vector, the new axis should follow two criteria
 
-![image-20191213162312347](C:\Users\lcqi\OneDrive\Desktop\machine learning\LDA\image-20191213162312347.png)
+1. Maximize the distance between means
+2. Minimize the variation within each category
 
+![image-20191213162312347](C:\Users\lcqi\OneDrive\Desktop\machine learning\LDA\image-20191213162312347.png)
