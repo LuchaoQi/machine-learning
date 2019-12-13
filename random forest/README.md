@@ -5,8 +5,14 @@
 [StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
 > select node based on impurity (Gini)
+>
+> ![image-20191213163625292](C:\Users\lcqi\OneDrive\Desktop\machine learning\random forest\image-20191213163625292.png)
+>
+> ![image-20191213163654251](C:\Users\lcqi\OneDrive\Desktop\machine learning\random forest\image-20191213163654251.png)
 
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
+
+> continuous variables
 
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
 
