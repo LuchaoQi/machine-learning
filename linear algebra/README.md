@@ -2,6 +2,10 @@
 
 ## Resources
 
+linear algebra
+
+http://textbooks.math.gatech.edu/ila/
+
 matrix calculus
 
 https://explained.ai/matrix-calculus/index.html
@@ -28,7 +32,7 @@ https://explained.ai/matrix-calculus/index.html
 >
 >e.g.
 >
->![](https://github.com/LuchaoQi/Machine-Learning/blob/master/calculus/calculus.png?raw=true)
+>![](https://github.com/LuchaoQi/Machine-Learning/blob/master/linear%20algebra/README/calculus.png?raw=true)
 >
 >
 >
