@@ -57,4 +57,3 @@ continue to pick random numbers until the new collection is the same size as the
 ![image-20191213171057479](C:\Users\lcqi\OneDrive\Desktop\machine learning\adaboost\Example\image-20191213171057479.png)
 
 ![image-20191213171155657](C:\Users\lcqi\OneDrive\Desktop\machine learning\adaboost\Example\image-20191213171155657.png)
-
