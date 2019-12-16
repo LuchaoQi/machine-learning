@@ -1,4 +1,5 @@
-# deep-learning
+# Resources
+
 Background
 
 https://github.com/bcaffo/ds4bme 
