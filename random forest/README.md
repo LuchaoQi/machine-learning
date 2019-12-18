@@ -13,6 +13,12 @@
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
 
 > continuous variables
+>
+> ![](https://i.loli.net/2019/12/18/kRlTpMeK5oL6tY9.png)
+>
+> ![](https://i.loli.net/2019/12/18/72EcLYD4IGHSwkF.png)
+>
+> 
 
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
 
