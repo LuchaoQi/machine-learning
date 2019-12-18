@@ -7,3 +7,11 @@
 ### Notes
 
 ![](https://i.loli.net/2019/12/17/NbyUuoOf4ApE2HT.png)
+
+![](https://i.loli.net/2019/12/18/dBM69qkuSZLtPOy.png)
+
+> Text translation (grammar structure: sentence to sentence)
+>
+> Speech to text
+>
+> Even robotics 
