@@ -2,7 +2,7 @@
 
 [Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM)](https://www.youtube.com/watch?v=WCUNPb-5EYI)
 
-
+[LSTM长短期记忆网络的学习与实现](https://www.youtube.com/watch?v=EC3SvfW0Z_A)
 
 ### Notes
 
