@@ -1,4 +1,4 @@
-# Calculus
+
 
 ## Resources
 
@@ -10,15 +10,19 @@ matrix calculus
 
 https://explained.ai/matrix-calculus/index.html
 
+http://www.matrixcalculus.org/
+
 
 
 ## Notes
 
 ### calculate composite integration in 1min
 
->>people get annoyed dealing with composite functions when calculating integration
->>
->>thanks to 张宇 I just realized a useful trick to easily calculate integration
+>Of course you can calculate integration online using calculator
+>
+>https://www.wolframalpha.com/
+>
+>
 >
 >For composite functions of the following forms
 >
@@ -32,10 +36,5 @@ https://explained.ai/matrix-calculus/index.html
 >
 >e.g.
 >
->![](https://github.com/LuchaoQi/Machine-Learning/blob/master/linear%20algebra/README/calculus.png?raw=true)
+>![](https://i.loli.net/2019/12/29/ywtkESaDBg7oF6q.png)
 >
->
->
->Of course you can calculate integration online using calculator
->
->https://www.wolframalpha.com/
