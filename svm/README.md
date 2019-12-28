@@ -2,7 +2,7 @@
 
 
 
-## Resources
+### Resources
 
 Another pretty good introduction
 
@@ -22,7 +22,7 @@ Another pretty good introduction
 
 
 
-## Notes
+### Notes
 
 Besides directly calculating the distance between point and plane (Euclidean distance)
 
@@ -78,7 +78,7 @@ which helps us intuitively understand the `C` term.
 
 
 
-## Example
+### Example
 
 [SVM 调参策略](https://blog.csdn.net/u014484783/article/details/78220646)
 
