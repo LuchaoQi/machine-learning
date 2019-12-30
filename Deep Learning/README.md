@@ -10,3 +10,7 @@
 
 [A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 
+[Deep Learning](http://www.deeplearningbook.org/)
+
+
+
