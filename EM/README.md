@@ -1,6 +1,6 @@
 # Expectation Maximization
 
-> EM gives me a sense of learning HMM.
+> EM gives me a sense of learning hidden markov model.
 
 ### Resources
 
