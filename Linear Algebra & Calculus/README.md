@@ -37,9 +37,9 @@ Wayyyy better than using chain-rule
 
 ### Resources
 
-[Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
-
 [MIT Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+
+[Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
 
 matrix calculus
 
