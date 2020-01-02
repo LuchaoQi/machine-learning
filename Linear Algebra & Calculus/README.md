@@ -1,4 +1,4 @@
-## Notes
+### Notes
 
 [Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
 
@@ -8,11 +8,11 @@
 
 
 
-## Tips
+### Tips
 
-### calculate composite integration in 1min
+#### Integrate composite function
 
-Of course you can calculate integration online using calculator
+Of course you can calculate integration online
 
 https://www.wolframalpha.com/
 
@@ -23,17 +23,19 @@ $$
 $$
 
 
-Just take derivative of $P_{n}(x)$ and take integration of exponential functions/trigonometric functions and compile them up following certain rules
+Take derivative of $P_{n}(x)$ and take integration of exponential functions/trigonometric functions and compile them up following certain rules
 
 e.g.
 
 ![](https://i.loli.net/2019/12/29/ywtkESaDBg7oF6q.png)
 
+Wayyyy better than using chain-rule
 
 
-## Resources
 
-linear algebra
+
+
+### Resources
 
 [Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
 
