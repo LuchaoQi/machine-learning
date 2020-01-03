@@ -4,9 +4,11 @@ Loss function could be understood from MLE or gradient descent (Cross Entropy)
 
 [Demystifying Cross-Entropy](https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54a8)
 
+[Understanding binary cross-entropy / log loss: a visual explanation](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
+
 ![](https://miro.medium.com/max/1096/1*rdBw0E-My8Gu3f_BOB6GMA.png)
 
-https://towardsdatascience.com/optimization-loss-function-under-the-hood-part-ii-d20a239cde11
+[Loss Function (Part II): Logistic Regression](https://towardsdatascience.com/optimization-loss-function-under-the-hood-part-ii-d20a239cde11)
 
 ![](https://i.loli.net/2020/01/03/wkKFegULahqbJGM.png)
 
