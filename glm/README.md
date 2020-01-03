@@ -1,6 +1,16 @@
-## Notes
+### Logistic regression
 
+Loss function could be understood from MLE or gradient descent (Cross Entropy)
 
+[Demystifying Cross-Entropy](https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54a8)
+
+![](https://miro.medium.com/max/1096/1*rdBw0E-My8Gu3f_BOB6GMA.png)
+
+https://towardsdatascience.com/optimization-loss-function-under-the-hood-part-ii-d20a239cde11
+
+![](https://i.loli.net/2020/01/03/wkKFegULahqbJGM.png)
+
+### Notes
 
 [假设检验](https://zhuanlan.zhihu.com/p/32750128)
 
