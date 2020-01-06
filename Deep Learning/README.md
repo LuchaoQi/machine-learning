@@ -10,7 +10,9 @@ we can know how much say (averaged weights) neurons have on next layer
 
 *The presented results confirm that using small batch sizes achieves the best training stability and generalization performance, for a given computational cost, across a wide range of experiments. In all cases the best results have been obtained with batch sizes m = 32 or smaller, often as small as m = 2 or m = 4.*
 
+[stanford-cs-230-deep-learning](https://github.com/afshinea/stanford-cs-230-deep-learning)
 
+cheat sheets for CNN, RNN, and DL tips and tricks
 
 
 

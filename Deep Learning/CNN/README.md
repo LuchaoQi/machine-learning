@@ -1,5 +1,25 @@
 ### CNN Notes
 
+CNN cheat sheet
+
+https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
+
+**Convolution layer (CONV)**
+
+![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/convolution-layer-a.png)
+
+**Pooling (POOL)**
+
+![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/max-pooling-a.png)
+
+**Fully Connected (FC)**
+
+![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/fully-connected.png)
+
+
+
+
+
 [How Convolutional Neural Networks work](https://www.youtube.com/watch?v=FmpDIaiMIeA)
 
 convolutional layer
