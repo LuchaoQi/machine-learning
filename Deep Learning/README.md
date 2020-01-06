@@ -22,7 +22,7 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 
 cheat sheets for CNN, RNN, and DL tips and tricks
 
-Learning rate(Adam) and Adaptive learning rates
+![image-20200106122513751](C:\Users\lcqi\AppData\Roaming\Typora\typora-user-images\image-20200106122513751.png)
 
 
 
