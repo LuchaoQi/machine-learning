@@ -36,7 +36,7 @@ pretty detailed explanation
 >
 > [Why are additional constraint and penalty term equivalent in ridge regression?](https://math.stackexchange.com/questions/335306/why-are-additional-constraint-and-penalty-term-equivalent-in-ridge-regression)
 >
-> Note, regularizer's power will help you remember terminology
+> Note, regularizer's power will help you remember terminology (L1/L2)
 >
 > So the following image makes more sense
 
