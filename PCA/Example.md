@@ -59,16 +59,24 @@ $$
 P C P^{\top}=\left(\begin{array}{cc}{1 / \sqrt{2}} & {1 / \sqrt{2}} \\ {-1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)\left(\begin{array}{cc}{6 / 5} & {4 / 5} \\ {4 / 5} & {6 / 5}\end{array}\right)\left(\begin{array}{cc}{1 / \sqrt{2}} & {-1 / \sqrt{2}} \\ {1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)=\left(\begin{array}{cc}{2} & {0} \\ {0} & {2 / 5}\end{array}\right)
 $$
 
-
 use the first line (`first eigenvector/largest eigenvalue`)
 
-
+project the original data points into new coordinate
 $$
-Y=\begin{pmatrix} 1/\sqrt2 & 1/\sqrt2 \end{pmatrix}\left(\begin{array}{llllll}{-1} & {-1} & {0} & {2} & {0} \\ {-2} & {0} & {0} & {1} & {1}\end{array}\right)=\left(\begin{array}{cccc}{-3 / \sqrt{2}} & {-1 / \sqrt{2}} & {0} & {3 / \sqrt{2}} & {-1 / \sqrt{2}}\end{array}\right)
+Y = \begin{pmatrix}
+-1 & -2 \\
+-1 & 0 \\
+0 & 0 \\
+2 & 1 \\
+0 & 1
+\end{pmatrix}\left( \dfrac {1}{\sqrt {2}}\dfrac {1}{\sqrt {2}}\right) = \begin{pmatrix}
+-3/\sqrt {2} \\
+-1/\sqrt {2} \\
+0 \\
+3\sqrt {2} \\
+-1/\sqrt {2}
+\end{pmatrix}
 $$
-
-
-
 DONE! the projected 1-D points are shown as below
 
 ![](http://blog.codinglabs.org/uploads/pictures/pca-tutorial/07.png)
