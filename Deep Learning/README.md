@@ -14,6 +14,8 @@ we can know how much say (averaged weights) neurons have on next layer
 
 cheat sheets for CNN, RNN, and DL tips and tricks
 
+https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks
+
 
 
 ### Resources
