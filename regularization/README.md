@@ -1,6 +1,8 @@
 # Regularization
 
-## Resources
+
+
+### Resources
 
 [Intuitions on L1 and L2 Regularisation](https://towardsdatascience.com/intuitions-on-l1-and-l2-regularisation-235f2db4c261)
 
@@ -24,7 +26,19 @@ pretty detailed explanation
 
 
 
-## Notes
+### Notes
+
+cheat sheet
+
+https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks#regularization
+
+![image.png](https://i.loli.net/2020/01/07/KaQhgG5uIxfD7JZ.png)
+
+
+
+
+
+
 
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
@@ -47,4 +61,6 @@ pretty detailed explanation
 > That's why some people use Lasso to "eliminate" lots of useless variables (i.e. $\beta = 0$) .
 
 ![image-20191212131239239](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212131239239.png?raw=true)
+
+
 
