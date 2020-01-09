@@ -6,9 +6,11 @@
 
 > select node based on impurity (Gini)
 >
-> ![image-20191213163625292](C:\Users\lcqi\OneDrive\Desktop\machine learning\random forest\image-20191213163625292.png)
+> ![](https://github.com/LuchaoQi/Machine-Learning/blob/master/random%20forest/image-20191213163625292.png?raw=true)
 >
-> ![image-20191213163654251](C:\Users\lcqi\OneDrive\Desktop\machine learning\random forest\image-20191213163654251.png)
+> 
+>
+> ![](https://github.com/LuchaoQi/Machine-Learning/blob/master/random%20forest/image-20191213163654251.png?raw=true)
 
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
 
