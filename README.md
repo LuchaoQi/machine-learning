@@ -8,7 +8,23 @@
 
 ### Notes
 
-![image.png](https://i.loli.net/2020/01/08/5wOfiuLmgKUFWkX.png)
+
+
+some interesting ML projects with tensorflow code
+
+[Google机器学习速成课程Code](https://github.com/yuanxiaosc/Google-Machine-learning-crash-course/tree/master/Google%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%9F%E6%88%90%E8%AF%BE%E7%A8%8BCode)
+
+
+
+skills you'll need to do independent data science projects
+
+[Kaggle Learn](https://www.kaggle.com/learn/overview)
+
+
+
+
+
+
 
 
 
@@ -23,6 +39,15 @@
 
 
 
+
+
+
+![image.png](https://i.loli.net/2020/01/08/5wOfiuLmgKUFWkX.png)
+
+
+
+
+
 ### Miscellaneous
 
 [本科生晋升GM记录 & Kaggle比赛进阶技巧分享](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247487590&idx=1&sn=ae9ebf3f718690240259daed54a4084e&chksm=e870c12bdf07483dc053f656ac01612db7c441b821cdff984c66b15bde23bd9a9305de14c30e&mpshare=1&scene=1&srcid=&sharer_sharetime=1575125847729&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=de32ce037b85eff0c7121abc155c64f041fff038718ea39c0d24512ad7703e1ffa07c5d8b2d7237faa907d0d22ffbb903a933c027fead6db0b73c6bde6704aaad223e99d54330ce04b3b3f55b089b7a0&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&pass_ticket=%2BmIfHViH%2B%2FpCIVsCC2vbH78SdAZ%2BOqB2BifvUTZaQ4xrhrTxgR1IpaFkFbylBEwk)
@@ -33,9 +58,11 @@ some real python code to achieve different dimension reduction algorithms
 
 https://github.com/heucoder/dimensionality_reduction_alo_codes
 
-some interesting ML projects with tensorflow code
 
-[Google机器学习速成课程Code](https://github.com/yuanxiaosc/Google-Machine-learning-crash-course/tree/master/Google%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%9F%E6%88%90%E8%AF%BE%E7%A8%8BCode)
+
+
+
+
 
 
 
