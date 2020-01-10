@@ -8,7 +8,7 @@
 
 
 
-
+[Some notes](https://github.com/LuchaoQi/Machine-Learning/tree/master/Notes)
 
 ### Resources
 
