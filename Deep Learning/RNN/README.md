@@ -2,13 +2,9 @@
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
 
-![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/architecture-rnn.png)
 
 
-
-
-
-![image.png](https://i.loli.net/2020/01/10/7U3GhPHmXwd5VyA.png)
+![image.png](https://i.loli.net/2020/01/10/jwzfiMNeKsnL2Q3.png)
 
 
 
