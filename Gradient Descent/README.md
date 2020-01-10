@@ -1,6 +1,12 @@
 # Gradient Descent
 
 > MLE/ Backprop
+>
+> Gradient Descent
+>
+> - Step size = partial derivative * learning rate
+> - Learning rate can be adjusted in practice (Adam)
+> - Stochastic gradient descent (randomly draw one sample) can be used to solve computer power problem
 
 
 
