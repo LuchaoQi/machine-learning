@@ -6,6 +6,12 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-netwo
 
 
 
+
+
+![image.png](https://i.loli.net/2020/01/10/7U3GhPHmXwd5VyA.png)
+
+
+
 The input sequence x=(x⟨1⟩,x⟨2⟩,...,x⟨Tx⟩)x=(x⟨1⟩,x⟨2⟩,...,x⟨Tx⟩) is carried over $T_x$ time steps. The network outputs y=(y⟨1⟩,y⟨2⟩,...,y⟨Tx⟩)y=(y⟨1⟩,y⟨2⟩,...,y⟨Tx⟩).
 
 In NLP, feed in words like `namaskar` at each time step.
