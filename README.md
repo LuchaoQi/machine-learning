@@ -10,17 +10,19 @@
 
 
 
-### Notes
+
+
+
+
+
+
+### Miscellaneous
 
 
 
 skills you'll need to do independent data science projects
 
 [Kaggle Learn](https://www.kaggle.com/learn/overview)
-
-
-
-
 
 
 
@@ -34,16 +36,9 @@ skills you'll need to do independent data science projects
 
 
 
-
-
-
-
-
-
 [Notes from Coursera Deep Learning courses by Andrew Ng](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng?from_action=save)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/LVScfv9qw9pv0b" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng" title="Notes from Coursera Deep Learning courses by Andrew Ng" target="_blank">Notes from Coursera Deep Learning courses by Andrew Ng</a> </strong> from <strong><a href="https://www.slideshare.net/TessFerrandez" target="_blank">Tess Ferrandez</a></strong> </div>
-
 
 
 
@@ -53,8 +48,6 @@ skills you'll need to do independent data science projects
 
 
 
-
-### Miscellaneous
 
 
 
