@@ -42,7 +42,7 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
-![image-20191212161333216](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212161333216.png?raw=true)
+![](https://i.loli.net/2020/01/14/yvnZKHfOzNgh2Uw.png)
 
 > Understanding **constrained (penalized) form**
 >
@@ -54,13 +54,13 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 >
 > So the following image makes more sense
 
-![image-20191212162141455](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212162141455.png?raw=true)
+![](https://i.loli.net/2020/01/14/1QlrudNeyECHbTY.png)
 
 > [Regularization Part 2: Lasso Regression](https://www.youtube.com/watch?v=NGf0voTMlcs&feature=youtu.be)
 >
 > That's why some people use Lasso to "eliminate" lots of useless variables (i.e. $\beta = 0$) .
 
-![image-20191212131239239](https://github.com/LuchaoQi/Machine-Learning/blob/master/regularization/image-20191212131239239.png?raw=true)
+![](https://i.loli.net/2020/01/14/ozXxhyCDj2ZfWTp.png)
 
 
 
