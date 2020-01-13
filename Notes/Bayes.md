@@ -2,6 +2,8 @@
 
 
 
+
+
 https://seeing-theory.brown.edu/bayesian-inference/
 
 
