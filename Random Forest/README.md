@@ -6,11 +6,13 @@
 
 > select node based on impurity (Gini)
 >
-> ![](https://github.com/LuchaoQi/Machine-Learning/blob/master/random%20forest/image-20191213163625292.png?raw=true)
+> ![image-20191213163625292.png](https://i.loli.net/2020/01/13/RCMrHTyiuLbkz2a.png)
 >
 > 
 >
-> ![](https://github.com/LuchaoQi/Machine-Learning/blob/master/random%20forest/image-20191213163654251.png?raw=true)
+> ![image-20191213163654251.png](https://i.loli.net/2020/01/13/kHOmVoqiTYvFw6b.png)
+>
+> 
 
 [Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
 
@@ -32,48 +34,49 @@
 
 [Adaboost in Random Forest](https://www.youtube.com/watch?v=LsK-xG1cLYA&feature=youtu.be)
 
+
+
 ## Notes
 
 
 
->**Bootstrap**
->
->**Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we can get a random forest**
->
->Usage
->
->Run each subject data (e.g. 0/1 response) over the whole random forest (501 trees) so we got a contingency matrix for each subject
->
->|  0   |  1   |
->| :--: | :--: |
->| 250  | 251  |
->
->`1` receives most votes so this test data is predicted as `1` and we can know 
->
->`this subject it's correctly labled or not`
->
->​	Note:
->
->- The variety makes RF more effective than single tree
->
->- These steps are called Bagging (Bootstrap + Aggregate)Evaluation
->
->
->
->Evaluation
->
->Feed out-of-bag dataset/ test dataset (e.g. 100 subjects) into RF
->
->**Repeat steps aforementioned and compile results**
->
->we can get a contingency matrix of prediction 
->
->| correctly predicted | not correctly predicted |
->| :-----------------: | :---------------------: |
->|         90          |           10            |
->
->So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
->
+**Bootstrap**
+
+**Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we can get a random forest**
+
+Usage
+
+Run each subject data (e.g. 0/1 response) over the whole random forest (501 trees) so we got a contingency matrix for each subject
+
+|  0   |  1   |
+| :--: | :--: |
+| 250  | 251  |
+
+`1` receives most votes so this test data is predicted as `1` and we can know 
+
+`this subject it's correctly labled or not`
+
+​	Note:
+
+- The variety makes RF more effective than single tree
+
+- These steps are called Bagging (Bootstrap + Aggregate)Evaluation
+
+
+
+Evaluation
+
+Feed out-of-bag dataset/ test dataset (e.g. 100 subjects) into RF
+
+**Repeat steps aforementioned and compile results**
+
+we can get a contingency matrix of prediction 
+
+| correctly predicted | not correctly predicted |
+| :-----------------: | :---------------------: |
+|         90          |           10            |
+
+So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
 
@@ -85,7 +88,7 @@
 
 * Can be used to extract variable importance (ISLR page 330)
 
-  > <img src="https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/random forest/varimpplot.png" alt="varImpPlot" style="zoom: 50%;">
+  ![varimpplot.png](https://i.loli.net/2020/01/13/WTYAq9LPz8K7v3m.png)
 
 * Autofill missing value & ability to handle missing data
 
