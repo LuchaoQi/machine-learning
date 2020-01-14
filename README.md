@@ -22,6 +22,14 @@ skills you'll need to do independent data science projects
 
 [halfrost的 Andrew NG ML笔记](https://github.com/halfrost/Halfrost-Field/tree/master/contents/Machine_Learning)
 
+> [Week9 —— Anomaly Detection](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Anomaly_Detection.ipynb)
+>
+> [Week9 —— Recommender Systems](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Recommender_Systems.ipynb)
+>
+> [Week10 —— Large Scale Machine Learning](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Large_Scale_Machine_Learning.ipynb)
+>
+> [Week11 —— Application Example: Photo OCR](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Application_Photo_OCR.ipynb)
+
 
 
 [Notes from Coursera Deep Learning courses by Andrew Ng](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng?from_action=save)
