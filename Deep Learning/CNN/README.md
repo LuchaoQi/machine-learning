@@ -50,7 +50,9 @@ Applications: Images/Sound/Text
 
 ==Time series data==
 
-![](https://media.springernature.com/original/springer-static/image/art%3A10.1007%2Fs10618-019-00619-1/MediaObjects/10618_2019_619_Fig3_HTML.png)
+
+
+![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10618-019-00619-1/MediaObjects/10618_2019_619_Fig6_HTML.png?as=webp)
 
 > https://link.springer.com/article/10.1007/s10618-019-00619-1
 
