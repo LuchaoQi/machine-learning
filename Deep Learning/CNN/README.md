@@ -1,4 +1,6 @@
-### CNN Notes
+[TOC]
+
+### Intro
 
 CNN cheat sheet
 
@@ -42,7 +44,7 @@ Backpropagation
 
 ![](https://i.loli.net/2019/12/23/6V5Se8NXu9fcK1O.png)
 
-**Pros**
+### Pros
 
 Applications: Images/Sound/Text
 
@@ -56,7 +58,7 @@ Applications: Images/Sound/Text
 
 
 
-**Cons**
+### Cons
 
 Data must be "spatial".
 
