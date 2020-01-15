@@ -32,8 +32,6 @@ Pooling: take the maximum value from each window. Make smaller images.
 
 
 
-![image-20191223104333068](C:\Users\lcqi\AppData\Roaming\Typora\typora-user-images\image-20191223104333068.png)
-
 
 
 ![](https://i.loli.net/2019/12/23/EompvuUt3Z6zVBd.png)
@@ -47,6 +45,16 @@ Backpropagation
 **Pros**
 
 Applications: Images/Sound/Text
+
+==Time series data==
+
+![](https://media.springernature.com/original/springer-static/image/art%3A10.1007%2Fs10618-019-00619-1/MediaObjects/10618_2019_619_Fig3_HTML.png)
+
+> https://link.springer.com/article/10.1007/s10618-019-00619-1
+
+
+
+
 
 **Cons**
 
