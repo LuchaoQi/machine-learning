@@ -2,6 +2,8 @@ http://mlg.eng.cam.ac.uk/teaching/4f13/1011/lect04.pdf
 
 http://www.stats.ox.ac.uk/~steffen/teaching/gm09/intro.pdf
 
+http://www.stat.cmu.edu/~larry/=sml/GraphicalModels.pdf
+
 http://www.stat.cmu.edu/~larry/=stat700/UG.pdf
 
 
@@ -36,7 +38,7 @@ https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
 
 
 
-
+> **总结一下：一个tail-to-tail或tail-to-head的节点只有在被观察后才会阻塞路径，一个head-to-head的节点只有其或其后代节点被观察后才不会阻塞路径。**
 
 
 
