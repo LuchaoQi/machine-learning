@@ -4,6 +4,20 @@
 
 
 
+[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+
+
+[Difference Between Return Sequences and Return States for LSTMs in Keras](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
+
+[How is the hidden state (h) different from the memory (c) in an LSTM cell?](https://www.quora.com/How-is-the-hidden-state-h-different-from-the-memory-c-in-an-LSTM-cell)
+
+[Why do we need both cell state and hidden value in LSTM networks?](https://stats.stackexchange.com/a/388954)
+
+
+
+
+
 [LSTM长短期记忆网络的学习与实现](https://www.youtube.com/watch?v=EC3SvfW0Z_A)
 
 RNN cons
@@ -17,8 +31,6 @@ RNN cons
 ![](https://i.loli.net/2019/12/29/D38bPEdL49eUcBn.png)
 
 
-
----
 
 
 
@@ -37,6 +49,4 @@ RNN cons
 > Even robotics 
 
 
-
----
 
