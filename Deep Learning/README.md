@@ -4,9 +4,19 @@
 
 
 
+[But what is a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
+> when the slope is flattening out towards the minimum your steps get smaller to help you from `overshooting` . 
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vI9nYe94fsFIyfpbd6KHUrNNBQ59hcRW6DArcNq57zMicVknibcfhJsxIdXl8E7eRpA8aw2eQBsrnnSTKXDreIuA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
+
 [What is backpropagation really doing? | Deep learning, chapter 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4&t=0s)
 
 we can know how much say (averaged weights) neurons have on next layer
+
+
 
 
 
