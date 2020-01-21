@@ -4,6 +4,12 @@
 
 
 
+[期望、方差、协方差及相关系数的基本运算](https://blog.csdn.net/touristman5/article/details/56281887)
+
+
+
+[Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
+
 
 
 
