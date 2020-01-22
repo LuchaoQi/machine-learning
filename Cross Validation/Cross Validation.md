@@ -14,7 +14,43 @@ STATQUEST
 
 [Cross-Validation Essentials in R](http://www.sthda.com/english/articles/38-regression-model-validation/157-cross-validation-essentials-in-r/)
 
-Some code I used to compare models using different features in cross-validation
+
+
+[How to explain caret results](https://stackoverflow.com/a/52519212)
+
+
+
+```R
+library("caret")
+my_data <- iris
+
+k10_cv <- trainControl(method="cv", number=10)
+
+set.seed(100)
+ols_model <- train(Sepal.Length ~  Sepal.Width + Petal.Length + Petal.Width,
+                   data = my_data, trControl = k10_cv, method = "lm")
+> ols_model$results
+  intercept      RMSE  Rsquared       MAE     RMSESD RsquaredSD      MAESD
+1      TRUE 0.3173942 0.8610242 0.2582343 0.03881222 0.04784331 0.02960042
+
+> mean(ols_model$resample$RMSE)==ols_model$results$RMSE
+[1] TRUE
+> mean(ols_model$resample$Rsquared)==ols_model$results$Rsquared
+[1] TRUE
+
+ols_model$finalModel
+
+```
+
+
+
+
+
+
+
+
+
+Some code I used to select models using different features in cross-validation
 
 ```R
 rm(list = ls())
