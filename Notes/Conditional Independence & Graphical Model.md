@@ -44,7 +44,13 @@ https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
 
 ### Gaussian graphical model
 
+
+
+concentration matrix - inverse covariance matrix
+
 [Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
 
 
+
+![](https://i.stack.imgur.com/NJ4gb.png)
 
