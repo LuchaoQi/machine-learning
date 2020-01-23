@@ -18,9 +18,13 @@ STATQUEST
 
 [How to explain caret results](https://stackoverflow.com/a/52519212)
 
-**1)The `ols_model$results` above is based on the mean of each of the different resampling below:**
+
+
+**1)The `ols_model$results` above is based on the ==mean== of each of the different resampling below:**
 
 **2)The model is trained on the whole training set.** You can check this with either using `lm` or specify `method = "none"` for the `trainControl`.
+
+
 
 ```R
 library("caret")
