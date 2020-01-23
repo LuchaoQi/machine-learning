@@ -54,3 +54,7 @@ concentration matrix - inverse covariance matrix
 
 ![](https://i.stack.imgur.com/NJ4gb.png)
 
+
+
+When determinant close to 0?
+
