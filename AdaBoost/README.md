@@ -1,6 +1,6 @@
 # AdaBoost
 
-## Resources
+### Resources
 
 [Basic Ensemble Learning (Random Forest, AdaBoost, Gradient Boosting)- Step by Step Explained](https://towardsdatascience.com/basic-ensemble-learning-random-forest-adaboost-gradient-boosting-step-by-step-explained-95d49d1e2725)
 
@@ -12,7 +12,7 @@
 >- Boosting + Decision Tree = AdaBoost
 >- Gradient Boosting + Decision Tree = GBDT
 
-## Notes
+### Notes
 
 Select your feature with lowest `Gini index`.
 

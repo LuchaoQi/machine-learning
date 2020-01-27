@@ -8,4 +8,4 @@
 
 [How to explain gradient boosting](https://explained.ai/gradient-boosting/index.html)
 
-### Notes
+### Notes 
