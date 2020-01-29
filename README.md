@@ -38,6 +38,12 @@ skills you'll need to do independent data science projects
 
 
 
+https://lavanya.ai/
+
+
+
+
+
 [Seeing Theory](https://seeing-theory.brown.edu/)
 
 
