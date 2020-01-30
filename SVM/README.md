@@ -4,6 +4,18 @@
 
 ### Resources
 
+
+
+
+
+[Loss Function(Part III): Support Vector Machine](https://towardsdatascience.com/optimization-loss-function-under-the-hood-part-iii-5dff33fa015d)
+
+[hinge loss in SVM](https://stats.stackexchange.com/a/87160)
+
+
+
+
+
 Another pretty good introduction
 
 [Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
@@ -23,6 +35,8 @@ Another pretty good introduction
 
 
 ### Notes
+
+
 
 Besides directly calculating the distance between point and plane (Euclidean distance)
 
