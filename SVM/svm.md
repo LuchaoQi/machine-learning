@@ -16,6 +16,10 @@
 
 
 
+[Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1)
+
+
+
 Another pretty good introduction
 
 [Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
@@ -24,7 +28,7 @@ Another pretty good introduction
 
 [Support Vector Machines](https://medium.com/datadriveninvestor/support-vector-machines-ae0ff2375479)
 
-[Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1)
+
 
 [Support Vector Machine — Simply Explained](https://towardsdatascience.com/support-vector-machine-simply-explained-fee28eba5496)
 
