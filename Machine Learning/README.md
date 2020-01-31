@@ -14,7 +14,7 @@
 
 
 
-[Some starred notebooks](https://www.kaggle.com/notebooks?sortBy=dateRun&group=profile&pageSize=20)
+[Some starred kaggle notebooks](https://www.kaggle.com/notebooks?sortBy=dateRun&group=profile&pageSize=20)
 
 
 
