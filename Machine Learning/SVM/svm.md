@@ -96,7 +96,7 @@ which helps us intuitively understand the `C` term.
 
 
 
-### Example
+### Code
 
 [SVM 调参策略](https://blog.csdn.net/u014484783/article/details/78220646)
 
