@@ -58,3 +58,4 @@ concentration matrix - inverse covariance matrix
 
 When determinant close to 0?
 
+correlation or covariance matrix?
