@@ -42,7 +42,11 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
+
+
 ![](https://i.loli.net/2020/01/14/yvnZKHfOzNgh2Uw.png)
+
+
 
 > Understanding **constrained (penalized) form**
 >
@@ -54,7 +58,11 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 >
 > So the following image makes more sense
 
+
+
 ![](https://i.loli.net/2020/01/14/1QlrudNeyECHbTY.png)
+
+
 
 > [Regularization Part 2: Lasso Regression](https://www.youtube.com/watch?v=NGf0voTMlcs&feature=youtu.be)
 >

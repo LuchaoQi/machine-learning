@@ -56,6 +56,16 @@ concentration matrix - inverse covariance matrix
 
 
 
-When determinant close to 0?
+#### When determinant close to 0?
 
-correlation or covariance matrix?
+https://stats.stackexchange.com/a/30466
+
+check collinearity
+
+
+
+
+
+#### correlation or covariance matrix?
+
+rn cor(matrix) works

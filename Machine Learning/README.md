@@ -20,6 +20,8 @@
 
 
 
+https://stanford.edu/~shervine/
+
 
 
 some real python code to achieve different dimension reduction algorithms

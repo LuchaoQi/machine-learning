@@ -30,29 +30,35 @@ https://www.zhihu.com/question/30094611
 
 
 
-**Does mean centering or feature scaling affect a Principal Component Analysis?**
+### Does mean centering or feature scaling affect a Principal Component Analysis?
 
 https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
 
-**why we use covariance matrix and why we use eigenpairs?**
+### why we use covariance matrix and why we use eigenpairs?
 
 Note $S$ is our covariance matrix
 
+![Intuition.png](https://i.loli.net/2020/02/04/bIoVxSOyY9CeNKP.png)
+
+### Loadings vs eigenvectors
+
+https://stats.stackexchange.com/a/143949
 
 
-![](https://github.com/LuchaoQi/machine-learning/blob/master/PCA/Intuition.png?raw=true)
 
-
+$$
+\text { Loadings }=\text { Eigenvectors } \cdot \sqrt{\text { Eigenvalues }}
+$$
 
 
 
 ## Example
 
-![](https://github.com/LuchaoQi/Machine-Learning/blob/master/PCA/Example.png?raw=true)
+![Example.png](https://i.loli.net/2020/02/04/4dq3P7RMZXButlK.png)
 
-## Python
+## Code
 
 [how to do it in python mechanically](https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html#a-summary-of-the-pca-approach)
 
