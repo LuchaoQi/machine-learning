@@ -10,4 +10,6 @@ Loss function could be understood from MLE or gradient descent (Cross Entropy)
 
 [Loss Function (Part II): Logistic Regression](https://towardsdatascience.com/optimization-loss-function-under-the-hood-part-ii-d20a239cde11)
 
+[Notes from Coursera Deep Learning courses by Andrew Ng](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng?from_action=save)
+
 ![](https://i.loli.net/2020/01/03/wkKFegULahqbJGM.png)
