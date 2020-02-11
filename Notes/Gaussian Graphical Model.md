@@ -1,3 +1,48 @@
+#### correlation or covariance matrix?
+
+covariance matrix
+
+#### concentration matrix - inverse covariance matrix
+
+[Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
+
+
+
+![](https://i.stack.imgur.com/NJ4gb.png)
+
+
+
+#### When determinant close to 0?
+
+https://stats.stackexchange.com/a/30466
+
+check collinearity
+
+
+
+
+
+#### Penalty term?
+
+the regularization acts like sigmoid function
+
+- steeply change the performance of regularization
+- should test multiple possibilities of threshold
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
 http://mlg.eng.cam.ac.uk/teaching/4f13/1011/lect04.pdf
 
 http://www.stats.ox.ac.uk/~steffen/teaching/gm09/intro.pdf
@@ -41,31 +86,3 @@ https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
 > **总结一下：一个tail-to-tail或tail-to-head的节点只有在被观察后才会阻塞路径，一个head-to-head的节点只有其或其后代节点被观察后才不会阻塞路径。**
 
 
-
-### Gaussian graphical model
-
-
-
-concentration matrix - inverse covariance matrix
-
-[Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
-
-
-
-![](https://i.stack.imgur.com/NJ4gb.png)
-
-
-
-#### When determinant close to 0?
-
-https://stats.stackexchange.com/a/30466
-
-check collinearity
-
-
-
-
-
-#### correlation or covariance matrix?
-
-rn cor(matrix) works
