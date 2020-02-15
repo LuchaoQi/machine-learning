@@ -77,12 +77,6 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 
 
-==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
-
-
-
-
-
 
 
 
