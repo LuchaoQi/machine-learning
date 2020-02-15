@@ -1,14 +1,38 @@
-### Notes
+
 
 
 
 [Difference Between a Batch and an Epoch in a Neural Network](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
+
+> You can think of a for-loop over the number of epochs where each loop proceeds over the training dataset. Within this for-loop is another nested for-loop that iterates over each batch of samples, where one batch has the specified “batch size” number of samples.
+
+Comparison b/w different batch_size in MNIST
+
+![](https://img-blog.csdn.net/20151112195843957)
 
 
 
 [A Gentle Introduction to Mini-Batch Gradient Descent and How to Configure Batch Size](https://machinelearningmastery.com/gentle-introduction-mini-batch-gradient-descent-configure-batch-size/)
 
 > *The presented results confirm that using small batch sizes achieves the best training stability and generalization performance, for a given computational cost, across a wide range of experiments. In all cases the best results have been obtained with batch sizes m = 32 or smaller, often as small as m = 2 or m = 4.*
+
+Recall that in gradient descent (**stochastic/mini-batch/batch**) we have similar concept regarding batch_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -33,9 +57,37 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 
 
+![](http://cs231n.github.io/assets/svmvssoftmax.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
+
+
+
+
+
+
+
+
+
+
 
 
 

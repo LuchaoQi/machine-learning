@@ -1,18 +1,14 @@
-# LDA
+推导
 
-> Similar to PCA
->
-> PCA: most variation
->
-> LDA: most separation
+[人脸识别(2)--fisherface](https://blog.csdn.net/zizi7/article/details/52999432)
 
-## Resources
+[Eigenfaces vs. Fisherfaces: Recognition Using Class Specic Linear Projection](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/eccv96.pdf)
 
-[StatQuest: Linear Discriminant Analysis (LDA) clearly explained.](https://www.youtube.com/watch?v=azXCzI57Yfc)
 
-> ![Comparison](https://raw.githubusercontent.com/LuchaoQi/machine-learning/master/LDA/LDA%20vs%20PCA.png)
 
-## Notes
+
+
+
 
 On the projected vector, the new axis should follow two criteria
 
@@ -20,5 +16,13 @@ On the projected vector, the new axis should follow two criteria
 2. Minimize the variation within each category
 
 ![](https://i.loli.net/2019/12/17/k7Qn2oWqgeZLTaA.png)
+
+
+
+
+
+## Resources
+
+[StatQuest: Linear Discriminant Analysis (LDA) clearly explained.](https://www.youtube.com/watch?v=azXCzI57Yfc)
 
 

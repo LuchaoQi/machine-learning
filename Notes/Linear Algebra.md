@@ -4,6 +4,8 @@
 
 [Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
 
+
+
 matrix calculus
 
 https://explained.ai/matrix-calculus/index.html
