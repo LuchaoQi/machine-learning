@@ -1,3 +1,7 @@
+[A Beginner’s Guide to Word Embedding with Gensim Word2Vec Model](https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92#9731)
+
+
+
 http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture01-wordvecs1.pdf
 
 
@@ -24,7 +28,13 @@ Note: word vectors are sometimes called word embeddings or word representations.
 
 
 
-http://web.stanford.edu/class/cs224n/
+http://web.stanford.edu/class/cs224n/readings/
+
+http://web.stanford.edu/class/cs224n/slides/
+
+
+
+
 
 
 

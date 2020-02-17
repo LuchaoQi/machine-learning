@@ -2,9 +2,23 @@
 
 
 
+### hinge loss in svm
 
 
-### Notes
+
+http://cs229.stanford.edu/notes/cs229-notes3.pdf
+
+[理解Hinge Loss (折页损失函数、铰链损失函数)](https://blog.csdn.net/fendegao/article/details/79968994)
+
+
+
+![](http://cs231n.github.io/assets/svmvssoftmax.png)
+
+
+
+
+
+### Intuition
 
 
 
@@ -75,18 +89,6 @@ which helps us intuitively understand the `C` term.
 
 
 
-
-#### hinge loss in svm
-
-
-
-http://cs229.stanford.edu/notes/cs229-notes3.pdf
-
-[理解Hinge Loss (折页损失函数、铰链损失函数)](https://blog.csdn.net/fendegao/article/details/79968994)
-
-
-
-![](http://cs231n.github.io/assets/svmvssoftmax.png)
 
 
 

@@ -25,6 +25,10 @@
 
 
 
+
+
+[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
+
 [Awesome-pytorch-list-CNVersion](https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion)
 
 
