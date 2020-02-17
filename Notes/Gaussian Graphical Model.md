@@ -1,8 +1,16 @@
-#### correlation or covariance matrix?
 
-covariance matrix
 
-#### concentration matrix - inverse covariance matrix
+#### concentration matrix/precision matrix - inverse covariance matrix
+
+http://www.princeton.edu/~yc5/ele538b_sparsity/lectures/graphical_lasso.pdf
+
+https://arxiv.org/pdf/1707.04345.pdf
+
+
+
+
+
+
 
 [Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
 
@@ -12,22 +20,28 @@ covariance matrix
 
 
 
+
+
 #### When determinant close to 0?
 
 https://stats.stackexchange.com/a/30466
 
 check collinearity
 
-
+==use glasso object in qgraph function==
 
 
 
 #### Penalty term?
 
-the regularization acts like sigmoid function
+the regularizer acts like sigmoid function
 
 - steeply change the performance of regularization
 - should test multiple possibilities of threshold
+
+
+
+
 
 
 

@@ -1,3 +1,9 @@
+http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
+
+![](http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png)
+
+> For skip-gram, There is no activation function on the hidden layer neurons, but the output neurons use softmax.
+
 [A Beginner’s Guide to Word Embedding with Gensim Word2Vec Model](https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92#9731)
 
 
