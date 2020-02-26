@@ -1,4 +1,30 @@
-[TOC]
+http://cs231n.github.io/convolutional-networks/
+
+> INPUT [32x32x3] will hold the raw pixel values of the image, in this case an image of width 32, height 32, and with three color channels R,G,B.
+>
+> The depth would be 3 (Red, Green, Blue channels).
+
+Max pooling MP $2*2$ MP $3*3$
+
+https://datascience.stackexchange.com/a/27252
+
+> It is worth noting that there are only two commonly seen variations of the max pooling layer found in practice: A pooling layer with F=3,S=2 (also called overlapping pooling), and more commonly F=2,S=2. Pooling sizes with larger receptive fields are too destructive.
+
+
+
+
+
+http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
+
+![image.png](https://i.loli.net/2020/02/19/aDzp79ZCBdgwPuV.png)
+
+
+
+![image.png](https://i.loli.net/2020/02/19/4xgPJAoKdBmQeGc.png)
+
+
+
+
 
 ### Intro
 

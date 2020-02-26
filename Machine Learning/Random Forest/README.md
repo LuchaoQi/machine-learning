@@ -12,17 +12,37 @@
 >
 > ![image-20191213163654251.png](https://i.loli.net/2020/01/13/kHOmVoqiTYvFw6b.png)
 >
-> 
+> Use Gini impurity to decide which feature as node
+>
+> - use feature with lower Gini 
+>
+> And also to decide whether walk down meaning create a sub-node
+>
+> - make it a leaf node if the Gini impurity is lower before using the feature
+>
+>   i.e. using the feature will make separation worse
+>
+>   ![image.png](https://i.loli.net/2020/02/26/U47icV1fuC9oFaw.png)
+>
+> https://youtu.be/7VeUPuFGJHk?t=839
+>
+> explain how it works for continuous data / categorical data 
 
-[Regression Trees, Clearly Explained!!!](https://www.youtube.com/watch?v=g9c66TUylZ4)
+[Regression Trees, Clearly Explained!!!](https://youtu.be/g9c66TUylZ4?t=1254)
 
 > continuous variables
+>
+> ![image.png](https://i.loli.net/2020/02/26/4n9yNpUPMSvE3Z6.png)
 >
 > ![](https://i.loli.net/2019/12/18/kRlTpMeK5oL6tY9.png)
 >
 > ![](https://i.loli.net/2019/12/18/72EcLYD4IGHSwkF.png)
 >
-> 
+> For bunch of variables
+>
+> get the SSR for each variable with the best threshold 
+>
+> choose the feature with the lowest SSR as root node
 
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
 
@@ -42,7 +62,7 @@
 
 **Bootstrap**
 
-**Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of trees so we can get a random forest**
+**Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of decision trees so we can get a random forest**
 
 Usage
 
