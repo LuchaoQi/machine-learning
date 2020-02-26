@@ -20,6 +20,30 @@ Recall that in gradient descent (**stochastic/mini-batch/batch**) we have simila
 
 
 
+==A pretty good optimization post== 
+
+https://frnsys.com/ai_notes/foundations/optimization.html
+
+stochastic gradient descent (SGD) in deep learning optimization
+
+> In fact, stochastic gradient descent can help with finding the global minimum because instead of computing over a single error surface(whole batch gradient descent), you are working with many different error surfaces varying with the example you are current looking at. So it is possible that in one of these surfaces a local minima does not exist or is less pronounced than in others, which make it easier to surpass.
+>
+> Note, initializations are different across different landscapes. So batch gradient descent still helps find global minimum. The reason we use SGD is the tradeoff b/t computer power and accuracy.
+
+
+
+
+
+Batch normalization / Covariate shift
+
+[An Intuitive Explanation of Why Batch Normalization Really Works (Normalization in Deep Learning Part 1)](https://mlexplained.com/2018/01/10/an-intuitive-explanation-of-why-batch-normalization-really-works-normalization-in-deep-learning-part-1/)
+
+> The distribution of inputs from previous layer change are called covariate shift. In deep learning, this is problematic because it forces each intermediate layer to continuously adapt to its changing inputs.
+
+- Improves gradient flow and allows for higher learning rates
+- Reduces strong dependence on initialization
+- Acts as regularization
+
 
 
 
@@ -102,6 +126,12 @@ cheat sheets for CNN, RNN, and DL tips and tricks
 
 
 [Neural Networks: Feedforward and Backpropagation Explained & Optimization](https://mlfromscratch.com/neural-networks-explained/)
+
+**activation function reside in hidden layer (typically identity) and output layer**
+
+Why activation function?
+
+- introduce non-linearity into neural network
 
 ![](https://mlfromscratch.com/content/images/2019/12/activationfunctions.2019-08-01-16_58_53.gif)
 

@@ -2,47 +2,7 @@
 
 ## Resources
 
-[StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
-> select node based on impurity (Gini)
->
-> ![image-20191213163625292.png](https://i.loli.net/2020/01/13/RCMrHTyiuLbkz2a.png)
->
-> 
->
-> ![image-20191213163654251.png](https://i.loli.net/2020/01/13/kHOmVoqiTYvFw6b.png)
->
-> Use Gini impurity to decide which feature as node
->
-> - use feature with lower Gini 
->
-> And also to decide whether walk down meaning create a sub-node
->
-> - make it a leaf node if the Gini impurity is lower before using the feature
->
->   i.e. using the feature will make separation worse
->
->   ![image.png](https://i.loli.net/2020/02/26/U47icV1fuC9oFaw.png)
->
-> https://youtu.be/7VeUPuFGJHk?t=839
->
-> explain how it works for continuous data / categorical data 
-
-[Regression Trees, Clearly Explained!!!](https://youtu.be/g9c66TUylZ4?t=1254)
-
-> continuous variables
->
-> ![image.png](https://i.loli.net/2020/02/26/4n9yNpUPMSvE3Z6.png)
->
-> ![](https://i.loli.net/2019/12/18/kRlTpMeK5oL6tY9.png)
->
-> ![](https://i.loli.net/2019/12/18/72EcLYD4IGHSwkF.png)
->
-> For bunch of variables
->
-> get the SSR for each variable with the best threshold 
->
-> choose the feature with the lowest SSR as root node
 
 [StatQuest: Random Forests Part 1 - Building, Using and Evaluating](https://www.youtube.com/watch?v=J4Wdy0Wc_xQ&feature=youtu.be)
 
@@ -53,6 +13,12 @@
 [How to interpret Mean Decrease in Accuracy and Mean Decrease GINI in Random Forest models](https://stats.stackexchange.com/questions/197827/how-to-interpret-mean-decrease-in-accuracy-and-mean-decrease-gini-in-random-fore)
 
 [Adaboost in Random Forest](https://www.youtube.com/watch?v=LsK-xG1cLYA&feature=youtu.be)
+
+
+
+
+
+
 
 
 
@@ -97,6 +63,18 @@ we can get a contingency matrix of prediction
 |         90          |           10            |
 
 So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
+
+
+
+
+
+
+
+
+
+
+
+![image.png](https://i.loli.net/2020/02/27/5mX6upNeiMvtEaZ.png)
 
 
 

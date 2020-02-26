@@ -1,5 +1,19 @@
 # Gradient Descent
 
+==A pretty good optimization post== 
+
+https://frnsys.com/ai_notes/foundations/optimization.html
+
+stochastic gradient descent (SGD) in deep learning optimization
+
+> In fact, stochastic gradient descent can help with finding the global minimum because instead of computing over a single error surface(whole batch gradient descent), you are working with many different error surfaces varying with the example you are current looking at. So it is possible that in one of these surfaces a local minima does not exist or is less pronounced than in others, which make it easier to surpass.
+>
+> Note, initializations are different across different landscapes. So batch gradient descent still helps find global minimum. The reason we use SGD is the tradeoff b/t computer power and accuracy.
+
+
+
+
+
 https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k68sgzg7o0646v
 
 Batch gradient descent 
