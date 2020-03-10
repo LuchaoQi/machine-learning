@@ -81,13 +81,17 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 
 
+Softmax
+
+
+
 ![](http://cs231n.github.io/assets/svmvssoftmax.png)
 
 
 
+https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54a8
 
-
-
+![image.png](https://i.loli.net/2020/03/10/VwiF7kERYog6SQB.png)
 
 
 
