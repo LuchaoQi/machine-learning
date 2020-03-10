@@ -20,7 +20,17 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 
 
 
+![image.png](https://i.loli.net/2020/03/10/ohDOVv9BAsjdfqm.png)
+
+>  Note the number of filter equals the dimension[3] of the next layer
+>
+> MP (F = 5, S = 1)
+
 ![image.png](https://i.loli.net/2020/02/19/4xgPJAoKdBmQeGc.png)
+
+
+
+
 
 
 
