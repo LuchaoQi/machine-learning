@@ -113,10 +113,6 @@ https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54
 
 
 
-
-
-
-
 [stanford-cs-230-deep-learning](https://github.com/afshinea/stanford-cs-230-deep-learning)
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks
