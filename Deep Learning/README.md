@@ -15,20 +15,6 @@
 
 
 
-==[Practical Deep Learning for Coders](https://course.fast.ai/)==
-
-
-
-
-
-### TensorFlow and PyTorch
-
-
-
-[Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
-
-[Awesome-pytorch-list-CNVersion](https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion)
-
 
 
 
@@ -41,11 +27,4 @@ https://github.com/rasbt/deeplearning-models
 
 
 
-
-
-
-
-https://www.youtube.com/watch?v=v5cngxo4mIg&list=PLZbbT5o_s2xrfNyHZsM6ufI0iZENK9xgG
-
-[AMS JHU WCOOK Deep Learning in Discrete Optimization -- PyTorch Tutorial](https://nbviewer.jupyter.org/url/www.ams.jhu.edu/~wcook12/dl/DL_in_DO_pytorch_tutorial.ipynb)
 

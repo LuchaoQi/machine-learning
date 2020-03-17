@@ -1,3 +1,11 @@
+cheat sheet
+
+https://datacamp-community-prod.s3.amazonaws.com/e9f83f72-a81b-42c7-af44-4e35b48b20b7
+
+
+
+
+
 
 
 [numpy-100](https://github.com/rougier/numpy-100)
@@ -7,7 +15,8 @@
 ```python
 np.zeros(12).reshape(3,4) = np.zeros((3,4))
 # N, number of matrices
-np.random.random(N,nrow,ncol) = np.empty(N,nrow,ncol)
+np.random.random((N,nrow,ncol)) = np.empty((N,nrow,ncol))
+np.empty((2,3,4))
 Z = np.ones((10,10))
 # Change 1 to 0
 Z[1:-1,1:4] = 0
