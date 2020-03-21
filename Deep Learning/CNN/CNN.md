@@ -1,5 +1,65 @@
 [TOC]
 
+
+
+### Coding PyTorch
+
+https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
+
+#### how to set up hyperparameters  in fully connected layer?
+
+https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+
+
+
+```Python
+class Net(nn.Module):
+    def __init__(self):
+        super(Net, self).__init__()
+        self.conv1 = nn.Conv2d(3, 6, 5)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(6, 16, 5)
+        self.fc1 = nn.Linear(16 * 5 * 5, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, 10)
+```
+
+注意这里为什么要是`16*5*5`  经过一系列的conv 和 maxpool 最终输出的是16层`5*5`的layer 见Andrew Ng的图
+
+`self.fc1 = nn.Linear(16 * 5 * 5, 120)` 
+
+https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
+
+![](https://miro.medium.com/max/7680/1*ZQkGKOELqJsf_6tOdZrDNQ.png)
+
+
+
+https://algorithmia.com/blog/convolutional-neural-nets-in-pytorch
+
+
+
+```python
+def outputSize(in_size, kernel_size, stride, padding):
+
+output = int((in_size - kernel_size + 2*(padding)) / stride) + 1
+
+return(output)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Notes
 
 
@@ -41,8 +101,6 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 > MP (F = 5, S = 1)
 
 ![image.png](https://i.loli.net/2020/02/19/4xgPJAoKdBmQeGc.png)
-
-
 
 
 
@@ -98,7 +156,7 @@ Backpropagation
 
 ![](https://i.loli.net/2019/12/23/6V5Se8NXu9fcK1O.png)
 
-### Pros
+#### Pros
 
 Applications: Images/Sound/Text
 
@@ -116,7 +174,7 @@ Applications: Images/Sound/Text
 
 
 
-### Cons
+#### Cons
 
 Data must be "spatial".
 
@@ -133,48 +191,4 @@ If your data is a customer data with customers in rows, it's okay to exchange se
 
 
 
-
-### Coding PyTorch
-
-
-
-#### how to set up hyperparameters  in fully connected layer?
-
-https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
-
-
-
-```Python
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(3, 6, 5)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.conv2 = nn.Conv2d(6, 16, 5)
-        self.fc1 = nn.Linear(16 * 5 * 5, 120)
-        self.fc2 = nn.Linear(120, 84)
-        self.fc3 = nn.Linear(84, 10)
-```
-
-注意这里为什么要是`16*5*5`  经过一系列的conv 和 maxpool 最终输出的是16层`5*5`的layer 见Andrew Ng的图
-
-`self.fc1 = nn.Linear(16 * 5 * 5, 120)` 
-
-https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
-
-![](https://miro.medium.com/max/7680/1*ZQkGKOELqJsf_6tOdZrDNQ.png)
-
-
-
-https://algorithmia.com/blog/convolutional-neural-nets-in-pytorch
-
-
-
-```python
-def outputSize(in_size, kernel_size, stride, padding):
-
-output = int((in_size - kernel_size + 2*(padding)) / stride) + 1
-
-return(output)
-```
 
