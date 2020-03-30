@@ -1,20 +1,26 @@
-# Regularization
-
-
-
-### Code
-
-https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k69x2ajgcw56x
+[TOC]
 
 
 
 ### Notes
 
+
+
+
+
 cheat sheet
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks#regularization
 
+
+
+
+
 ![image.png](https://i.loli.net/2020/01/07/KaQhgG5uIxfD7JZ.png)
+
+$||w_i|| = \sum|w_i|$
+
+
 
 
 
@@ -50,9 +56,35 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 >
 > That's why some people use Lasso to "eliminate" lots of useless variables (i.e. $\beta = 0$) .
 
+
+
 ![](https://i.loli.net/2020/01/14/ozXxhyCDj2ZfWTp.png)
 
 
+
+
+
+
+
+### Intuition
+
+Initially, we minimize the least squares of residuals when training the data which might lead to overfitting. We then introduce **bias** into model so we reduce the variance.
+
+
+
+![image.png](https://i.loli.net/2020/03/31/7mVfX4NDtYOexk1.png)
+
+
+
+![1.gif](https://i.loli.net/2020/03/31/HbT4F5X2NaulJmi.gif)
+
+
+
+
+
+### Code
+
+https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k69x2ajgcw56x
 
 
 
