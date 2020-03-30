@@ -6,6 +6,8 @@ https://en.wikipedia.org/wiki/F1_score
 
 
 
+https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc
 
+https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
 
 
