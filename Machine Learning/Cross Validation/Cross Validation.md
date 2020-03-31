@@ -1,16 +1,50 @@
-# Cross-Validation
+[TOC]
+
+
+
+
 
 > Cross validation uses every block of data (k-fold cross validation)one at a time as test data and summarizes the results at the end.
 
-### Resources
 
-STATQUEST
 
-[Machine Learning Fundamentals: Cross Validation](https://www.youtube.com/watch?v=fSytzGwwBVw&feature=youtu.be)
+### Notes
 
 
 
-#### Code
+Another example of calculating R-squared in cross validation
+
+
+
+https://quantdev.ssri.psu.edu/tutorials/cross-validation-tutorial
+
+
+
+```R
+model_caret
+
+##   RMSE      Rsquared 
+##   3.681462  0.4228643
+
+model_caret$resample
+
+##       RMSE  Rsquared Resample
+## 1 3.474389 0.4336992    Fold1
+## 2 3.387723 0.4919501    Fold2
+## 3 3.608666 0.4109997    Fold3
+## 4 3.948821 0.3349530    Fold4
+## 5 3.987709 0.4427193    Fold5
+```
+
+
+
+==0.4228643 = mean(model_caret$resample['Rsquared'])==
+
+
+
+
+
+### Code
 
 [Cross-Validation Essentials in R](http://www.sthda.com/english/articles/38-regression-model-validation/157-cross-validation-essentials-in-r/)
 
@@ -47,8 +81,6 @@ ols_model <- train(Sepal.Length ~  Sepal.Width + Petal.Length + Petal.Width,
 ols_model$finalModel
 
 ```
-
-
 
 
 
@@ -93,4 +125,12 @@ which(res_RMSE==min(res_RMSE))
 which(res_Rsquared==max(res_Rsquared))
 gridExtra::grid.arrange(g1,g2)
 ```
+
+
+
+### Resources
+
+STATQUEST
+
+[Machine Learning Fundamentals: Cross Validation](https://www.youtube.com/watch?v=fSytzGwwBVw&feature=youtu.be)
 
