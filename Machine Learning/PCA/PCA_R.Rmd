@@ -1,0 +1,15 @@
+```{r}
+# all features on top
+d = matrix(c(-1,-1,0,2,0,-2,0,-0,1,1),ncol = 2)
+d
+pca_res = prcomp(d)
+pca_res
+```
+
+```{r}
+# covariance matrix
+d_cov = cov(d)
+d_cov
+eigen(d_cov)
+```
+
