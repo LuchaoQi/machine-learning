@@ -77,11 +77,23 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 #### Definition of covariance matrix:
 
+https://www.bilibili.com/video/BV1aE411o7qd?p=23
+
 https://en.wikipedia.org/wiki/Covariance_matrix#Definition
 
 
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83bec85f5e2cab5d3406677dd806e554a442331f)
+
+**Projected distance**
+
+$\vec{a}*\vec{b} = \vert \vec{a}\vert * \vert \vec{b}\vert * cos\theta$
+
+which is equal to  $\vec{a}^T * \vec{b}$ 
+
+
+
+
 
 
 
@@ -191,7 +203,7 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes/blob/master/codes
 
 https://www.bilibili.com/video/av70839977?p=24
 
-[Principal Component Analysis (PCA) Step-by-Step](https://youtu.be/FgakZw6K1QQ)
+[STATQUEST Principal Component Analysis (PCA) Step-by-Step](https://youtu.be/FgakZw6K1QQ)
 
 https://www.cnblogs.com/pinard/p/6239403.html
 
