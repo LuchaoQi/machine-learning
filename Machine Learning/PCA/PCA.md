@@ -34,6 +34,25 @@ So you can see `Standard deviations` are the list of square root of eigenvalues
 
 and `Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
 
+```R
+d_cov = cov(d)
+d_cov
+eigen(d_cov)
+
+
+     [,1] [,2]
+[1,]  1.5  1.0
+[2,]  1.0  1.5
+eigen() decomposition
+$values
+[1] 2.5 0.5
+
+$vectors
+          [,1]       [,2]
+[1,] 0.7071068 -0.7071068
+[2,] 0.7071068  0.7071068
+```
+
 
 
 ==i.e. if you want to know the rotated data on PC1==
@@ -56,7 +75,17 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 ### why we use covariance matrix and why we use eigenpairs?
 
-Note $S$ is our covariance matrix
+#### Definition of covariance matrix:
+
+https://en.wikipedia.org/wiki/Covariance_matrix#Definition
+
+
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83bec85f5e2cab5d3406677dd806e554a442331f)
+
+
+
+Note we denote $S$ as covariance matrix
 
 ![Intuition.png](https://i.loli.net/2020/02/04/bIoVxSOyY9CeNKP.png)
 
