@@ -1,10 +1,20 @@
 [TOC]
 
+glm
+
+minimize $\sum \text{squared residuals}$ 
+
+L1
+
+minimize  $\sum \text{squared residuals} + \lambda \vert w\vert$
+
+L2
+
+minimize  $\sum \text{squared residuals} + \lambda w^2$
+
 
 
 ### Notes
-
-
 
 
 
@@ -77,6 +87,12 @@ Initially, we minimize the least squares of residuals when training the data whi
 
 
 ![1.gif](https://i.loli.net/2020/03/31/HbT4F5X2NaulJmi.gif)
+
+
+
+
+
+![image.png](https://i.loli.net/2020/04/06/ArK9akthTPLpXxO.png)
 
 
 
