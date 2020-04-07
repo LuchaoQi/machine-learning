@@ -38,9 +38,17 @@ model_caret$resample
 
 
 
-==0.4228643 = mean(model_caret$resample['Rsquared'])==
+==0.4228643 = mean(ols_model\$resample$Rsquared)==
 
 
+
+```R
+mean(ols_model$resample$Rsquared)
+ols_model$results$Rsquared
+
+[1] 0.8613019
+[1] 0.8613019
+```
 
 
 
