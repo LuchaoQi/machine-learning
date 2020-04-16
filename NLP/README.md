@@ -1,0 +1,6 @@
+### Resources
+
+
+
+http://web.stanford.edu/class/cs224n/
+

@@ -10,6 +10,18 @@ PCA
 
 ## Notes
 
+### [how to apply PCA on a categorical variable?](https://piazza.com/class/k1zer6tg6s04bb?cid=443)
+
+> Unfortunately, no. PCA is really only appropriate for real-valued features. Even ordinal features (categories with order, e.g. first, second, third, ...) shouldn't use PCA because there is a "distance" implied. Only use PCA for xi∈R.
+>
+> 
+>
+> They mention correspondence analysis, which is a method I haven't looked into myself, but here's a link to the paper information (it's from 1935): https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/connection-between-correlation-and-contingency/D3A75249B56AF5DDC436938F1B6EABD1
+>
+> They also mention multi-factor analysis: https://www.sciencedirect.com/science/article/pii/016794739490135X?via%3Dihub
+
+
+
 ### R code results interpretation
 
 ```R
