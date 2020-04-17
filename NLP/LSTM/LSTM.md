@@ -1,3 +1,5 @@
+[TOC]
+
 ### LSTM
 
 > Of note, [Transformer/Bert](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247488025&idx=1&sn=761b97bb22440741cc6341bf8e437ee8&chksm=e870c354df074a423a65da7b96744cc5b2a25dce619313b506c056a7444d0afc327d8e4ccb5b&mpshare=1&scene=1&srcid=&sharer_sharetime=1577292019089&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d2b333b7fb0e2b74d40f2fd3dc4778a9d57b0f5bc5fb440d1a5938d940588c4f147b5e2b4804d228481fa50be5982449d350781b531bd2619fba011353d2000cd1caa760e4791fbd01d0fc4c2728a27f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A1O%2BtbThynNesxsMZgt9z0U%3D&pass_ticket=HdMLvtsUXrpjxTMvYQpJFkvsMYM5Q%2Fpxqp%2FBI9freoHRVqnDOq%2BgXtQa7mz52LbH) may perform better than LSTM in NLP
