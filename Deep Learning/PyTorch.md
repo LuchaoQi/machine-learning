@@ -1,8 +1,20 @@
 [TOC]
 
+### Improvement
+
+Labs session lab5~6
+
+https://piazza.com/jhu/spring2020/cs482682/resources
+
 
 
 ### Resources
+
+
+
+#### PyTorch Tutorial: How to Develop Deep Learning Models with Python
+
+https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
 
 
 
@@ -30,7 +42,21 @@ https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9
 
 https://github.com/rasbt/deeplearning-models
 
-https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-alexnet-cifar10.ipynb
+
+
+#### Miscellaneous
+
+
+
+https://pytorch.org/tutorials/
+
+
+
+https://deeplizard.com/learn/video/v5cngxo4mIg
+
+
+
+[Practical Deep Learning for Coders](https://course.fast.ai/)
 
 
 
@@ -71,10 +97,6 @@ tensor.eval()
 
 
 
-
-
-
-
 #### [Reproducibility](https://pytorch.org/docs/stable/notes/randomness.html#reproducibility)
 
 [How to use cudnn in pytorch？ #698](https://github.com/pytorch/pytorch/issues/698)
@@ -82,22 +104,6 @@ tensor.eval()
 
 
 
-
-
-
-### Getting started
-
-
-
-https://pytorch.org/tutorials/
-
-
-
-https://deeplizard.com/learn/video/v5cngxo4mIg
-
-
-
-[Practical Deep Learning for Coders](https://course.fast.ai/)
 
 
 

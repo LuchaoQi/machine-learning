@@ -1,8 +1,8 @@
+[TOC]
 
 
 
-
-#### concentration matrix/precision matrix - inverse covariance matrix
+### concentration matrix/precision matrix - inverse covariance matrix
 
 http://www.princeton.edu/~yc5/ele538b_sparsity/lectures/graphical_lasso.pdf
 
@@ -24,7 +24,7 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
-#### When determinant close to 0?
+### When determinant close to 0?
 
 https://stats.stackexchange.com/a/30466
 
@@ -34,7 +34,7 @@ check collinearity
 
 
 
-#### Penalty term?
+### Penalty term?
 
 the regularizer acts like sigmoid function
 
@@ -49,13 +49,7 @@ the regularizer acts like sigmoid function
 
 
 
-
-
----
-
-
-
-
+## Miscellaneous
 
 
 
@@ -102,3 +96,7 @@ https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
 > **总结一下：一个tail-to-tail或tail-to-head的节点只有在被观察后才会阻塞路径，一个head-to-head的节点只有其或其后代节点被观察后才不会阻塞路径。**
 
 
+
+## Resources
+
+https://piazza.com/jhu/spring2020/601475/resources

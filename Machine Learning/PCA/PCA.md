@@ -10,7 +10,7 @@ PCA
 
 ## Notes
 
-### [how to apply PCA on a categorical variable?](https://piazza.com/class/k1zer6tg6s04bb?cid=443)
+### [PCA on a categorical variable?](https://piazza.com/class/k1zer6tg6s04bb?cid=443)
 
 > Unfortunately, no. PCA is really only appropriate for real-valued features. Even ordinal features (categories with order, e.g. first, second, third, ...) shouldn't use PCA because there is a "distance" implied. Only use PCA for xi∈R.
 >
@@ -20,7 +20,15 @@ PCA
 >
 > They also mention multi-factor analysis: https://www.sciencedirect.com/science/article/pii/016794739490135X?via%3Dihub
 
+https://stackoverflow.com/a/40801571/11964524
 
+> I disagree with the others.
+>
+> While **you can use PCA on binary data** (e.g. one-hot encoded data) that does not mean it is a good thing, or it will work very well.
+>
+> PCA is desinged for *continuous* variables. It tries to minimize variance (=squared deviations). The concept of squared deviations breaks down when you have binary variables.
+>
+> So yes, you can use PCA. And yes, you get an output. It even is a least-squared output - it's not as if PCA would segfault on such data. It works, but it is just much less *meaningful* than you'd want it to be; and supposedly less meaningful than e.g. frequent pattern mining.
 
 ### R code results interpretation
 
@@ -87,7 +95,9 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 ### why we use covariance matrix and why we use eigenpairs?
 
-#### Definition of covariance matrix:
+#### Definition of covariance matrix
+
+
 
 https://www.bilibili.com/video/BV1aE411o7qd?p=23
 
