@@ -12,15 +12,19 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
+==[regarding conditional independence and its graphical representation](https://stats.stackexchange.com/a/73730)==
+
+![](https://i.stack.imgur.com/EftcN.png)
 
 
-[Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
 
 
 
 ![](https://i.stack.imgur.com/NJ4gb.png)
 
 
+
+==note that var(x) = var(z) + var(e_1) so var(x) = 1+ 1 = 2==
 
 
 

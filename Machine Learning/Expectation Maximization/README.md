@@ -19,13 +19,21 @@
 ### [一文详尽系列之EM算法](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247487548&idx=1&sn=f6a6a2b20c1b4d0e1bd86481aa476df0&chksm=e870c171df074867c884927eca8701318e08beab3824c3cd227fb3b12209bebfd6041fb318d3&scene=21#wechat_redirect)
 
 > EM gives me a sense of learning hidden markov model.
+>
+> Given sequence (hidden state: coin A/ coin B ), we need to estimate what's the probability of A(head)/ B(head)
+>
+> ![image.png](https://i.loli.net/2020/05/01/MegKLlCSWGpPx9T.png)
 
 
 
 ![](https://i.loli.net/2019/12/17/5UNKf6VEc1tAZT8.png)
 
 $$
-0.45=\frac{C_{10}^{5}(0.6)^{5}(0.4)^{5}}{C_{10}^{5}(0.6)^{5}(0.4)^{5}+C_{10}^{5}(0.5)^{5}(0.5)^{5}}
+0.45=\frac{(0.6)^{5}(0.4)^{5}}{(0.6)^{5}(0.4)^{5}+(0.5)^{5}(0.5)^{5}}
+$$
+
+$$
+0.80=\frac{(0.6)^{9}(0.4)^{1}}{(0.6)^{9}(0.4)^{1}+(0.5)^{9}(0.5)^{1}}
 $$
 
 
