@@ -2,7 +2,11 @@
 
 
 
-[Attention学习_基础篇](https://mp.weixin.qq.com/s?__biz=MzU1Nzc1NjI0Nw==&mid=2247484964&idx=1&sn=e1e92a9673dcea13e0f6806c9e07c779&chksm=fc31bc1ccb46350a22b8cfaf7dc76bf811452fe6793ea99123de72219a2374a75fee580ea58a&mpshare=1&scene=1&srcid=0504qxlyZZxOfjAGIKWW3mnR&sharer_sharetime=1588543788810&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac8391efebde700bb39eddb1a66608cc3cb8977ea2f038ddaea02b42080e6a57bb2115377588dc32aed2720ae31080a8f1ca7c9185b72b5aee1dce8bc732308178e165933b8aa0e07b32&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A1jjUrMxA%2BY8%2FkqHxtCyOWE%3D&pass_ticket=PG5n9ZPUEJHhYjlHC8Uim96QI1xUIV34buzl9K5ZD7qhPMv7KmFwlkKHqFd5gmNN)                
+看参考链接里面的资源
+
+[Attention学习_基础篇](https://mp.weixin.qq.com/s?__biz=MzU1Nzc1NjI0Nw==&mid=2247484964&idx=1&sn=e1e92a9673dcea13e0f6806c9e07c779&chksm=fc31bc1ccb46350a22b8cfaf7dc76bf811452fe6793ea99123de72219a2374a75fee580ea58a&mpshare=1&scene=1&srcid=0504qxlyZZxOfjAGIKWW3mnR&sharer_sharetime=1588543788810&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac8391efebde700bb39eddb1a66608cc3cb8977ea2f038ddaea02b42080e6a57bb2115377588dc32aed2720ae31080a8f1ca7c9185b72b5aee1dce8bc732308178e165933b8aa0e07b32&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A1jjUrMxA%2BY8%2FkqHxtCyOWE%3D&pass_ticket=PG5n9ZPUEJHhYjlHC8Uim96QI1xUIV34buzl9K5ZD7qhPMv7KmFwlkKHqFd5gmNN)
+
+
 
 [Attention — Seq2Seq Models](https://towardsdatascience.com/day-1-2-attention-seq2seq-models-65df3f49e263)
 

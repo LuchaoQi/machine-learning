@@ -1,4 +1,18 @@
-[StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
+[toc]
+
+
+
+JHU ML decision tree/ regression tree/ random forest
+
+https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k70upiz3iebkd
+
+Besides Gini index, we can also use information gain
+
+
+
+
+
+## [StatQuest: Decision Trees](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
 > select node based on impurity (Gini)
 >
@@ -30,11 +44,9 @@
 
 
 
-https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k70upiz3iebkd
 
-Besides Gini index, we can also use information gain
 
-![image-20200226164607629](C:\Users\lcqi\AppData\Roaming\Typora\typora-user-images\image-20200226164607629.png)
+### Pros and Cons
 
 ![image.png](https://i.loli.net/2020/02/27/6I8xOuA7HXeEV9a.png)
 
@@ -44,7 +56,7 @@ Besides Gini index, we can also use information gain
 
 
 
-[Regression Trees, Clearly Explained!!!](https://youtu.be/g9c66TUylZ4?t=1254)
+## [Regression Trees, Clearly Explained!!!](https://youtu.be/g9c66TUylZ4?t=1254)
 
 > continuous variables
 >

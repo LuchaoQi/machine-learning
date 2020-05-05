@@ -1,5 +1,23 @@
 [TOC]
 
+### [JHU ML](https://piazza.com/jhu/spring2020/601475/resources)
+
+
+
+> Blocked vs. Unblocked Terminology: 
+>
+> B is a descendant of A if there is a path from A to B
+>
+> * Following the arrows 
+>
+> Tail-to-tail or head-to-tail node only blocks a path when it is observed 
+>
+> A head-to-head node blocks a path when it is unobserved 
+>
+> * A head-to-head path will become unblocked if either node, or any of its descendants, is observed
+
+
+
 
 
 ### concentration matrix/precision matrix - inverse covariance matrix
@@ -28,17 +46,23 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
-### When determinant close to 0?
+### When determinant close to 0
+
+check collinearity
 
 https://stats.stackexchange.com/a/30466
 
-check collinearity
+USE LASSO REGULARIZATION
+
+https://www.ncbi.nlm.nih.gov/pubmed/28489411
+
+https://github.com/huayingfang/gCoda
 
 ==use glasso object in qgraph function==
 
 
 
-### Penalty term?
+### Penalty term problem
 
 the regularizer acts like sigmoid function
 
@@ -53,19 +77,23 @@ the regularizer acts like sigmoid function
 
 
 
-## Miscellaneous
+## Basics
 
 
 
-http://mlg.eng.cam.ac.uk/teaching/4f13/1011/lect04.pdf
+Shaded X means event X is observed
 
-http://www.stats.ox.ac.uk/~steffen/teaching/gm09/intro.pdf
+knowing X -> estimate Y
 
-http://www.stat.cmu.edu/~larry/=sml/GraphicalModels.pdf
+In EM paper, knowing coin flip sequence -> estimate P(head A)/P(head B)
 
-http://www.stat.cmu.edu/~larry/=stat700/UG.pdf
+![image.png](https://i.loli.net/2020/05/05/cgjJpeGDTOuyU8W.png)
+
+>  EM model
 
 
+
+### Definition
 
 ![image.png](https://i.loli.net/2020/01/16/2A85qDoBkvyrPZT.png)
 
@@ -85,9 +113,9 @@ http://www.stat.cmu.edu/~larry/=stat700/UG.pdf
 
 
 
-PRML中文笔记
+### ==[PRML中文笔记](https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/)==
 
-https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
+
 
 
 
@@ -97,10 +125,28 @@ https://keson96.github.io/2017/02/23/2017-02-23-Conditional-Independence/
 
 
 
-> **总结一下：一个tail-to-tail或tail-to-head的节点只有在被观察后才会阻塞路径，一个head-to-head的节点只有其或其后代节点被观察后才不会阻塞路径。**
+> 总结
+>
+> 一个tail-to-tail或tail-to-head的节点只有在被观察后才会阻塞路径 i.e. 全白的就是通的
+>
+> 一个head-to-head的节点只有其或其后代节点被观察后才不会阻塞路径 i.e. 全白的那就是堵住了
+>
+> 上面的post解释了为什么 然后下面的例子也解释了一部分
 
-
+![image.png](https://i.loli.net/2020/05/05/KNtmXiGMFVu1lCq.png)
 
 ## Resources
 
 https://piazza.com/jhu/spring2020/601475/resources
+
+
+
+
+
+http://mlg.eng.cam.ac.uk/teaching/4f13/1011/lect04.pdf
+
+http://www.stats.ox.ac.uk/~steffen/teaching/gm09/intro.pdf
+
+http://www.stat.cmu.edu/~larry/=sml/GraphicalModels.pdf
+
+http://www.stat.cmu.edu/~larry/=stat700/UG.pdf

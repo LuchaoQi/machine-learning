@@ -1,8 +1,12 @@
-# Support Vector Machines
+[toc]
+
+
 
 More details discussed
 
 http://cs229.stanford.edu/notes/cs229-notes3.pdf
+
+JHU ML slides
 
 https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
@@ -16,7 +20,7 @@ https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
 
 
-### hinge loss in svm
+### hinge loss in SVM
 
 
 
@@ -52,6 +56,10 @@ $$
 
 
 
+
+
+https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427#Question_4.1
+
 ![](http://cs231n.github.io/assets/svmvssoftmax.png)
 
 
@@ -60,7 +68,9 @@ $$
 
 
 
-### Intuition
+
+
+## Intuition
 
 
 
@@ -151,9 +161,13 @@ which helps us intuitively understand the `C` term.
 
 
 
-### Code
+## Code
 
 
+
+### SVM from scratch
+
+https://github.com/wzyonggege/statistical-learning-method/blob/master/SVM/support-vector-machine.ipynb
 
 
 
@@ -180,7 +194,7 @@ def svm_cross_validation(train_x, train_y):
 
 
 
-### Resources
+## Resources
 
 
 
