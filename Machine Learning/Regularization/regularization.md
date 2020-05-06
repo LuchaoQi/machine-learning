@@ -1,16 +1,20 @@
 [TOC]
 
+https://en.wikipedia.org/wiki/Lasso_(statistics)#Basic_form
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/26064ae92b68228debcddb264868fbf6ca23e579)
+
 glm
 
-minimize $\sum \text{squared residuals}$ 
+minimize $\frac{1}{N}\sum \text{squared residuals}$ 
 
 L1
 
-minimize  $\sum \text{squared residuals} + \lambda \vert w\vert$
+minimize  $\frac{1}{N}\sum \text{squared residuals} + \lambda \vert w\vert$
 
 L2
 
-minimize  $\sum \text{squared residuals} + \lambda w^2$
+minimize  $\frac{1}{N}\sum \text{squared residuals} + \lambda w^2$
 
 
 

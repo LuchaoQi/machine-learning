@@ -1,32 +1,16 @@
 [TOC]
 
-### [JHU ML](https://piazza.com/jhu/spring2020/601475/resources)
+
+
+### Graphical lasso
 
 
 
-> Blocked vs. Unblocked Terminology: 
->
-> B is a descendant of A if there is a path from A to B
->
-> * Following the arrows 
->
-> Tail-to-tail or head-to-tail node only blocks a path when it is observed 
->
-> A head-to-head node blocks a path when it is unobserved 
->
-> * A head-to-head path will become unblocked if either node, or any of its descendants, is observed
-
-
-
-
-
-### concentration matrix/precision matrix - inverse covariance matrix
+#### concentration matrix/precision matrix - inverse covariance matrix
 
 http://www.princeton.edu/~yc5/ele538b_sparsity/lectures/graphical_lasso.pdf
 
 https://arxiv.org/pdf/1707.04345.pdf
-
-
 
 
 
@@ -46,7 +30,7 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
-### When determinant close to 0
+#### When determinant close to 0
 
 check collinearity
 
@@ -62,7 +46,7 @@ https://github.com/huayingfang/gCoda
 
 
 
-### Penalty term problem
+#### Penalty term problem
 
 the regularizer acts like sigmoid function
 
@@ -77,7 +61,31 @@ the regularizer acts like sigmoid function
 
 
 
+
+
+
+
 ## Basics
+
+### [高斯图模型 Gaussian Graphical Model](http://fieryfish.github.io/blog/2014/07/17/ggm/)
+
+
+
+### [JHU ML Basics](https://piazza.com/jhu/spring2020/601475/resources)
+
+
+
+> Blocked vs. Unblocked Terminology: 
+>
+> B is a descendant of A if there is a path from A to B
+>
+> * Following the arrows 
+>
+> Tail-to-tail or head-to-tail node only blocks a path when it is observed 
+>
+> A head-to-head node blocks a path when it is unobserved 
+>
+> * A head-to-head path will become unblocked if either node, or any of its descendants, is observed
 
 
 
@@ -93,7 +101,7 @@ In EM paper, knowing coin flip sequence -> estimate P(head A)/P(head B)
 
 
 
-### Definition
+Definition
 
 ![image.png](https://i.loli.net/2020/01/16/2A85qDoBkvyrPZT.png)
 
