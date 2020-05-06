@@ -75,8 +75,3 @@ http://www.matrixcalculus.org/
 
 [Covariance matrix and conditional independence](https://stats.stackexchange.com/a/73730)
 
-
-
-
-
-### 

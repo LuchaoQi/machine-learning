@@ -133,7 +133,13 @@ In EM paper, knowing coin flip sequence -> estimate P(head A)/P(head B)
 >
 > 上面的post解释了为什么 然后下面的例子也解释了一部分
 
+
+
 ![image.png](https://i.loli.net/2020/05/05/KNtmXiGMFVu1lCq.png)
+
+
+
+
 
 ## Resources
 
