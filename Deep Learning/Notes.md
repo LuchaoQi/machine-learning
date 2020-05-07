@@ -1,8 +1,32 @@
+[toc]
+
+### Vanishing gradient problem
+
+Basics
+
+https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
+
+JHU DL slides
+
+https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k9batm1s2hxpc
+
+
+
+#### Solution
+
+
+
+Change activation function like ReLU
+
+Use batch normalization
+
+Change network structure like LSTM, RNN, Gated Recurrent Units (GRU) so as to preserve information over many timesteps.
 
 
 
 
-[Difference Between a Batch and an Epoch in a Neural Network](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
+
+### [Difference Between a Batch and an Epoch in a Neural Network](https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/)
 
 > You can think of a for-loop over the number of epochs where each loop proceeds over the training dataset. Within this for-loop is another nested for-loop that iterates over each batch of samples, where one batch has the specified “batch size” number of samples.
 >
@@ -22,7 +46,7 @@ Recall that in gradient descent (**stochastic/mini-batch/batch**) we have simila
 
 
 
-==A pretty good optimization post== 
+### ==A pretty good optimization post== 
 
 https://frnsys.com/ai_notes/foundations/optimization.html
 
@@ -36,7 +60,7 @@ stochastic gradient descent (SGD) in deep learning optimization
 
 
 
-Batch normalization / Covariate shift
+### Batch normalization / Covariate shift
 
 [An Intuitive Explanation of Why Batch Normalization Really Works (Normalization in Deep Learning Part 1)](https://mlexplained.com/2018/01/10/an-intuitive-explanation-of-why-batch-normalization-really-works-normalization-in-deep-learning-part-1/)
 
@@ -52,23 +76,8 @@ Batch normalization / Covariate shift
 
 
 
+### Multi-label vs. Multi-class Classification: Sigmoid vs. Softmax
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Multi-label vs. Multi-class Classification: Sigmoid vs. Softmax
 https://glassboxmedicine.com/2019/05/26/classification-sigmoid-vs-softmax/
 https://stats.stackexchange.com/a/410112
 
@@ -119,7 +128,7 @@ https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks
 
-cheat sheets for CNN, RNN, and DL tips and tricks
+### cheat sheets for CNN, RNN, and DL tips and tricks
 
 ![image.png](https://i.loli.net/2020/01/07/6h7MoLeUWBpOI48.png)
 
@@ -148,5 +157,35 @@ Why activation function?
 
 
 [3Blue1Brown: Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
+
+
+
+
+
+
+## Resources
+
+
+
+==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
+
+
+
+
+[Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03-neuralnets.pdf)
+
+[DIVE INTO DEEP LEARNING](https://www.d2l.ai/index.html)
+
+
+
+
+
+
+
+==A collection of various deep learning architectures, models, and tips==
+
+https://github.com/rasbt/deeplearning-models
+
 
 
