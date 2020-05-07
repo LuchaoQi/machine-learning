@@ -4,7 +4,13 @@
 
 ### Graphical lasso
 
+http://ir.hit.edu.cn/~jguo/docs/notes/report-in-princeton-research.pdf
 
+http://statweb.stanford.edu/~tibs/ftp/glasso-bio.pdf
+
+http://fieryfish.github.io/blog/2014/07/17/ggm/
+
+![image.png](https://i.loli.net/2020/05/07/pHNzxXjFeMULQAt.png)
 
 #### concentration matrix/precision matrix - inverse covariance matrix
 
@@ -67,7 +73,7 @@ the regularizer acts like sigmoid function
 
 ## Basics
 
-### [高斯图模型 Gaussian Graphical Model](http://fieryfish.github.io/blog/2014/07/17/ggm/)
+### ==[高斯图模型 Gaussian Graphical Model](http://fieryfish.github.io/blog/2014/07/17/ggm/)==
 
 
 
