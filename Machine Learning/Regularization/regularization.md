@@ -1,5 +1,19 @@
 [TOC]
 
+
+
+### Recap
+
+http://rasbt.github.io/mlxtend/user_guide/general_concepts/regularization-linear/
+
+https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
+
+
+
+![image.png](https://i.loli.net/2020/05/08/e4y89CupFRdg6Bq.png)
+
+
+
 https://en.wikipedia.org/wiki/Lasso_(statistics)#Basic_form
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/26064ae92b68228debcddb264868fbf6ca23e579)
@@ -18,7 +32,7 @@ minimize  $\frac{1}{N}\sum \text{squared residuals} + \lambda w^2$
 
 
 
-### Notes
+### Basics
 
 
 

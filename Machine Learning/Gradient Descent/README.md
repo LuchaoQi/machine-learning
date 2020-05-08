@@ -1,6 +1,12 @@
-# Gradient Descent
+[toc]
 
-==A pretty good optimization post== 
+
+
+
+
+
+
+### ==A pretty good optimization post== 
 
 https://frnsys.com/ai_notes/foundations/optimization.html
 
