@@ -192,3 +192,10 @@ If your data is a customer data with customers in rows, it's okay to exchange se
 
 
 
+### Resources
+
+
+
+https://github.com/poloclub/cnn-explainer
+
+https://poloclub.github.io/cnn-explainer/

@@ -2,7 +2,31 @@
 
 
 
+### Eigenvalues and Eigenvectors[¶ permalink](http://textbooks.math.gatech.edu/ila/chap-eigenvalues.html)
+
+
+
+![image.png](https://i.loli.net/2020/05/09/ZVNULFtD5bOnQXh.png)
+
+
+
+### The Characteristic Polynomial[¶ permalink](http://textbooks.math.gatech.edu/ila/characteristic-polynomial.html)
+
+
+
+![image.png](https://i.loli.net/2020/05/09/8yG1OHSiz4pCvIc.png)
+
+
+
+
+
+
+
 ### [Matrix Inverses](http://textbooks.math.gatech.edu/ila/matrix-inverses.html)
+
+
+
+$(ABC)^{−1}=C^{−1}B^{−1}A^{−1}$
 
 
 
@@ -55,7 +79,9 @@ Wayyyy better than using chain-rule
 
 ## Resources
 
-[MIT Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+[MIT Linear Algebra](https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm)
+
+
 
 [Gatech Interactive Linear Algebra](http://textbooks.math.gatech.edu/ila/)
 

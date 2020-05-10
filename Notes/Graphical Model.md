@@ -8,6 +8,8 @@ http://ir.hit.edu.cn/~jguo/docs/notes/report-in-princeton-research.pdf
 
 http://statweb.stanford.edu/~tibs/ftp/glasso-bio.pdf
 
+![image.png](https://i.loli.net/2020/05/11/c5KQtlf6gARkHEN.png)
+
 http://fieryfish.github.io/blog/2014/07/17/ggm/
 
 ![image.png](https://i.loli.net/2020/05/07/pHNzxXjFeMULQAt.png)

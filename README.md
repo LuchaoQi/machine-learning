@@ -1,4 +1,8 @@
-资料汇总
+### 资料汇总
+
+
+
+[吐血推荐，B站最强学习资源汇总（数据科学，机器学习，python）](https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247488792&idx=1&sn=fd2d9d0d3a00ff5efbfa5b560f955e06&chksm=fbac3447ccdbbd5185d85904f9c0de261733622cda4654c1ea67e34584c9b75771f717434329&mpshare=1&scene=1&srcid=&sharer_sharetime=1589137958939&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac837ede674c7e7d728e560933946011d9a7480bdf4091f8c586a27c0226ed60bde37b624c6c721a8b63f6b9be3fb34e2e8985580c2014c1a956c72356597de98d0aec2569644a3673c4&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A3iKkuu2OAAszM6A5houPYg%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
 
 
 
