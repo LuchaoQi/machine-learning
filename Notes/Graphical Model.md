@@ -14,7 +14,7 @@ http://fieryfish.github.io/blog/2014/07/17/ggm/
 
 ![image.png](https://i.loli.net/2020/05/07/pHNzxXjFeMULQAt.png)
 
-#### concentration matrix/precision matrix - inverse covariance matrix
+#### concentration matrix/precision matrix = inverse of covariance matrix
 
 http://www.princeton.edu/~yc5/ele538b_sparsity/lectures/graphical_lasso.pdf
 
