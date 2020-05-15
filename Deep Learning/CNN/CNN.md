@@ -1,12 +1,14 @@
 [TOC]
 
+#### ==[Best material I've ever seen](https://poloclub.github.io/cnn-explainer/)==
+
 
 
 ### Coding PyTorch
 
 https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
 
-#### how to set up hyperparameters  in fully connected layer?
+#### how to set up hyperparameters in fully connected layer?
 
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
@@ -113,6 +115,8 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 
 
 ### Intro
+
+
 
 CNN cheat sheet
 

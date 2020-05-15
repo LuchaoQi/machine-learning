@@ -89,6 +89,12 @@ res_PC1 = d * t( prcomp(cov(d))$rotations['PC1']  )
 
 ### Does mean centering or feature scaling affect a Principal Component Analysis?
 
+https://stats.stackexchange.com/a/69159/272857
+
+| Before Normalization                     | After Normalization                      |
+| ---------------------------------------- | ---------------------------------------- |
+| ![](https://i.stack.imgur.com/lS3wA.png) | ![](https://i.stack.imgur.com/rqYHf.png) |
+
 https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
@@ -214,6 +220,8 @@ So in the example it is $1/5 * Z^TZ$ while in code it is $1/4 * Z^TZ$
 
 
 ### Python
+
+[Principal Component Analysis for Dimensionality Reduction in Python](https://machinelearningmastery.com/principal-components-analysis-for-dimensionality-reduction-in-python/?__s=j5spgttw6xiv8t5nozzl)
 
 [how to do it in python mechanically](https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html#a-summary-of-the-pca-approach)
 

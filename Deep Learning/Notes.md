@@ -90,13 +90,13 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 ![image.png](https://i.loli.net/2020/01/30/UC62BfdwOH9GFY4.png)
 
-
+### hinge loss vs. softmax
 
 Softmax
 
+stanford cs231n
 
-
-![](http://cs231n.github.io/assets/svmvssoftmax.png)
+![image.png](https://i.loli.net/2020/05/15/uyGPcWM5UjpATB8.png)
 
 
 
@@ -173,7 +173,6 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 ==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
-
 
 
 

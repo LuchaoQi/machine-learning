@@ -1,8 +1,12 @@
 [TOC]
 
+### [Statistical Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/statistical-imputation-for-missing-values-in-machine-learning/?__s=j5spgttw6xiv8t5nozzl)
 
 
-#### [数据挖掘入门指南！！！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247490290&idx=1&sn=2c91d01e885e25232bb9fe65808ba46e&chksm=e870cbbfdf0742a943d5c0e972ff2ff7e59664f74aeb246ad422f2ae4f2bd9eb7c99bb903b8f&mpshare=1&scene=1&srcid=&sharer_sharetime=1587258394081&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac8398500473e4ce0ea27ddb73b137b8628481ffd7979c31d35f5982af34f2f8ae228794a30969111597e58e50ac6f21d9bb63780685c95336560ba39783230f7658b5db266041f8f518&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=AyCrknsRchTmsghGn6%2FueS0%3D&pass_ticket=FsZ%2F%2BZdh9drALkPd4ZNDKQfPNSuBgdFQBofkB7QfHhrEkuIr4lHtmKYV2uPVd7bo)
+
+
+
+### [数据挖掘入门指南！！！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247490290&idx=1&sn=2c91d01e885e25232bb9fe65808ba46e&chksm=e870cbbfdf0742a943d5c0e972ff2ff7e59664f74aeb246ad422f2ae4f2bd9eb7c99bb903b8f&mpshare=1&scene=1&srcid=&sharer_sharetime=1587258394081&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac8398500473e4ce0ea27ddb73b137b8628481ffd7979c31d35f5982af34f2f8ae228794a30969111597e58e50ac6f21d9bb63780685c95336560ba39783230f7658b5db266041f8f518&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=AyCrknsRchTmsghGn6%2FueS0%3D&pass_ticket=FsZ%2F%2BZdh9drALkPd4ZNDKQfPNSuBgdFQBofkB7QfHhrEkuIr4lHtmKYV2uPVd7bo)
 
 
 
@@ -12,7 +16,7 @@
 
 
 
-#### ==[Tips-of-Feature-engineering](https://github.com/Pysamlam/Tips-of-Feature-engineering)==
+### ==[Tips-of-Feature-engineering](https://github.com/Pysamlam/Tips-of-Feature-engineering)==
 
 
 
@@ -20,7 +24,7 @@
 
 
 
-[The Simple Yet Practical Data Cleaning Codes](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
+### [The Simple Yet Practical Data Cleaning Codes](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
 
 > 1. Drop multiple columns
 > 2. Change dtypes
@@ -33,7 +37,7 @@
 
 
 
-#### [How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
+### [How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
 
 
 
