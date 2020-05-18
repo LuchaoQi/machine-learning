@@ -2,6 +2,31 @@
 
 ### [Statistical Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/statistical-imputation-for-missing-values-in-machine-learning/?__s=j5spgttw6xiv8t5nozzl)
 
+```python
+# constant imputation strategy and prediction for the hose colic dataset
+from numpy import nan
+from pandas import read_csv
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+# load dataset
+url = 'https://raw.githubusercontent.com/jbrownlee/Datasets/master/horse-colic.csv'
+dataframe = read_csv(url, header=None, na_values='?')
+# split into input and output elements
+data = dataframe.values
+X, y = data[:, :-1], data[:, -1]
+# create the modeling pipeline
+pipeline = Pipeline(steps=[('i', SimpleImputer(strategy='constant')), ('m', RandomForestClassifier())])
+# fit the model
+pipeline.fit(X, y)
+# define new data
+row = [2,1,530101,38.50,66,28,3,3,nan,2,5,4,4,nan,nan,nan,3,5,45.00,8.40,nan,nan,2,2,11300,00000,00000]
+# make a prediction
+yhat = pipeline.predict([row])
+# summarize prediction
+print('Predicted Class: %d' % yhat[0])
+```
+
 
 
 

@@ -1,18 +1,123 @@
 [toc]
 
-## Word2Vec Tutorial - The Skip-Gram Model
+
+
+
+
+![](https://miro.medium.com/max/1400/1*cuOmGT7NevP9oJFJfVpRKA.png)
+
+
+
+
+
+## Skip-Gram
+
+### problem with one-hot encoding and why we need improve it
+
+https://towardsdatascience.com/nlp-101-word2vec-skip-gram-and-cbow-93512ee24314
+
+```
+## Current situation 
+Similarity(Mango, Strawberry) == Similarity(Mango, City) == 0
+## Ideal situation
+Similarity(Mango, Strawberry) >> Similarity(Mango, City)
+** Note: Similarity(a,b) = a.b/(||a||*||b||) Cosine similarity
+```
+
+
+
+### ==Word2Vec Tutorial - The Skip-Gram Model==
 
 http://mccormickml.com/tutorials/#word2vec
 
-
-
 http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 
-![](http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png)
 
+
+![image.png](https://i.loli.net/2020/05/16/tNiwuYpVo7PbI6W.png)
+
+> 10,000 positions
+>
+> ​	10,000 words for one-hot encoding
+>
+> The 300 features 
+>
+> ​	learned by the neural network, and there's no obvious meaning that you can ascribe to them. The number 300 corresponds to the number of neurons in the hidden layer of the network. If you build your neural network with 100 neurons in the hidden layer, then your word vectors would have 100 features.
+>
 > For skip-gram, There is no activation function on the hidden layer neurons, but the output neurons use softmax.
 
+
+
+
+
+![image.png](https://i.loli.net/2020/05/16/sohj5PLkzUG1Axw.png)
+
+
+
+
+
+![](http://mccormickml.com/assets/word2vec/output_weights_function.png)
+
+
+
+
+
+### Learning the Weights with Backpropagation and Stochastic Gradient Descent
+
+http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
+
+
+
+![image.png](https://i.loli.net/2020/05/16/MniDhJ6tgSjOcNm.png)
+
+
+
+### Word2Vec Tutorial Part 2 - Negative Sampling
+
+
+
+http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/
+
+
+
+
+
+### Resources
+
+http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
+
+
+
+http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
+
+
+
 [A Beginner’s Guide to Word Embedding with Gensim Word2Vec Model](https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92#9731)
+
+
+
+## CBOW
+
+https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k6cr5719st54an
+
+
+
+Similar to skip-gram models
+
+* getting the vector representation of continuous surrounding words
+* feed into network model
+
+
+
+http://alexminnaar.com/2015/05/18/word2vec-tutorial-continuousbow.html
+
+![](http://alexminnaar.com/assets/cbow.png)
+
+### Resources
+
+
+
+http://alexminnaar.com/2015/05/18/word2vec-tutorial-continuousbow.html
 
 
 
@@ -24,19 +129,21 @@ http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 
 http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture01-wordvecs1.pdf
 
+http://web.stanford.edu/class/cs224n/slides/cs224n-2020-lecture02-wordvecs2.pdf
+
+
+
+![image.png](https://i.loli.net/2020/05/16/GFTWUtQbVSawjsA.png)
+
 
 
 Note: word vectors are sometimes called word embeddings or word representations. They are a distributed representation.
 
 
 
-![image.png](https://i.loli.net/2020/02/14/Ne1aLZc63tC7YpR.png)
 
 
-
-
-
-![image.png](https://i.loli.net/2020/02/14/MRIxiHSXezAZnhy.png)
+![image.png](https://i.loli.net/2020/05/16/PkECfHwtjuJsIcK.png)
 
 
 

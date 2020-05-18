@@ -34,23 +34,15 @@
 
 
 
-![image.png](https://i.loli.net/2020/05/15/lx8BebwDd4j7A5v.png)
+#### What if we don't know prior distribution?
+
+![](https://i.loli.net/2020/05/15/lx8BebwDd4j7A5v.png)
 
 
 
 
 
-![](https://latex.codecogs.com/gif.latex?%5Cmu%20%3D%20%5Cfrac%7B%5Calpha%7D%7B%5Calpha%20&plus;%20%5Cbeta%7D)
-
-![](https://latex.codecogs.com/gif.latex?%5Csigma%20%3D%20%5Csqrt%7B%5Cfrac%7B%5Calpha%20%5Cbeta%7D%7B%28%5Calpha%20&plus;%20%5Cbeta%29%5E2%20%28%5Calpha%20&plus;%20%5Cbeta%20&plus;%201%29%7D%7D)
-
-
-
-
-
-
-
-
+![](https://i.loli.net/2020/05/18/yFaHJRXlKf4USg5.png)
 
 
 
