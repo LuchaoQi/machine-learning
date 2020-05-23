@@ -6,6 +6,14 @@
 
 ### Coding PyTorch
 
+
+
+#### DL hw google colab
+
+[Application of CNN in CIFAR-100](https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9?usp=sharing)
+
+
+
 https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
 
 #### how to set up hyperparameters in fully connected layer?
