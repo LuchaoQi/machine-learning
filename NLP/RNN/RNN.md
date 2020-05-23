@@ -6,7 +6,7 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-netwo
 
 
 
-![image.png](https://i.loli.net/2020/01/10/jwzfiMNeKsnL2Q3.png)
+![](https://i.loli.net/2020/01/10/jwzfiMNeKsnL2Q3.png)
 
 
 
@@ -14,13 +14,13 @@ The input sequence x=(x⟨1⟩,x⟨2⟩,...,x⟨Tx⟩)x=(x⟨1⟩,x⟨2⟩,...,x
 
 In NLP, feed in words like `n/a/m/a/s/k/a/r` subsequently at each time step.
 
-
-
-
-
-![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/description-block-rnn.png)
-
 $x^{<t>}$ is the input at time t
+
+
+
+
+
+![](https://i.loli.net/2020/05/23/Vo4SYDRjGa1rEPJ.png)
 
 
 
