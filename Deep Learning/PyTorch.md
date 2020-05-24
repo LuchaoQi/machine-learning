@@ -18,13 +18,13 @@ https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models
 
 
 
-#### pytorch_feedforward_neural_network_example
+#### PyTorch Common structure
 
 https://colab.research.google.com/drive/1jxUPzMsAkBboHMQtGyfv5M5c7hU8Ss2c#scrollTo=oQ6isf-kI2HD
 
 
 
-#### ==my own project CIFAR==
+#### ==my own project CIFAR-100==
 
 https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9
 

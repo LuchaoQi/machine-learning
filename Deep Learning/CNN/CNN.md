@@ -4,11 +4,11 @@
 
 
 
-### Coding PyTorch
+### Coding
 
 
 
-#### DL hw google colab
+#### PyTorch DL hw google colab 
 
 [Application of CNN in CIFAR-100](https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9?usp=sharing)
 
