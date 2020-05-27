@@ -24,7 +24,7 @@ $x^{<t>}$ is the input at time t
 
 
 
-### Examples
+### Code Examples
 
 [RNN(Recurrent Neural Network) Tutorial: TensorFlow Example](https://www.guru99.com/rnn-tutorial.html)
 
@@ -34,7 +34,7 @@ $x^{<t>}$ is the input at time t
 
 
 
-[namaskar example](https://hackernoon.com/rnn-or-recurrent-neural-network-for-noobs-a9afbb00e860)
+==[namaskar example](https://hackernoon.com/rnn-or-recurrent-neural-network-for-noobs-a9afbb00e860)==
 
 
 
