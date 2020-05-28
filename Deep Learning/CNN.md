@@ -100,7 +100,9 @@ https://datascience.stackexchange.com/a/27252
 
 http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 
-![image.png](https://i.loli.net/2020/02/19/aDzp79ZCBdgwPuV.png)
+如果有padding的话就 (N-F+2P)/S +1
+
+![](https://i.loli.net/2020/02/19/aDzp79ZCBdgwPuV.png)
 
 
 

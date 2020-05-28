@@ -10,7 +10,7 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 
-![image.png](https://i.loli.net/2020/05/08/e4y89CupFRdg6Bq.png)
+![](https://i.loli.net/2020/05/08/e4y89CupFRdg6Bq.png)
 
 
 

@@ -6,11 +6,27 @@
 
 ![](https://miro.medium.com/max/1400/1*cuOmGT7NevP9oJFJfVpRKA.png)
 
+https://cs224d.stanford.edu/lecture_notes/notes1.pdf
+
+![](https://i.loli.net/2020/05/28/uwtc7UfM6KHrB1O.png)
+
+
+
+
+
+![](https://i.loli.net/2020/05/28/1HPcuOv9oreLJIm.png)
+
 
 
 
 
 ## Skip-Gram
+
+
+
+
+
+
 
 ### problem with one-hot encoding and why we need improve it
 
@@ -152,6 +168,10 @@ Note: word vectors are sometimes called word embeddings or word representations.
 
 
 ## Resources
+
+https://cs224d.stanford.edu/lecture_notes/notes1.pdf
+
+
 
 http://mccormickml.com/2016/04/27/word2vec-resources/
 

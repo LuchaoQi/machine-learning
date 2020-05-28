@@ -144,33 +144,11 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and
 
 ### cheat sheets for CNN, RNN, and DL tips and tricks
 
+https://stanford.edu/~shervine/teaching/cs-230/
+
+
+
 ![image.png](https://i.loli.net/2020/01/07/6h7MoLeUWBpOI48.png)
-
-
-
-
-
-[Neural Networks: Feedforward and Backpropagation Explained & Optimization](https://mlfromscratch.com/neural-networks-explained/)
-
-**activation function reside in hidden layer (typically identity) and output layer**
-
-Why activation function?
-
-- introduce non-linearity into neural network
-
-![](https://mlfromscratch.com/content/images/2019/12/activationfunctions.2019-08-01-16_58_53.gif)
-
-
-
-
-
-
-
-[How Deep Neural Networks Work](https://www.youtube.com/watch?v=ILsA4nyG7I0)
-
-
-
-[3Blue1Brown: Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 
 
@@ -215,6 +193,32 @@ https://github.com/rasbt/deeplearning-models
 
 
 
+
+
+
+
+
+[Neural Networks: Feedforward and Backpropagation Explained & Optimization](https://mlfromscratch.com/neural-networks-explained/)
+
+**activation function reside in hidden layer (typically identity) and output layer**
+
+Why activation function?
+
+- introduce non-linearity into neural network
+
+![](https://mlfromscratch.com/content/images/2019/12/activationfunctions.2019-08-01-16_58_53.gif)
+
+
+
+
+
+
+
+[How Deep Neural Networks Work](https://www.youtube.com/watch?v=ILsA4nyG7I0)
+
+
+
+[3Blue1Brown: Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 
 

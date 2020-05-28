@@ -60,7 +60,9 @@ $$
 
 https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427#Question_4.1
 
-![](http://cs231n.github.io/assets/svmvssoftmax.png)
+cs231n
+
+![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
 
 
 
