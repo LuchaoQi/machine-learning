@@ -1,4 +1,20 @@
-RNN to seq2seq
+
+
+https://cs224d.stanford.edu/lecture_notes/notes4.pdf
+
+
+
+
+
+
+
+![](https://i.loli.net/2020/05/28/mDG1Zpqd4z2rtRU.png)
+
+
+
+
+
+
 
 ### RNN cheat sheet
 

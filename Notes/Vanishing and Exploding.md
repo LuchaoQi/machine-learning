@@ -8,6 +8,16 @@ https://www.simplilearn.com/tutorials/deep-learning-tutorial/deep-learning-inter
 
 
 
+
+
+https://cs224d.stanford.edu/lecture_notes/notes4.pdf
+
+![](https://i.loli.net/2020/05/28/mY6ZKr1Af8IhDyE.png)
+
+
+
+
+
 ## Vanishing
 
 Basics
