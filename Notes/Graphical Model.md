@@ -2,7 +2,7 @@
 
 
 
-### Graphical lasso
+## Graphical lasso
 
 http://ir.hit.edu.cn/~jguo/docs/notes/report-in-princeton-research.pdf
 
@@ -16,7 +16,7 @@ http://fieryfish.github.io/blog/2014/07/17/ggm/
 
 
 
-#### concentration matrix/precision matrix = inverse of covariance matrix
+### concentration matrix/precision matrix = inverse of covariance matrix
 
 http://www.princeton.edu/~yc5/ele538b_sparsity/lectures/graphical_lasso.pdf
 
@@ -40,23 +40,23 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
-#### When determinant close to 0
+### When determinant close to 0
 
-check collinearity
+* check collinearity
 
 https://stats.stackexchange.com/a/30466
 
-USE LASSO REGULARIZATION
+* USE LASSO REGULARIZATION
 
 https://www.ncbi.nlm.nih.gov/pubmed/28489411
 
 https://github.com/huayingfang/gCoda
 
-==use glasso object in qgraph function==
+==R: can use glasso object in qgraph function==
 
 
 
-#### Penalty term problem
+### Penalty term problem
 
 the regularizer acts like sigmoid function
 

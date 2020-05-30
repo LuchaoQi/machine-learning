@@ -1,5 +1,21 @@
 [TOC]
 
+### CNN for time-series data
+
+
+
+[What is the difference between Conv1D and Conv2D?](https://stats.stackexchange.com/questions/295397/what-is-the-difference-between-conv1d-and-conv2d)
+
+
+
+![image-20200529114808787](https://i.loli.net/2020/05/29/IPxuJ43oOB8nXZA.png)
+
+
+
+
+
+
+
 #### ==[Best material I've ever seen](https://poloclub.github.io/cnn-explainer/)==
 
 
@@ -15,6 +31,8 @@
 
 
 https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
+
+
 
 #### how to set up hyperparameters in fully connected layer?
 
@@ -70,7 +88,7 @@ return(output)
 
 
 
-### Notes
+#### Notes
 
 
 
@@ -142,9 +160,9 @@ https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-n
 
 **Fully Connected (FC)**
 
-![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/fully-connected.png)
 
 
+![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/fully-connected-ltr.png?32caf9e07c79d652faa292812579d063)
 
 
 
