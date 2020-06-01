@@ -1,6 +1,6 @@
 [TOC]
 
-### Improvement
+## Performance Improvement
 
 Labs session lab5~6
 
@@ -8,29 +8,45 @@ https://piazza.com/jhu/spring2020/cs482682/resources
 
 
 
-### Resources
+## Resources
 
 
 
-#### PyTorch Tutorial: How to Develop Deep Learning Models with Python
-
-https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
 
 
+### [==【精简教程版】100行代码入手天池CV赛事==](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247498124&idx=1&sn=690c7ffa6a072571957eb09ca38afe2a&chksm=e87328c1df04a1d76ec4f22a9424ccddafe85d1afc911a5292e2acdb3db580553023e54ad014&mpshare=1&scene=1&srcid=&sharer_sharetime=1590974551563&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=c962dccfb7ec1af3a5dc9ca7a38b448aa15222b0e75e42df1c098e9c2ed7105569bb9ee9c756ffa1223c17c7af2961d03126bf3f3aaa646ff1ab9c61c5474025e59a8798e33079bdcba7018af6f151fd&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A5Zn62t%2FuoCW3Ma46vYh7mw%3D&pass_ticket=iG9tmff0K9vrlZNPCJQCMy97vaw3HPcOV0OlQSjmsNy2W78ih6CnzVa9oWE87ruE)
 
-#### PyTorch Common structure
-
-https://colab.research.google.com/drive/1jxUPzMsAkBboHMQtGyfv5M5c7hU8Ss2c#scrollTo=oQ6isf-kI2HD
+天池这个例子提供了很好的pipeline, 包括了怎么自定义数据集和注释
 
 
 
-#### ==my own project CIFAR-100==
+### ==my own project CIFAR-100==
 
 https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9
 
 
 
-#### other examples
+
+
+### PyTorch Tutorial: How to Develop Deep Learning Models with Python
+
+https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
+
+
+
+### PyTorch Common structure
+
+https://colab.research.google.com/drive/1jxUPzMsAkBboHMQtGyfv5M5c7hU8Ss2c#scrollTo=oQ6isf-kI2HD
+
+
+
+
+
+
+
+### other examples
+
+
 
 [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
 
@@ -38,13 +54,13 @@ https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9
 
 [Awesome-pytorch-list-CNVersion](https://github.com/xavier-zy/Awesome-pytorch-list-CNVersion)
 
-==A collection of various deep learning architectures, models, and tips==
+#### ==A collection of various deep learning architectures, models, and tips==
 
 https://github.com/rasbt/deeplearning-models
 
 
 
-#### Miscellaneous
+### Miscellaneous
 
 
 
@@ -62,7 +78,7 @@ https://deeplizard.com/learn/video/v5cngxo4mIg
 
 
 
-### Debugging
+### Debugging problem
 
 
 

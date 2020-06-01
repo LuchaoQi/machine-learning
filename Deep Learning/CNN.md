@@ -1,6 +1,14 @@
 [TOC]
 
-### CNN for time-series data
+### [Where should I place dropout layers in a neural network?](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)
+
+> In the original paper that proposed dropout layers, by [Hinton (2012)](https://arxiv.org/pdf/1207.0580.pdf), dropout (with p=0.5) was used on each of the fully connected (dense) layers before the output; it was not used on the convolutional layers. This became the most commonly used configuration.
+>
+> [More recent research](http://mipal.snu.ac.kr/images/1/16/Dropout_ACCV2016.pdf) has shown some value in applying dropout also to convolutional layers, although at much lower levels: p=0.1 or 0.2. Dropout was used after the activation function of each convolutional layer: CONV->RELU->DROP.
+
+
+
+## CNN for time-series data
 
 
 
@@ -16,15 +24,11 @@
 
 
 
-#### ==[Best material I've ever seen](https://poloclub.github.io/cnn-explainer/)==
+## Coding
 
 
 
-### Coding
-
-
-
-#### PyTorch DL hw google colab 
+### PyTorch DL hw google colab 
 
 [Application of CNN in CIFAR-100](https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9?usp=sharing)
 
@@ -34,7 +38,7 @@ https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
 
 
 
-#### how to set up hyperparameters in fully connected layer?
+### how to set up hyperparameters in fully connected layer?
 
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
@@ -88,7 +92,7 @@ return(output)
 
 
 
-#### Notes
+### Notes
 
 
 
@@ -142,7 +146,11 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 
 
 
-### Intro
+## Intro
+
+
+
+### ==[Best material I've ever seen](https://poloclub.github.io/cnn-explainer/)==
 
 
 
@@ -188,7 +196,7 @@ Backpropagation
 
 ![](https://i.loli.net/2019/12/23/6V5Se8NXu9fcK1O.png)
 
-#### Pros
+### Pros
 
 Applications: Images/Sound/Text
 
@@ -206,7 +214,7 @@ Applications: Images/Sound/Text
 
 
 
-#### Cons
+### Cons
 
 Data must be "spatial".
 
@@ -224,7 +232,7 @@ If your data is a customer data with customers in rows, it's okay to exchange se
 
 
 
-### Resources
+## Resources
 
 
 
