@@ -75,10 +75,25 @@ $vectors
 
 
 
-==i.e. if you want to know the rotated data on PC1==
+==i.e. if you want to know the rotated data==
 
 ```R
-res_PC1 = d * t( prcomp(cov(d))$rotations['PC1']  )
+prcomp(d)$x 
+
+# each row represents rotated represents on new coordinates(PC1,PC2)
+# e.g. (-1,-2) is represented as
+#  -2.1213203 * PC1    + 0.7071068 * PC2
+
+            PC1        PC2
+[1,] -2.1213203  0.7071068
+[2,] -0.7071068 -0.7071068
+[3,]  0.0000000  0.0000000
+[4,]  2.1213203  0.7071068
+[5,]  0.7071068 -0.7071068
+
+
+# rotated data on PC1
+res_PC1 = d %*% ( prcomp(d)$rotation[,'PC1'])
 ```
 
 
