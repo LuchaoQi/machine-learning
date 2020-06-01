@@ -1,4 +1,4 @@
-# Random Forest
+[TOC]
 
 ## Resources
 
@@ -26,7 +26,7 @@
 
 
 
-**Bootstrap**
+**Bootstrap/ Bagging**
 
 **Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of decision trees so we can get a random forest**
 
@@ -72,8 +72,6 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
 
-
-
 ![image.png](https://i.loli.net/2020/02/27/5mX6upNeiMvtEaZ.png)
 
 
@@ -102,6 +100,8 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
   
   > **Robustness to Outliers** – Random Forests use trees, which split the data into groups (repeatedly) according to whether a case is above or below a selected threshold value on a selected feature variable.  It doesn’t matter how much higher it is, for instance, just if it’s higher.  Thus, *input outliers* don’t have extra influence, like they do in regression, for instance, where they can become known as leverage points.  Also, *output outliers* will affect the estimate of the leaf node they are in, but not the values of any other leaf node.  Again, this is different from other methods – ones John Elder calls “consensus” methods, like regression or neural networks – where every data point affects the estimate at every other data point.  Instead, tree methods are “contributory” methods, where only local points – those in the same leaf node – affect a given point’s estimate.  So output outliers have a “quarantined” effect. Thus, outliers that would wildly distort the accuracy of some algorithms have less of an effect on the prediction of a Random Forest. ([Jump Start your Modeling with Random Forests](https://www.elderresearch.com/blog/modeling-with-random-forests))
 
+
+
 ## Cons
 
-* Overfitting in case of noisy data
+* Prone to overfitting in case of noisy data
