@@ -36,9 +36,9 @@ From <https://towardsdatascience.com/explaining-feature-importance-by-example-of
 
  
 
-If one ROI increase there must be some other ROIs decrease
+In compositional analysis,  increase in one ROI means that there must be some other ROIs decrease
 
-but this doesn't necessarily mean linear relationship between two variables.
+but this doesn't necessarily indicate linear relationship between those two variables (monotonic).
 
 因为一个ROI增加不一定是另外一个ROI线性减少导致的, 可能是好几个ROI一起减少 (monotonic)
 

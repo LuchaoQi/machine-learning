@@ -1,4 +1,20 @@
+Bagging
+
+​	construct weak learners by bootstrap for low variance
+
+Boosting
+
+​	reweight weak learners for high accuracy
+
+
+
+
+
+
+
 https://blog.csdn.net/u013709270/article/details/72553282
+
+
 
 > Bagging和Boosting的区别：
 >
@@ -25,6 +41,8 @@ https://blog.csdn.net/u013709270/article/details/72553282
 > Bagging：各个预测函数可以并行生成
 >
 > Boosting：各个预测函数只能顺序生成，因为后一个模型参数需要前一轮模型的结果。
+
+
 
 
 

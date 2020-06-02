@@ -1,6 +1,10 @@
 
 
-https://cs224d.stanford.edu/lecture_notes/notes4.pdf
+[toc]
+
+
+
+### https://cs224d.stanford.edu/lecture_notes/notes4.pdf
 
 
 
