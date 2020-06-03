@@ -46,6 +46,12 @@ $x^{<t>}$ is the input at time t
 
 ### Code Examples
 
+
+
+[R Interface to the Keras Deep Learning Library](https://cran.r-project.org/web/packages/kerasR/vignettes/introduction.html)
+
+
+
 [RNN(Recurrent Neural Network) Tutorial: TensorFlow Example](https://www.guru99.com/rnn-tutorial.html)
 
 

@@ -8,7 +8,11 @@
 
 
 
-## CNN for time-series data
+### CNN for time-series data
+
+
+
+Use conv_1d for time-series data, check NHAENS project for code
 
 
 
@@ -26,9 +30,94 @@
 
 ## Coding
 
+### Keras NHANES
+
+https://datascience.stackexchange.com/a/56408
+
+```R
+rm(list = ls())
+library(keras)
+library(caret)
+load('MINdata.rda')
 
 
-### ==[PyTorch.md file](https://github.com/LuchaoQi/Data-Science/blob/master/Deep%20Learning/PyTorch.md)==
+MINdata_1440 = as.data.frame(lapply(MINdata_1440, function (x) if (is.factor(x)) unclass(x) %>% as.numeric else x))
+
+# MINdata_10080 = MINdata_10080 %>% select(-Race,-Gender,-RIDAGEYR)
+
+set.seed(000)
+trainIdx = sample(c(TRUE, FALSE), dim(MINdata_1440)[1], replace = TRUE, prob = c(.7, .3))
+
+# y = log(MINdata$BMI + 1)
+y = MINdata_1440$BMI
+x = MINdata_1440 %>% select(-BMI) %>% select(-SEQN)
+
+ytrain = y[trainIdx]
+xtrain = x[trainIdx, ] %>% scale()
+
+mns = attr(xtrain, "scaled:center")
+sds = attr(xtrain, "scaled:scale")
+
+xtest = x[!trainIdx, ] %>% scale(center = mns, scale = sds)
+ytest = y[!trainIdx]
+
+
+
+# we are using univariate time series data so number of feature is 1
+# for multivariate data e.g. activity signal on axis 1, axis 2, axis 3, then number of feature is 3 
+xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
+xtest = array(xtest, dim = c(dim(xtest)[1], dim(xtest)[2], 1))
+
+model_CNN = keras_model_sequential() %>%
+  layer_conv_1d(filters = 2^8, kernel_size = 2,
+               input_shape = c(dim(xtrain)[2:3]), activation = "relu") %>%
+  layer_max_pooling_1d(pool_size = 2) %>%
+  layer_conv_1d(filters = 2^4, kernel_size = 2, activation = "relu") %>%
+  layer_max_pooling_1d(pool_size = 2) %>%
+  layer_flatten() %>%
+  layer_dense(units = 2^4, activation = "relu") %>%
+  # layer_dropout(0.5) %>%
+  layer_dense(units = 1, activation = "linear")
+
+
+model_CNN %>% compile(
+ loss = "mse",
+ optimizer = "adam",
+ metrics = list("mean_absolute_error")
+)
+
+history = model_CNN %>% fit(
+ xtrain,
+ ytrain,
+ epochs = 20,
+ validation_split = 0.2,
+ # batch_size = 100,
+ verbose = 1
+)
+
+yPred = model_CNN %>% predict(xtest)
+```
+
+```{r}
+model_CNN %>% save_model_hdf5("model_CNN.h5")
+model_CNN <- load_model_hdf5("model_CNN.h5")
+```
+
+```{r}
+plot(yPred, ytest)
+
+mean((yPred-ytest)^2)
+
+cor(yPred,ytest)
+
+summary(model_CNN)
+```
+
+
+
+
+
+### [My notes: PyTorch.md file](https://github.com/LuchaoQi/Data-Science/blob/master/Deep%20Learning/PyTorch.md)
 
 
 
