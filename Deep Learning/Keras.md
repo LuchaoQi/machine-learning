@@ -29,8 +29,9 @@ filters = 3, 6, 10
 # multivariate time-series: number of moniter
 # RGB image: 3
 
+# CNN example in time-series data
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
-# in time-series data, tstep is usually set to 1
+# RNN example in time-series data, tstep is usually set to 1
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, 1))
 
 # when training in neural network model

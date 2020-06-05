@@ -33,14 +33,15 @@ https://stackoverflow.com/a/40801571/11964524
 ### R code results interpretation
 
 ```R
-prcomp(cov(d))
-
+d
      [,1] [,2]
 [1,]   -1   -2
 [2,]   -1    0
 [3,]    0    0
 [4,]    2    1
 [5,]    0    1
+
+prcomp(d)
 Standard deviations (1, .., p=2):
 [1] 1.5811388 0.7071068
 
