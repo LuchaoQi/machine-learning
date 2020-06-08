@@ -10,6 +10,36 @@ PCA
 
 ## Notes
 
+
+
+### Loadings
+
+https://stats.stackexchange.com/a/143949
+
+
+
+$$
+\text { Loadings }=\text { Eigenvectors } \cdot \sqrt{\text { Eigenvalues }}
+$$
+
+
+
+raw data %*% loadings = rotated data
+
+```R
+loadings = prcomp(d)$rotation[,'PC1']
+PC1_scores = d %*% loadings
+PC1_scores = prcomp(d)$x[,'PC1']
+```
+
+
+
+
+
+
+
+
+
 ### [PCA on a categorical variable?](https://piazza.com/class/k1zer6tg6s04bb?cid=443)
 
 > Unfortunately, no. PCA is really only appropriate for real-valued features. Even ordinal features (categories with order, e.g. first, second, third, ...) shouldn't use PCA because there is a "distance" implied. Only use PCA for xi∈R.
@@ -30,77 +60,6 @@ https://stackoverflow.com/a/40801571/11964524
 >
 > So yes, you can use PCA. And yes, you get an output. It even is a least-squared output - it's not as if PCA would segfault on such data. It works, but it is just much less *meaningful* than you'd want it to be; and supposedly less meaningful than e.g. frequent pattern mining.
 
-### R code results interpretation
-
-```R
-d
-     [,1] [,2]
-[1,]   -1   -2
-[2,]   -1    0
-[3,]    0    0
-[4,]    2    1
-[5,]    0    1
-
-prcomp(d)
-Standard deviations (1, .., p=2):
-[1] 1.5811388 0.7071068
-
-Rotation (n x k) = (2 x 2):
-           PC1        PC2
-[1,] 0.7071068  0.7071068
-[2,] 0.7071068 -0.7071068
-```
-
-So you can see `Standard deviations` are the list of square root of eigenvalues
-
-and `Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
-
-```R
-d_cov = cov(d)
-d_cov
-eigen(d_cov)
-
-
-     [,1] [,2]
-[1,]  1.5  1.0
-[2,]  1.0  1.5
-eigen() decomposition
-$values
-[1] 2.5 0.5
-
-$vectors
-          [,1]       [,2]
-[1,] 0.7071068 -0.7071068
-[2,] 0.7071068  0.7071068
-```
-
-
-
-==i.e. if you want to know the rotated data==
-
-```R
-prcomp(d)$x 
-
-# each row represents rotated represents on new coordinates(PC1,PC2)
-# e.g. (-1,-2) is represented as
-#  -2.1213203 * PC1    + 0.7071068 * PC2
-
-            PC1        PC2
-[1,] -2.1213203  0.7071068
-[2,] -0.7071068 -0.7071068
-[3,]  0.0000000  0.0000000
-[4,]  2.1213203  0.7071068
-[5,]  0.7071068 -0.7071068
-
-
-# rotated data on PC1
-res_PC1 = d %*% ( prcomp(d)$rotation[,'PC1'])
-```
-
-
-
-![image.png](https://i.loli.net/2020/04/01/8ukylDsUcLtBITV.png)
-
 
 
 ### Does mean centering or feature scaling affect a Principal Component Analysis?
@@ -115,9 +74,13 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
 
-### why we use covariance matrix and why we use eigenpairs?
 
-#### Definition of covariance matrix
+
+
+
+## Intuition: why we use covariance matrix and why we use eigenpairs?
+
+**Definition of covariance matrix**
 
 
 
@@ -129,6 +92,8 @@ https://en.wikipedia.org/wiki/Covariance_matrix#Definition
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/83bec85f5e2cab5d3406677dd806e554a442331f)
 
+
+
 **Projected distance**
 
 $\vec{a}*\vec{b} = \vert \vec{a}\vert * \vert \vec{b}\vert * cos\theta$
@@ -139,27 +104,123 @@ which is equal to  $\vec{a}^T * \vec{b}$
 
 
 
-
-
 Note we denote $S$ as covariance matrix
 
-![Intuition.png](https://i.loli.net/2020/02/04/bIoVxSOyY9CeNKP.png)
 
-### Loadings vs eigenvectors
 
-https://stats.stackexchange.com/a/143949
+**After centering the data, we want to maximize the projected variance**
+
+Assuming the unit projected direction/vector is $u_1$
+
 
 
 
 $$
-\text { Loadings }=\text { Eigenvectors } \cdot \sqrt{\text { Eigenvalues }}
+\begin{aligned} J &=\frac{1}{N} \sum_{i=1}^{N}\left(\left(x_{i}-\bar{x}\right)^{\top} u_{1}\right)^{2} \quad \text { s.t. }\left|u_{1}\right|=1 \text { s.t. } u_{1}^{\top} u_{1}=1 \\ &=\sum_{i=1}^{N} \frac{1}{n} u_{1}^{\top}\left(x_{i}-\bar{x}\right) \cdot\left(x_{i}-\bar{x}\right)^{\top} u_{1} \\ &=u_{1}^{\top}\left(\sum_{i=1}^{N} \frac{1}{n}\left(x_{i}-\bar{x}\right) \cdot\left(x_{i}-\bar{x}\right)^{\top}\right) u_{1} \\ &=u_{i}^{\top} \cdot s \cdot u_{1} \end{aligned}
 $$
+
+
+
+
+so we need to solve an optimization problem
+
+
+$$
+\left\{\begin{array}{l}{\hat{u}_{1}=\arg \max u_{1}^{\top} \cdot s \cdot u_{1}} \\ {\text { s.t. } u_{1}^{\top} u=1}\end{array}\right.
+$$
+
+
+use Lagrange equation
+
+$$
+\begin{array}{c}{\mathcal{L}\left(u_{1}, \lambda\right)=u_{1}^{\top} s u_{1}+\lambda\left(1-u_{1}^{\top} u\right)} \\ {\frac{\partial \mathcal{L}}{\partial u_{1}}=2 s \cdot u_{1}-\lambda \cdot 2 u_{1}=0} \\ {S u_{1}=\lambda u_{1}}\end{array}
+$$
+DONE! $u_1$ is eigenvector and $\lambda$ is eigenvalue
+
+
 
 
 
 ## Example
 
-![2020-03-31_153826.png](https://i.loli.net/2020/04/01/ZN8SwyXPhOUaB2W.png)
+
+
+centering the data before PCA
+
+
+
+e.g. we have five 2-D data points after centering
+
+
+
+$$
+A = \begin{pmatrix}
+-1 & -1 & 0 & 2 & 0\\
+-2 & 0 & 0 & 1 & 1
+\end{pmatrix}
+$$
+
+
+then we calculate covariance matrix
+
+
+$$
+\begin{align*}
+C = \frac{1}{5} * \begin{pmatrix}-1 & -1 & 0 & 2 & 0 \\
+-2 & 0  & 0 & 1 & 1\end{pmatrix} * \begin{pmatrix}-1 & -2 \\ -1 & 0 \\ 0 & 0 \\ 2 & 1 \\ 0 & 1\end{pmatrix} = \begin{pmatrix} \frac{6}{5} & \frac{4}{5} \\ \frac{4}{5} & \frac{6}{5}\end{pmatrix}
+\end{align*}
+$$
+
+
+
+eigenvalues/eigenvectors
+
+
+$$
+\begin{array}{c}{\lambda_{1}=2, \lambda_{2}=2 / 5} \\ {c_{1}\left(\begin{array}{c}{1} \\ {1}\end{array}\right), c_{2}\left(\begin{array}{c}{-1} \\ {1}\end{array}\right)}\end{array}
+$$
+
+
+sort the eigenvectors based on eigenvalues and cast them into a new matrix so eigenvectors in row
+$$
+P=\left(\begin{array}{cc}{1 } & {1 } \\ {-1} & {1 }\end{array}\right)
+$$
+
+
+standardized eigenvector matrix
+
+
+$$
+P=\left(\begin{array}{cc}{1 / \sqrt{2}} & {1 / \sqrt{2}} \\ {-1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)
+$$
+
+
+which has the following feature
+
+
+$$
+P C P^{\top}=\left(\begin{array}{cc}{1 / \sqrt{2}} & {1 / \sqrt{2}} \\ {-1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)\left(\begin{array}{cc}{6 / 5} & {4 / 5} \\ {4 / 5} & {6 / 5}\end{array}\right)\left(\begin{array}{cc}{1 / \sqrt{2}} & {-1 / \sqrt{2}} \\ {1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)=\left(\begin{array}{cc}{2} & {0} \\ {0} & {2 / 5}\end{array}\right)
+$$
+
+use the first line (`first eigenvector/largest eigenvalue`)
+
+project the original data points into new coordinate
+$$
+Y=\left(\begin{array}{cc}{1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)\left(\begin{array}{ccccc}{-1} & {-1} & {0} & {2} & {0} \\ {-2} & {0} & {0} & {1} & {1}\end{array}\right)=\left(\begin{array}{cccc}{-3 / \sqrt{2}} & {-1 / \sqrt{2}} & {0} & {3 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)
+$$
+P.S. 我发现很多网上的例子都不自己算一下就直接复制 像上面计算Y简单的矩阵运算都是错的
+
+DONE! the projected 1-D points are shown as below
+
+
+
+![](https://i.loli.net/2020/06/05/Zhzjl2tHmn43vEU.png)
+
+
+
+
+
+
 
 ## Code
 
@@ -192,25 +253,29 @@ Rotation (n x k) = (2 x 2):
 ```
 
 > sdev	
-> the standard deviations of the principal components (i.e., the square roots of the eigenvalues of the covariance/correlation matrix, though the calculation is actually done with the singular values of the data matrix).
+> the standard deviations of the principal components (i.e., the square roots of the eigenvalues of the covariance/correlation matrix, though the calculation is actually done with the singular values of the data matrix). 
+>
+> ```R
+> > eigen(d_cov)$values ^ 0.5
+> [1] 1.5811388 0.7071068
+> ```
 
 
 
-Verification:
+So you can see `Standard deviations` are the list of square root of eigenvalues
+
+and `Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
 
 ```R
-# covariance matrix
 d_cov = cov(d)
 d_cov
 eigen(d_cov)
-```
 
 
-
-```R
      [,1] [,2]
 [1,]  1.5  1.0
 [2,]  1.0  1.5
+
 eigen() decomposition
 $values
 [1] 2.5 0.5
@@ -223,6 +288,35 @@ $vectors
 
 
 
+==i.e. if you want to know the rotated data==
+
+
+
+```R
+prcomp(d)$x 
+
+# each row represents rotated represents on new coordinates(PC1,PC2)
+# e.g. (-1,-2) is represented as
+#  -2.1213203 * PC1    + 0.7071068 * PC2
+
+            PC1        PC2
+[1,] -2.1213203  0.7071068
+[2,] -0.7071068 -0.7071068
+[3,]  0.0000000  0.0000000
+[4,]  2.1213203  0.7071068
+[5,]  0.7071068 -0.7071068
+
+
+# rotated data on PC1
+res_PC1 = d %*% ( prcomp(d)$rotation[,'PC1'])
+
+t(t(d) - rowMeans(t(d))) %*% eigen(cov(d))$vectors
+```
+
+
+
+
+
 ==Note it is different from the Example b/c  we are using formula==
 
 $cov(x,y) = \frac{1}{N-1} Z^TZ$
@@ -232,6 +326,10 @@ instead of
 $cov(x,y) = \frac{1}{N} Z^TZ$
 
 So in the example it is $1/5 * Z^TZ$ while in code it is $1/4 * Z^TZ$
+
+> ?prcomp
+>
+> Unlike princomp, variances are computed with the usual divisor N - 1.
 
 
 

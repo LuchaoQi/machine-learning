@@ -4,7 +4,11 @@
 
 
 
-### https://cs224d.stanford.edu/lecture_notes/notes4.pdf
+
+
+
+
+## https://cs224d.stanford.edu/lecture_notes/notes4.pdf
 
 
 
@@ -20,7 +24,7 @@
 
 
 
-### RNN cheat sheet
+## RNN cheat sheet
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
 
@@ -38,13 +42,23 @@ $x^{<t>}$ is the input at time t
 
 
 
+![](https://stanford.edu/~shervine/teaching/cs-230/illustrations/description-block-rnn-ltr.png?74e25518f882f8758439bcb3637715e5)
+
 
 
 ![](https://i.loli.net/2020/05/23/Vo4SYDRjGa1rEPJ.png)
 
 
 
-### Code Examples
+## Code Examples
+
+
+
+https://victorzhou.com/blog/intro-to-rnns/
+
+https://repl.it/@vzhou842/A-RNN-from-scratch#main.py
+
+
 
 
 

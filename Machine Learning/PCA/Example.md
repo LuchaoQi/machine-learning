@@ -61,10 +61,6 @@ use the first line (`first eigenvector/largest eigenvalue`)
 
 project the original data points into new coordinate
 $$
-Y = \begin{pmatrix}-1 & -2 \\-1 & 0 \\0 & 0 \\2 & 1 \\0 & 1\end{pmatrix}\left( \dfrac {1}{\sqrt {2}}\dfrac {1}{\sqrt {2}}\right) = \begin{pmatrix}-3/\sqrt {2} \\-1/\sqrt {2} \\0 \\3\sqrt {2} \\1/\sqrt {2}\end{pmatrix}
-$$
-which is same as the equation below
-$$
 Y=\left(\begin{array}{cc}{1 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)\left(\begin{array}{ccccc}{-1} & {-1} & {0} & {2} & {0} \\ {-2} & {0} & {0} & {1} & {1}\end{array}\right)=\left(\begin{array}{cccc}{-3 / \sqrt{2}} & {-1 / \sqrt{2}} & {0} & {3 / \sqrt{2}} & {1 / \sqrt{2}}\end{array}\right)
 $$
 DONE! the projected 1-D points are shown as below

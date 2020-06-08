@@ -12,4 +12,9 @@ d_cov = cov(d)
 d_cov
 eigen(d_cov)
 ```
+```{r}
+library(factoextra)
+eig.val <- get_eigenvalue(pca_res)
+eig.val
+```
 

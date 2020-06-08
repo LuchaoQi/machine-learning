@@ -1,5 +1,13 @@
 [toc]
 
+## Python
+
+### Save and Restore
+
+https://www.easy-tensorflow.com/tf-tutorials/basics/save-and-restore
+
+https://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/
+
 
 
 
