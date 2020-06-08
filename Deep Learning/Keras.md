@@ -1,18 +1,18 @@
 [toc]
 
-## Python
-
-### Save and Restore
-
-https://www.easy-tensorflow.com/tf-tutorials/basics/save-and-restore
-
-https://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/
-
 
 
 
 
 ## R
+
+
+
+
+
+
+
+### filters & input_shape
 
 
 
@@ -59,7 +59,11 @@ https://keras.io/api/layers/convolution_layers/convolution2d/
 
 
 
+
+
 ### ==[Official Keras Examples](https://keras.rstudio.com/articles/examples/index.html)==
+
+
 
 
 
@@ -84,4 +88,12 @@ https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_
 
 
 
+
+## Python
+
+### Save and Restore
+
+https://www.easy-tensorflow.com/tf-tutorials/basics/save-and-restore
+
+https://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/
 
