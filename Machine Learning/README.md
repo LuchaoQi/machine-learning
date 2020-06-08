@@ -46,11 +46,11 @@
 
 
 
-> Currently, there are thousands of resources online to introduce Machine Learning. This repo contains some awesome resources I personally suggest and summaries of different models for review purpose.
->
-> I would suggest looking at [statquest](https://statquest.org/video-index/) at first to have general understandings of some basic algorithms.
->
-> **STATQUEST!!!**
+[shuhuai008](https://space.bilibili.com/97068901)
+
+
+
+[STATQUEST](https://statquest.org/video-index/)
 
 
 

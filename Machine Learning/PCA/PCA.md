@@ -28,7 +28,7 @@ raw data %*% loadings = rotated data
 
 ```R
 loadings = prcomp(d)$rotation[,'PC1']
-PC1_scores = d %*% loadings
+PC1_scores = d %*% ( prcomp(d)$rotation[,'PC1']) # d %*% loadings
 PC1_scores = prcomp(d)$x[,'PC1']
 ```
 
@@ -252,19 +252,25 @@ Rotation (n x k) = (2 x 2):
 [2,] 0.7071068 -0.7071068
 ```
 
-> sdev	
-> the standard deviations of the principal components (i.e., the square roots of the eigenvalues of the covariance/correlation matrix, though the calculation is actually done with the singular values of the data matrix). 
->
-> ```R
-> > eigen(d_cov)$values ^ 0.5
-> [1] 1.5811388 0.7071068
-> ```
+
+
+`Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
+
+
+
+sdev	
+the standard deviations of the principal components (i.e., the square roots of the eigenvalues of the covariance/correlation matrix, though the calculation is actually done with the singular values of the data matrix). 
+
+```R
+> eigen(d_cov)$values ^ 0.5
+[1] 1.5811388 0.7071068
+```
 
 
 
 So you can see `Standard deviations` are the list of square root of eigenvalues
 
-and `Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
+
 
 ```R
 d_cov = cov(d)
