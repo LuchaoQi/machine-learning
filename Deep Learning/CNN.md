@@ -1,10 +1,18 @@
 [TOC]
 
-### [Where should I place dropout layers in a neural network?](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)
+### [Deep Learning Multi-Input CNN](https://stackoverflow.com/questions/44394056/deep-learning-multi-input-cnn)
 
-> In the original paper that proposed dropout layers, by [Hinton (2012)](https://arxiv.org/pdf/1207.0580.pdf), dropout (with p=0.5) was used on each of the fully connected (dense) layers before the output; it was not used on the convolutional layers. This became the most commonly used configuration.
->
-> [More recent research](http://mipal.snu.ac.kr/images/1/16/Dropout_ACCV2016.pdf) has shown some value in applying dropout also to convolutional layers, although at much lower levels: p=0.1 or 0.2. Dropout was used after the activation function of each convolutional layer: CONV->RELU->DROP.
+
+
+![](https://i.stack.imgur.com/pchUR.png)
+
+
+
+https://keras.io/guides/functional_api/
+
+
+
+
 
 
 
@@ -21,6 +29,18 @@ Use conv_1d for time-series data, check NHAENS project for code
 
 
 ![image-20200529114808787](https://i.loli.net/2020/05/29/IPxuJ43oOB8nXZA.png)
+
+
+
+### [Where should I place dropout layers in a neural network?](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)
+
+> In the original paper that proposed dropout layers, by [Hinton (2012)](https://arxiv.org/pdf/1207.0580.pdf), dropout (with p=0.5) was used on each of the fully connected (dense) layers before the output; it was not used on the convolutional layers. This became the most commonly used configuration.
+>
+> [More recent research](http://mipal.snu.ac.kr/images/1/16/Dropout_ACCV2016.pdf) has shown some value in applying dropout also to convolutional layers, although at much lower levels: p=0.1 or 0.2. Dropout was used after the activation function of each convolutional layer: CONV->RELU->DROP.
+
+
+
+
 
 
 
