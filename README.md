@@ -1,4 +1,12 @@
+[toc]
 
+### Posts
+
+
+
+[Yellowbrick: Machine Learning Visualization that extend the scikit-learn API](https://www.scikit-yb.org/en/latest/index.html#yellowbrick-machine-learning-visualization)
+
+[大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
 
 
@@ -41,8 +49,6 @@ https://lavanya.ai/
 
 
 [Some starred kaggle notebooks](https://www.kaggle.com/notebooks?sortBy=dateRun&group=profile&pageSize=20)
-
-
 
 
 

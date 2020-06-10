@@ -10,12 +10,6 @@ https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-
 
 
 
-
-
-
-
-## Coding
-
 ### [How to Reshape Input Data for Long Short-Term Memory Networks in Keras](https://machinelearningmastery.com/reshape-input-data-long-short-term-memory-networks-keras/)
 
 
@@ -49,6 +43,12 @@ http://rwanjohi.rbind.io/2018/04/05/time-series-forecasting-using-lstm-in-r/
 
 
 ![image-20200602190136694](https://i.loli.net/2020/06/03/5vuL2BaTJDIReqo.png)
+
+
+
+
+
+## Coding
 
 
 

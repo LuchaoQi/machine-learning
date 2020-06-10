@@ -182,17 +182,9 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 
-
-
-
-
 ==A collection of various deep learning architectures, models, and tips==
 
 https://github.com/rasbt/deeplearning-models
-
-
-
-
 
 
 

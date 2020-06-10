@@ -50,6 +50,14 @@ Use conv_1d for time-series data, check NHAENS project for code
 
 ## Coding
 
+
+
+### [数据读取与数据扩增方法](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247499297&idx=1&sn=d75be333eb3ade728d757f139e8febf2&chksm=e8732f6cdf04a67a92ad4cedfba5931b30c7dd8b6046f094ebce7cf72fbc7ecc32a4a65581a5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534131483&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178c3c9110dfe3f1ba193e9658dd47fc5cbe3d3459735d71a00de1d59814528288e2008f7d0bfb077c4439695253239315e88d5a706c2b74b294af6620c70156ac1e545b769a6f02dec&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7BATqkYwN2iYUX5T2vh2aw%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
+
+
+
+
+
 ### Keras NHANES
 
 https://datascience.stackexchange.com/a/56408
@@ -165,17 +173,27 @@ summary(model_CNN)
 
 
 
-### [My notes: PyTorch.md file](https://github.com/LuchaoQi/Data-Science/blob/master/Deep%20Learning/PyTorch.md)
-
-
-
-### PyTorch DL hw google colab 
+### PyTorch DL hw CIFAR-100 google colab 
 
 [Application of CNN in CIFAR-100](https://colab.research.google.com/drive/1xLKq2DW8EF6pMZFtNCE09lKiuatYKIq9?usp=sharing)
 
 
 
 https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
+
+
+
+
+
+
+
+### [My notes: PyTorch.md file](https://github.com/LuchaoQi/Data-Science/blob/master/Deep%20Learning/PyTorch.md)
+
+
+
+
+
+
 
 
 
