@@ -10,6 +10,17 @@
 
 
 
+### layer_reshape can be used for further concatenation
+
+
+
+```R
+covariates_output = covariates_input %>%
+  layer_reshape(target_shape = 3)
+```
+
+
+
 
 
 ### filters & input_shape
@@ -39,8 +50,9 @@ filters = 3, 6, 10
 
 # CNN example in time-series data
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
-# RNN example in time-series data, tstep is usually set to 1
+# RNN example in time-series data, tstep means how many minutes or hours does your data have i.e. ncol(data)
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, 1))
+xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
 
 # when training in neural network model
 # dont forget c()
@@ -58,6 +70,14 @@ https://keras.io/api/layers/convolution_layers/convolution2d/
 ### [Tutorial: Save and Restore Models](https://tensorflow.rstudio.com/tutorials/beginners/basic-ml/tutorial_save_and_restore/)
 
 
+
+
+
+### [Classifying Time Series with Keras in R : A Step-by-Step Example](https://letyourmoneygrow.com/2018/05/27/classifying-time-series-with-keras-in-r-a-step-by-step-example/)
+
+this tutorial includes
+
+conv / lstm
 
 
 
