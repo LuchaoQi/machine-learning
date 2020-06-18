@@ -8,7 +8,48 @@ PCA
 
 
 
+
+
+
+
 ## Notes
+
+### [What are principal component scores?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
+
+https://stats.stackexchange.com/a/282/272857
+
+
+
+In NHANES project, our PC scores can be calculated
+
+```R
+load('analyticData.rda')
+
+subject_scores = MINdata %>% select(-SEQN)
+PC_scores = scale(subject_scores, pca_model$center, pca_model$scale) %*% pca_model$rotation
+
+# or 
+# prcomp(DF, scale = FALSE)$x
+pca_model$x
+```
+
+
+
+
+
+### [How to project a new vector onto PCA space?](https://stats.stackexchange.com/questions/2592/how-to-project-a-new-vector-onto-pca-space)
+
+
+
+```R
+# perform principal components analysis
+pca <- prcomp(data) 
+
+# project new data onto the PCA space
+scale(newdata, pca$center, pca$scale) %*% pca$rotation 
+```
+
+
 
 
 
@@ -301,9 +342,9 @@ $vectors
 ```R
 prcomp(d)$x 
 
-# each row represents rotated represents on new coordinates(PC1,PC2)
-# e.g. (-1,-2) is represented as
+# PC scores e.g. data point (-1,-2) is represented as
 #  -2.1213203 * PC1    + 0.7071068 * PC2
+# https://stats.stackexchange.com/a/282/272857
 
             PC1        PC2
 [1,] -2.1213203  0.7071068

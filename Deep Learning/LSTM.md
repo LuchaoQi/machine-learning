@@ -1,5 +1,11 @@
 [TOC]
 
+
+
+
+
+
+
 https://cs224d.stanford.edu/lecture_notes/notes4.pdf
 
 最后一页介绍了GRU/LSTM
@@ -71,20 +77,13 @@ xtest = array(xtest, dim = c(dim(xtrain)[1], tstep, 1))
 
 ```R
 rm(list = ls())
-library(tidyverse)
-library(reticulate)
-library(keras)
-library(caret)
 load('MINdata.rda')
-
-
 MINdata_1440 = as.data.frame(lapply(MINdata_1440, function (x) if (is.factor(x)) unclass(x) %>% as.numeric else x))
-
 set.seed(000)
 trainIdx = sample(c(TRUE, FALSE), dim(MINdata_1440)[1], replace = TRUE, prob = c(.7, .3))
 
-# y = log(MINdata$BMI + 1)
-y = MINdata_1440$BMI
+
+y = MINdata_1440$BMI 
 x = MINdata_1440 %>% select(-BMI) %>% select(-SEQN)
 
 ytrain = y[trainIdx]
@@ -97,33 +96,22 @@ xtest = x[!trainIdx, ] %>% scale(center = mns, scale = sds)
 ytest = y[!trainIdx]
 
 
-xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
-xtest = array(xtest, dim = c(dim(xtest)[1], dim(xtest)[2], 1))
-
-# 1440 minites, feature = 1
-time_input = layer_input(shape = c(1440,1),
-                         name = 'input_time')
-
-time_output = time_input %>%
-  layer_lstm(units = 2^8, activation = 'relu') %>% 
-  layer_dense(units = 2^4, activation = 'linear') %>%
-  layer_batch_normalization()
-
-covariates_input = layer_input(shape = c(3,1),
-                               name = 'input_covariates')
-
-covariates_output = covariates_input %>%
-  layer_batch_normalization() %>%
-  layer_reshape(target_shape = 3) 
+tstep = 1
+# we are using univariate time series data so number of feature is 1
+# for multivariate data e.g. activity signal on axis 1, axis 2, axis 3, then number of feature is 3
+# [samples / batch size, tstep, number of features] 
+xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, 1))
+xtest = array(xtest, dim = c(dim(xtest)[1], tstep, 1))
 
 
-concatenate_layer = layer_concatenate(c(time_output,covariates_output)) %>%
-  layer_dense(units = 1, activation = 'linear')
+model_LSTM = keras_model_sequential() %>%
+  layer_lstm(input_shape = c(dim(xtrain)[2:3]),
+             units = 2^8, activation = 'relu') %>% 
+  # layer_lstm(units = 2^4, activation = 'relu') %>%
+  layer_dense(2^2) %>%
+  # layer_dropout(0.25) %>%
+  layer_dense(units = 1, activation = "linear")
 
-model_LSTM = keras_model(
-  inputs = c(time_input,covariates_input),
-  outputs = concatenate_layer
-)
 
 model_LSTM %>% compile(
  loss = "mse",
@@ -131,28 +119,15 @@ model_LSTM %>% compile(
  metrics = list("mean_absolute_error")
 )
 
-# kerasR::plot_model(model_CNN,
-#                    # to_file = "model.png",
-#                    show_shapes = TRUE,
-#   show_layer_names = TRUE)
-
-
-
 history = model_LSTM %>% fit(
-  x = list(input_time = array(xtrain[,1:1440,1],dim=c(9688,1440,1)),
-           input_covariates = array(xtrain[,1441:1443,1],dim=c(9688,3,1))),
-  y = ytrain,
-  epochs = 15,
-  validation_split = 0.2,
-  # batch_size = 32,
-  verbose = 1
+ xtrain,
+ ytrain,
+ epochs = 10,
+ validation_split = 0.2,
+ verbose = 1
 )
 
-yPred = model_LSTM %>% predict(
-  list(array(xtest[1:4171,1:1440,1],dim=c(4171,1440,1)),
-       array(xtest[1:4171,1441:1443,1],dim=c(4171,3,1)))
-)
-
+yPred = model_LSTM %>% predict(xtest)
 ```
 
 

@@ -1,12 +1,22 @@
+
+
+
+
+[通俗讲解集成学习算法](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247500390&idx=1&sn=6d1b71c680b4b1149c634ad43fe58a32&chksm=e873132bdf049a3d582a2d78b4644bf51a6a8f24fad381959df181b30daf0914686bba6b6813&mpshare=1&scene=1&srcid=&sharer_sharetime=1592154468471&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=258be196e48710f75a9a30ce2f2a8de35a828ada8a50c924e1e497373ab4f8fda3ba0712a659f7868bfc0d7cc7bc4c90676f0e1e262b05943c66e3204afbbe005fa3164dd190a87a2012c27fab21c597&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A5sx1hAvbN%2FHw88ZBZ4mlbA%3D&pass_ticket=6vM7fqouj1zwqsAVfhBBfxHSk4lCj7np0%2BM%2FTldrByNy7NQL43jLUUjjjkZz77Rx)
+
 Bagging
 
-​	construct weak learners by bootstrap for low variance
+![](https://i.loli.net/2020/06/18/8GN2dafMF634vLQ.png)
+
+* construct weak learners weighted average by bootstrap for low variance
+* parallel
 
 Boosting
 
-​	reweight weak learners for high accuracy
+![](https://mmbiz.qpic.cn/mmbiz_jpg/vI9nYe94fsELq5sxjyoM3Z34rxtvMsLkibUBANniahaAlh1LNGboLUQRKhFtyicb9Rtxp29UwaHibVaUVE3Vdcw3DQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-
+* reweight weak learners for high accuracy
+* sequential
 
 
 

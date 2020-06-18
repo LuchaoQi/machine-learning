@@ -91,7 +91,7 @@ conv / lstm
 
 
 
-### NHANES project includes CNN and LSTM example
+### NHANES project (6_BMI_compilation) includes CNN and LSTM example 
 
 
 

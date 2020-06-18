@@ -4,7 +4,11 @@
 
 
 
-> Cross validation uses every block of data (k-fold cross validation)one at a time as test data and summarizes the results at the end.
+
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vI9nYe94fsELq5sxjyoM3Z34rxtvMsLkJSkDkiaYhpiafe9beykXiaD8jS7HN1rTIC7MbicyFib1cf8Jibib5F0hibibMJA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
 
 
 
@@ -14,7 +18,7 @@
 
 Another example of calculating R-squared in cross validation
 
-
+==Pretty good R tutorial==
 
 https://quantdev.ssri.psu.edu/tutorials/cross-validation-tutorial
 
@@ -91,6 +95,8 @@ ols_model$finalModel
 ```
 
 
+
+CV in NHANES project
 
 Some code I used to select models using different features in cross-validation
 

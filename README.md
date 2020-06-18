@@ -4,7 +4,15 @@
 
 
 
+
+
+[【串讲总结】RNN、LSTM、GRU、ConvLSTM、ConvGRU、ST-LSTM](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247500390&idx=2&sn=10f5e822b1d413f9f986afa9b4b8f713&chksm=e873132bdf049a3def27da2ed169b67ced2270e0271a070507dff155a7581b2161585e6f5975&mpshare=1&scene=1&srcid=&sharer_sharetime=1592154482728&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=f49733a29b17598302ceb66206068e4f2977ecf622479cc26f8ba977fa97c6ce961aa523b6ae232f0f4a1c162b0e11eeb06a89f47b14b2efa7a91379c22c390a045af8554069cc19b46feae101de3833&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A4W59ePBPoZK8hPGD33TUds%3D&pass_ticket=6vM7fqouj1zwqsAVfhBBfxHSk4lCj7np0%2BM%2FTldrByNy7NQL43jLUUjjjkZz77Rx)
+
+
+
 [Yellowbrick: Machine Learning Visualization that extend the scikit-learn API](https://www.scikit-yb.org/en/latest/index.html#yellowbrick-machine-learning-visualization)
+
+
 
 [大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
