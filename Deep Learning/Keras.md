@@ -6,7 +6,7 @@
 
 ## R
 
-
+### ==[My NHANES project (6_BMI_compilation) includes CNN and LSTM example](https://github.com/LuchaoQi/NHANES/blob/master/6_BMI_compilation.Rmd)== 
 
 
 
@@ -90,8 +90,6 @@ conv / lstm
 ### [Pipeline: R Interface to the Keras Deep Learning Library](https://cran.r-project.org/web/packages/kerasR/vignettes/introduction.html)
 
 
-
-### NHANES project (6_BMI_compilation) includes CNN and LSTM example 
 
 
 
