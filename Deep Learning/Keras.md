@@ -45,7 +45,7 @@ filters = 3, 6, 10
 # pretraining
 # 1 means the number of channels
 # univariate time-series: 1
-# multivariate time-series: number of moniter
+# multivariate time-series: number of monitors
 # RGB image: 3
 
 # CNN example in time-series data
