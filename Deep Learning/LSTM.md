@@ -16,6 +16,14 @@ https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-
 
 
 
+
+
+### [How to Prepare Univariate Time Series Data for Long Short-Term Memory Networks](https://machinelearningmastery.com/prepare-univariate-time-series-data-long-short-term-memory-networks/)
+
+
+
+
+
 ### [Understanding input_shape parameter in LSTM with Keras](https://stats.stackexchange.com/questions/274478/understanding-input-shape-parameter-in-lstm-with-keras)
 
 
@@ -93,6 +101,105 @@ http://rwanjohi.rbind.io/2018/04/05/time-series-forecasting-using-lstm-in-r/
 ### Keras NHANES
 
 
+
+```R
+rm(list = ls())
+library(tidyverse)
+library(reticulate)
+library(keras)
+library(caret)
+load('MINdata.rda')
+
+
+MINdata_1440 = as.data.frame(lapply(MINdata_1440, function (x) if (is.factor(x)) unclass(x) %>% as.numeric else x))
+
+set.seed(000)
+trainIdx = sample(c(TRUE, FALSE), dim(MINdata_1440)[1], replace = TRUE, prob = c(.7, .3))
+
+# y = log(MINdata$BMI + 1)
+y = MINdata_1440$BMI
+x = MINdata_1440 %>% select(-BMI) %>% select(-SEQN)
+
+ytrain = y[trainIdx]
+xtrain = x[trainIdx, ] %>% scale()
+
+mns = attr(xtrain, "scaled:center")
+sds = attr(xtrain, "scaled:scale")
+
+xtest = x[!trainIdx, ] %>% scale(center = mns, scale = sds)
+ytest = y[!trainIdx]
+
+
+xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
+xtest = array(xtest, dim = c(dim(xtest)[1], dim(xtest)[2], 1))
+
+
+time_input = layer_input(shape = c(1440,1),
+                         name = 'input_time')
+
+time_output = time_input %>%
+  layer_lstm(units = 1, activation = 'relu', input_shape = c(1440,1)) %>% 
+  layer_batch_normalization()
+
+covariates_input = layer_input(shape = c(3,1),
+                               name = 'input_covariates')
+
+covariates_output = covariates_input %>%
+  layer_batch_normalization() %>%
+  layer_reshape(target_shape = 3) 
+
+
+concatenate_layer = layer_concatenate(c(time_output,covariates_output)) %>%
+  layer_dense(units = 1, activation = 'linear')
+
+model_LSTM = keras_model(
+  inputs = c(time_input,covariates_input),
+  outputs = concatenate_layer
+)
+
+model_LSTM %>% compile(
+ loss = "mse",
+ optimizer = optimizer_adam(clipnorm=0.001),
+ metrics = list("mean_absolute_error")
+)
+
+# kerasR::plot_model(model,
+#                    # to_file = "model.png",
+#                    show_shapes = TRUE,
+#   show_layer_names = TRUE)
+
+
+
+history = model_LSTM %>% fit(
+  x = list(input_time = array(xtrain[,1:1440,1],dim=c(dim(xtrain)[1],1440,1)),
+           input_covariates = array(xtrain[,1441:1443,1],dim=c(dim(xtrain)[1],3,1))),
+  y = ytrain,
+  epochs = 15,
+  validation_split = 0.2,
+  batch_size = 32,
+  verbose = 1
+)
+
+yPred = model_LSTM %>% predict(
+  list(array(xtest[1:4171,1:1440,1],dim=c(4171,1440,1)),
+       array(xtest[1:4171,1441:1443,1],dim=c(4171,3,1)))
+)
+
+model_LSTM %>% save_model_hdf5("model_LSTM.h5")
+model_LSTM <- load_model_hdf5("model_LSTM.h5")
+```
+
+
+
+```R
+plot(yPred, ytest)
+
+mean((yPred-ytest)^2)
+
+cor(yPred,ytest)
+
+summary(model_LSTM)
+```
 
 
 
