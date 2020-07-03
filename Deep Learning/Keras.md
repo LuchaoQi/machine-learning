@@ -50,9 +50,8 @@ filters = 3, 6, 10
 
 # CNN example in time-series data
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
-# RNN example in time-series data, tstep means how many minutes or hours does your data have i.e. ncol(data)
+# RNN
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, 1))
-xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
 
 # when training in neural network model
 # dont forget c()
