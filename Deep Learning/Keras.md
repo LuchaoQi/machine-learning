@@ -111,7 +111,13 @@ https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_
 
 
 
-### [ValueError: A `Concatenate` layer should be called on a list of at least 2 inputs](https://stackoverflow.com/questions/59639633/valueerror-a-concatenate-layer-should-be-called-on-a-list-of-at-least-2-input)
+
+
+### [To plot model, check out NHANES project](https://github.com/LuchaoQi/NHANES/blob/master/plot%20NN.ipynb)
+
+
+
+#### [ValueError: A `Concatenate` layer should be called on a list of at least 2 inputs](https://stackoverflow.com/questions/59639633/valueerror-a-concatenate-layer-should-be-called-on-a-list-of-at-least-2-input)
 
 
 
