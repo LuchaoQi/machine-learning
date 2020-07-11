@@ -4,9 +4,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 ![](https://miro.medium.com/max/1400/1*cuOmGT7NevP9oJFJfVpRKA.png)
 
-https://cs224d.stanford.edu/lecture_notes/notes1.pdf
+
+
+
+
+
+
+## Posts
+
+
+
+### [一文总结词向量的计算、评估与优化](https://mp.weixin.qq.com/s/RrR-iAdlnuSnRai1cwcw3A)
+
+
+
+
+
+### https://cs224d.stanford.edu/lecture_notes/notes1.pdf
 
 ![](https://i.loli.net/2020/05/28/uwtc7UfM6KHrB1O.png)
 
