@@ -26,13 +26,13 @@
 
 
 
-### [一文总结词向量的计算、评估与优化](https://mp.weixin.qq.com/s/RrR-iAdlnuSnRai1cwcw3A)
+[一文总结词向量的计算、评估与优化](https://mp.weixin.qq.com/s/RrR-iAdlnuSnRai1cwcw3A)
 
 
 
 
 
-### https://cs224d.stanford.edu/lecture_notes/notes1.pdf
+https://cs224d.stanford.edu/lecture_notes/notes1.pdf
 
 ![](https://i.loli.net/2020/05/28/uwtc7UfM6KHrB1O.png)
 
@@ -41,6 +41,18 @@
 
 
 ![](https://i.loli.net/2020/05/28/1HPcuOv9oreLJIm.png)
+
+
+
+http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
+
+
+
+http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
+
+
+
+https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92
 
 
 
@@ -96,7 +108,7 @@ http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/
 
 
 
-
+How do we use that?
 
 ![](http://mccormickml.com/assets/word2vec/output_weights_function.png)
 
@@ -121,20 +133,6 @@ http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
 http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/
 
 
-
-
-
-### Resources
-
-http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
-
-
-
-http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
-
-
-
-[A Beginner’s Guide to Word Embedding with Gensim Word2Vec Model](https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92#9731)
 
 
 
