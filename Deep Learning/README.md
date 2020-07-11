@@ -1,5 +1,11 @@
 [toc]
 
+
+
+
+
+
+
 ### Vanishing & Exploding
 
 
@@ -149,8 +155,6 @@ https://stanford.edu/~shervine/teaching/cs-230/
 
 
 ![image.png](https://i.loli.net/2020/01/07/6h7MoLeUWBpOI48.png)
-
-
 
 
 
