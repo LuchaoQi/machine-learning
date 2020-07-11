@@ -37,6 +37,10 @@ https://datascience.stackexchange.com/a/56408
 
 filters = 3, 6, 10
 
+padding = 0
+
+==(N - F + 2P) / S + 1==
+
 
 
 `input_shape` 
@@ -50,8 +54,8 @@ filters = 3, 6, 10
 
 # CNN example in time-series data
 xtrain = array(xtrain, dim = c(dim(xtrain)[1], dim(xtrain)[2], 1))
-# RNN
-xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, 1))
+# RNN tstep is usually the number of columns
+xtrain = array(xtrain, dim = c(dim(xtrain)[1], tstep, features))
 
 # when training in neural network model
 # dont forget c()
@@ -59,6 +63,22 @@ input_shape = c(dim(xtrain)[2:3])
 ```
 
 https://keras.io/api/layers/convolution_layers/convolution2d/
+
+
+
+#### input_shape in time-series data
+
+
+
+https://machinelearningmastery.com/reshape-input-data-long-short-term-memory-networks-keras/
+
+https://datascience.stackexchange.com/a/42723
+
+https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-recognition-time-series-classification/
+
+> We can then load all data for a given group (train or test) into a single three-dimensional NumPy array, where the dimensions of the array are [*samples, time steps, features*].
+>
+> To make this clearer, there are 128 time steps and nine features, where the number of samples is the number of rows in any given raw signal data file.
 
 
 
@@ -107,6 +127,10 @@ https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_
 
 
 ## Python
+
+### [Visualization: Draw neural network diagram](https://github.com/LuchaoQi/NHANES/blob/master/plot%20NN.ipynb)
+
+
 
 
 

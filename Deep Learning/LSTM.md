@@ -42,6 +42,20 @@ https://stats.stackexchange.com/a/277169/272857
 
 
 
+#### input_shape in time-series data
+
+
+
+https://machinelearningmastery.com/reshape-input-data-long-short-term-memory-networks-keras/
+
+https://datascience.stackexchange.com/a/42723
+
+https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-recognition-time-series-classification/
+
+> We can then load all data for a given group (train or test) into a single three-dimensional NumPy array, where the dimensions of the array are [*samples, time steps, features*].
+>
+> To make this clearer, there are 128 time steps and nine features, where the number of samples is the number of rows in any given raw signal data file.
+
 
 
 

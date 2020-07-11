@@ -10,8 +10,6 @@ PCA
 
 
 
-
-
 ## Notes
 
 ### [What are principal component scores?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
@@ -146,8 +144,6 @@ which is equal to  $\vec{a}^T * \vec{b}$
 
 
 Note we denote $S$ as covariance matrix
-
-
 
 **After centering the data, we want to maximize the projected variance**
 
