@@ -34,9 +34,9 @@
 
 
 
+## Resources
 
-
-## Machine Learning / Deep Learning
+https://github.com/datawhalechina/team-learning
 
 
 
