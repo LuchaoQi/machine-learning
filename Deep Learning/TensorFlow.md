@@ -2,6 +2,12 @@
 
 
 
+https://www.tensorflow.org/tutorials/keras/regression
+
+[https://github.com/LuchaoQi/NHANES/blob/master/plot%20NN.ipynb](https://github.com/LuchaoQi/NHANES/blob/master/plot NN.ipynb)
+
+
+
 
 
 https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book
