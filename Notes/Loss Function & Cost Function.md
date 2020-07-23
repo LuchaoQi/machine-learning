@@ -1,3 +1,7 @@
+[toc]
+
+
+
 ### Cross Entropy
 
 https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54a8
