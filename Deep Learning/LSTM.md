@@ -60,7 +60,7 @@ https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-
 
 
 
-### https://github.com/MohammadFneish7/Keras_LSTM_Diagram
+### ==[Keras_LSTM_Diagram_cheat sheet](https://github.com/MohammadFneish7/Keras_LSTM_Diagram)==
 
 ![](https://github.com/MohammadFneish7/Keras_LSTM_Diagram/raw/master/LSTM_keras_model.bmp)
 
