@@ -10,7 +10,7 @@ PCA
 
 
 
-## Notes
+
 
 ### [What are principal component scores?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
 
@@ -354,6 +354,18 @@ prcomp(d)$x
 res_PC1 = d %*% ( prcomp(d)$rotation[,'PC1'])
 
 t(t(d) - rowMeans(t(d))) %*% eigen(cov(d))$vectors
+```
+
+
+
+```R
+prcomp(d)$x
+# 结果横过去看就是 data point = f(PCs)
+# 用新的坐标PC来表示数据
+prcomp(d)$rotation
+# 结果竖过来看就是 PC = f(features)
+# 表示怎么用原来的坐标体系表达新的PC坐标体系
+# 横过来看就是怎么用PC来返回来表达feature(x/y/z)坐标
 ```
 
 
