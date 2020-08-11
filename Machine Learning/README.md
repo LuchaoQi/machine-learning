@@ -8,11 +8,20 @@
 
 
 
-## Pipeline
+## Posts
 
 
 
+### [机器学习之sklearn基础教程！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247526819&idx=1&sn=e718afa1995dd811073b688202688e82&chksm=e873b8eedf0431f85c578f523f18d7e196009d628f7e9598969637b056eae2c9f862da4a435a&mpshare=1&scene=1&srcid=0811Vr1iseNZlYu26MxKjp43&sharer_sharetime=1597106299124&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222d9fbc40b80248c06c26c854f1414e412c8a69f869d3e5c25bb7a2170019f626f89993f7af4b1dcc214218b0eb49682fd2ba22d4ee5d94b7fd6e1a79f9f1469bfdefef332a305f555&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=Azlfihi2JCzpBoLI7uB4VAo%3D&pass_ticket=cXIuNBlVpHC%2BF5iruRH9f2x44CKfdNsybkQ1GA406tpCtXMm5XjOXL5x%2BRz4ETdz)
 
+本文内容：
+
+- 数据准备
+- 逻辑回归
+- 支持向量机
+- 决策树
+- 随机森林
+- KNN
 
 
 
@@ -29,16 +38,6 @@
 
 
 ### [KNN + gridsearch](https://colab.research.google.com/github/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb)
-
-
-
-
-
-
-
-
-
-
 
 
 
