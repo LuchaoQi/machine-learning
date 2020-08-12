@@ -8,7 +8,11 @@ PCA
 
 
 
+### [EigenValue Decomposition, EigenVectors, EigenValue](https://blog.paperspace.com/dimension-reduction-with-principal-component-analysis/)
 
+
+
+![](https://i.loli.net/2020/08/13/yPjYXZG7qJLvuA3.png)
 
 
 
