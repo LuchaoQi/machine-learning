@@ -1,5 +1,15 @@
 ### Pandas
 
+[pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+
+
+
+==[Data School's top 25 pandas tricks](https://nbviewer.jupyter.org/github/justmarkham/pandas-videos/blob/master/top_25_pandas_tricks.ipynb)==
+
+
+
+
+
 [如何使用 Pandas 读写Excel](https://mp.weixin.qq.com/s?__biz=MzUzMTEwODk0Ng==&mid=2247489316&idx=1&sn=0119d08865fa6a9d133718798fb01f3b&chksm=fa46d219cd315b0f6cf0ea1c8cf9d5fd209f5ead7a16a9fab9c495afdc24a3a3af7b8ec39424&mpshare=1&scene=1&srcid=&sharer_sharetime=1575560110538&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=618a98a1e39c24e6c8a133fea4e983e7009683d75c15dd142887606449ef1e5b83011a2458894838729940cf8c4b46fcc81cc2e8c89364c8774eb77e5771b7cfdc845cd45bbab25f61a2cc2395fe2d88&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AwHRLcm3bj16cYvSvQt%2BML0%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
 
 [Python处理分析128张Excel表格](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247488730&idx=3&sn=44bb4de7e28d5d4fabe9b75e6d9384a0&chksm=fad463d7cda3eac16083eaf4dd699da89971efddfd20ef9a97bb00d7d84ff2cfafbc34f7b989&mpshare=1&scene=1&srcid=&sharer_sharetime=1581795571700&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=b089ab4307cc93f99412d5f38d5f5574903cfbc36f90ea8ae8d914df33f61ecd95168ad133225b37ab525b9fd1585d369bae1fde62663b612014c90ebc000bfb9b9d71f71c0b47f0bba3e4265599fcf6&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A4GyhtWJTN4MI%2BFqFnDn3wU%3D&pass_ticket=HUmG34FrJdSkkMkGQ8Ek%2BwoKbRgxJGF8CrBlo8fNM6xFwL7s7GVAsC8GW%2FkOSgg6)

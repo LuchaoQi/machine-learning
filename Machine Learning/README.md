@@ -49,8 +49,6 @@
 
 ## Resources
 
-
-
 [shuhuai008](https://space.bilibili.com/97068901)
 
 
@@ -73,10 +71,6 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes
 
 
 
-
-
-
-
 [halfrost的 Andrew NG ML笔记](https://github.com/halfrost/Halfrost-Field/tree/master/contents/Machine_Learning)
 
 > [Week9 —— Anomaly Detection](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Anomaly_Detection.ipynb)
@@ -86,10 +80,6 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes
 > [Week10 —— Large Scale Machine Learning](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Large_Scale_Machine_Learning.ipynb)
 >
 > [Week11 —— Application Example: Photo OCR](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Machine_Learning/Application_Photo_OCR.ipynb)
-
-
-
-
 
 
 
