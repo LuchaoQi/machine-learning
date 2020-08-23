@@ -6,6 +6,12 @@
 
 [pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
 
+melt/pivot
+
+https://bcaffo.github.io/MRIcloudTutorial/longVwide/longVwide.html
+
+gather/spread
+
 
 
 ==[Data School's top 25 pandas tricks](https://nbviewer.jupyter.org/github/justmarkham/pandas-videos/blob/master/top_25_pandas_tricks.ipynb)==

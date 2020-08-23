@@ -2,10 +2,6 @@
 
 
 
-PCA
-
->Reduce dimension using the eigenpairs of covariance matrix
-
 
 
 ### [EigenValue Decomposition, EigenVectors, EigenValue](https://blog.paperspace.com/dimension-reduction-with-principal-component-analysis/)
