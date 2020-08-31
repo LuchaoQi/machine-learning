@@ -52,6 +52,56 @@ Use conv_1d for time-series data, check NHAENS project for code
 
 
 
+### [Here’s how you can get a 2–6x speed-up on your data pre-processing with Python](https://towardsdatascience.com/heres-how-you-can-get-a-2-6x-speed-up-on-your-data-pre-processing-with-python-847887e63be5)
+
+before
+
+```python
+import glob
+import os
+import cv2
+
+
+### Loop through all jpg files in the current folder 
+### Resize each one to size 600x600
+for image_filename in glob.glob("*.jpg"):
+ ### Read in the image data
+ img = cv2.imread(image_filename)
+
+ ### Resize the image
+ img = cv2.resize(img, (600, 600)) 
+```
+
+after
+
+```python
+import glob
+import os
+import cv2
+import concurrent.futures
+
+
+def load_and_resize(image_filename):
+ ### Read in the image data
+ img = cv2.imread(image_filename)
+
+ ### Resize the image
+ img = cv2.resize(img, (600, 600)) 
+
+
+### Create a pool of processes. By default, one is created for each CPU in your machine.
+with concurrent.futures.ProcessPoolExecutor() as executor:
+ ### Get a list of files to process
+ image_files = glob.glob("*.jpg")
+
+ ### Process the list of files, but split the work across the process pool to use all CPUs
+ ### Loop through all jpg files in the current folder 
+ ### Resize each one to size 600x600
+ executor.map(load_and_resize, image_files)
+```
+
+
+
 ### [数据读取与数据扩增方法](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247499297&idx=1&sn=d75be333eb3ade728d757f139e8febf2&chksm=e8732f6cdf04a67a92ad4cedfba5931b30c7dd8b6046f094ebce7cf72fbc7ecc32a4a65581a5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534131483&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178c3c9110dfe3f1ba193e9658dd47fc5cbe3d3459735d71a00de1d59814528288e2008f7d0bfb077c4439695253239315e88d5a706c2b74b294af6620c70156ac1e545b769a6f02dec&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7BATqkYwN2iYUX5T2vh2aw%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
 
