@@ -176,13 +176,13 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 
-==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
+### ==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
 
 
 
 [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03-neuralnets.pdf)
 
-[DIVE INTO DEEP LEARNING](https://www.d2l.ai/index.html)
+### ==[DIVE INTO DEEP LEARNING](https://www.d2l.ai/index.html)==
 
 
 
