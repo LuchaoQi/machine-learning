@@ -2,6 +2,12 @@
 
 ## Posts
 
+### ==[**图之典**](http://tuzhidian.com/)==
+
+[爱了！安利一个相见恨晚的可视化学习网站](https://mp.weixin.qq.com/s/HpEPM4o_QfyByEp0ryF9Uw)
+
+
+
 ### [2020 年度最佳的23个机器学习项目！（附源代码）](https://mp.weixin.qq.com/s/JbUoE48-jkjq97ZvKAqkow)
 
 
