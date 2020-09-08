@@ -1,5 +1,7 @@
 [TOC]
 
+### [Why log-transforming the data before performing principal component analysis?](https://stats.stackexchange.com/questions/164381/why-log-transforming-the-data-before-performing-principal-component-analysis)
+
 
 
 

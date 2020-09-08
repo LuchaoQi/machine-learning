@@ -2,6 +2,12 @@
 
 
 
+### [如何用XGBoost做时间序列预测？](https://mp.weixin.qq.com/s/REEiPA88r4pzWVsClsMUPg)
+
+
+
+
+
 ### [我的XGBoost学习经历及动手实践](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247503268&idx=1&sn=fc0d017d1b47554c94836a888eb3dd91&chksm=e8731ce9df0495ffb8f3f177621fe4e300d7a0c2ce9c4b0bd049b0c2d93ab1b35fcf6bb7682f&mpshare=1&scene=1&srcid=&sharer_sharetime=1592892116032&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=7fa4c9207b4feb1fcc52bc4ec341f6ce0a897ad2f437f93e3d547a3aad887ed0ae6f91d3c2e994c2843195ae0dfec758f82272526b5e9c57ac9ca6221ef2a53e75871f1ece6010f3a723bacba18a9451&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=AxJSqKxRcCspS%2FP96K5U2Yo%3D&pass_ticket=MpFwIAijbDGu5%2BpES3aIMs8z%2BHbunt7oSiV%2FuWWlUCf3KpUUm1c0Uxy34k4uSeUE)
 
 

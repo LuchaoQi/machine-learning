@@ -52,9 +52,14 @@ https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-cl
 
 
 
-
+### 
 
 ## Test
 
+
+
 ### [T-test 知乎](https://zhuanlan.zhihu.com/p/38243421)
 
+
+
+### [distribution-is-all-you-need](https://github.com/graykode/distribution-is-all-you-need)
