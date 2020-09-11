@@ -128,21 +128,23 @@ https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_
 
 ## Python
 
-### [Visualization: Draw neural network diagram](https://github.com/LuchaoQi/NHANES/blob/master/plot%20NN.ipynb)
+
+
+### [deeplearning-models](https://github.com/rasbt/deeplearning-models)
+
+A collection of various deep learning architectures, models, and tips
 
 
 
 
 
+### Visualization of NN using keras from NHANES
+
+<script src="https://gist.github.com/LuchaoQi/749d970e12c7c5abd388c9706fe5c78c.js"></script>
 
 
-### [To plot model, check out NHANES project](https://github.com/LuchaoQi/NHANES/blob/master/plot%20NN.ipynb)
 
-
-
-#### [ValueError: A `Concatenate` layer should be called on a list of at least 2 inputs](https://stackoverflow.com/questions/59639633/valueerror-a-concatenate-layer-should-be-called-on-a-list-of-at-least-2-input)
-
-
+### [ValueError: A `Concatenate` layer should be called on a list of at least 2 inputs](https://stackoverflow.com/questions/59639633/valueerror-a-concatenate-layer-should-be-called-on-a-list-of-at-least-2-input)
 
 https://stackoverflow.com/a/59657571/11964524
 
