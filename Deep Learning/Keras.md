@@ -130,10 +130,6 @@ https://github.com/LuchaoQi/HW_JHU/blob/master/introduction_to_data_science_for_
 
 
 
-### [deeplearning-models](https://github.com/rasbt/deeplearning-models)
-
-A collection of various deep learning architectures, models, and tips
-
 
 
 
