@@ -1,12 +1,77 @@
-### Pandas
+[toc]
 
-[爱了！爱了！一款用 pandas 玩转 SQL 的神器](https://mp.weixin.qq.com/s/mhG5ukIzwT8To2wF4ZgALw)
+### Posts
 
 [高效的 10 个Pandas函数，你都用过吗？](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247497424&idx=2&sn=74af656fdf9cd92825b4005a03ca937f&chksm=fad781ddcda008cb1f34e9d7166d823687a07baf1d10b86e9869082840348fea25b9a8962c3d&mpshare=1&scene=1&srcid=0820K2WR4aLPBzkdjc1z2x55&sharer_sharetime=1597907390294&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=b9392b7c27e91e19d40916ed6435efb6fd4d871a4b3ae90c5314a43eba30d65d75dff321986e9081de7e405d6bf49352e6008f3705389700dfc25c55690b8ef4ce38e7f2df57501fbd80a787fcbc8167543356b3613e285f25b07b862288facb69d34964afb3a008e8c2e80b9d2cdbc4b7acbcab0985a3c053206eb755fd468f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A0rTTvHkZVYcZ9K%2F9qAyzvw%3D&pass_ticket=dl5Iy2qsBZ9gzq%2FRfs1Q4CEN%2Fhyil2Dm7RHxB%2B8%2FfwwGzOwxi2eJVPN0mhlXaHf0)
 
+[如何使用 Pandas 读写Excel](https://mp.weixin.qq.com/s?__biz=MzUzMTEwODk0Ng==&mid=2247489316&idx=1&sn=0119d08865fa6a9d133718798fb01f3b&chksm=fa46d219cd315b0f6cf0ea1c8cf9d5fd209f5ead7a16a9fab9c495afdc24a3a3af7b8ec39424&mpshare=1&scene=1&srcid=&sharer_sharetime=1575560110538&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=618a98a1e39c24e6c8a133fea4e983e7009683d75c15dd142887606449ef1e5b83011a2458894838729940cf8c4b46fcc81cc2e8c89364c8774eb77e5771b7cfdc845cd45bbab25f61a2cc2395fe2d88&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AwHRLcm3bj16cYvSvQt%2BML0%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
+
+[Python处理分析128张Excel表格](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247488730&idx=3&sn=44bb4de7e28d5d4fabe9b75e6d9384a0&chksm=fad463d7cda3eac16083eaf4dd699da89971efddfd20ef9a97bb00d7d84ff2cfafbc34f7b989&mpshare=1&scene=1&srcid=&sharer_sharetime=1581795571700&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=b089ab4307cc93f99412d5f38d5f5574903cfbc36f90ea8ae8d914df33f61ecd95168ad133225b37ab525b9fd1585d369bae1fde62663b612014c90ebc000bfb9b9d71f71c0b47f0bba3e4265599fcf6&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A4GyhtWJTN4MI%2BFqFnDn3wU%3D&pass_ticket=HUmG34FrJdSkkMkGQ8Ek%2BwoKbRgxJGF8CrBlo8fNM6xFwL7s7GVAsC8GW%2FkOSgg6)
+
+[还在抱怨pandas运行速度慢？这几个方法会颠覆你的看法](https://mp.weixin.qq.com/s?__biz=MzU4OTQ1MTA4OQ==&mid=2247484170&idx=1&sn=8f662550a6e01ab191de1c57afb4f2e5&chksm=fdcc1934cabb9022b42ddf51c2c11f8c5069c424ac7f1120550c66dae34e395991b0b3ada92e&mpshare=1&scene=1&srcid=&sharer_sharetime=1575522959679&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=aa397d0f1c3682ba85dc210d24355b5edd123bd41da566c32115a60bdca077a4b648abf84f1b9002187ad3d77d6baec5f099e26f7a440a4e6fc85831696909e1baf3274c4bed4b32c297082c805bffff&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AxRu4fmcVlvQRThRqao5gkE%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
+
+[惊了！大牛换了个思路，就让 Pandas 快了 1000x！](https://mp.weixin.qq.com/s?__biz=Mzg3MTAyMDMxOQ==&mid=2247484088&idx=1&sn=bf127b42706b72ec9a4f34a9ef2df912&chksm=ce85a0c8f9f229de91b2ec02ae5ac23c6699ee66ce29e89ba9ced17fb8e3e935d0f585e6db07&mpshare=1&scene=1&srcid=012560Rv2ZXMKbhhzpWQJbJq&sharer_sharetime=1579909492329&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=47c0c8dda35b3d6ee85d69b7b662ba41d469adc671ed850dd6da47b73a8902f53a6242181efcf6e0242731d540d53e1c845a273de39984b309a2b6943e95b746b08ffb9d6c0fa66e232995ddbc268323&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A8%2BE8Kqp6Tr85gxTfxo4zu0%3D&pass_ticket=lJveRg9gAUeTqWfqKJqPTsmBETtIP04Z4E2W2kBQR9BH39IEkb5%2FusO9Aiu9jq1T)
 
 
-[pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+
+
+
+### My functions
+
+```python
+df.apply(pd.Series.value_counts)
+df.columns.tolist()
+```
+
+
+
+
+
+### SQL
+
+```python
+import sys
+from pathlib import Path
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib
+import numpy as np
+from scipy.io import wavfile
+import IPython
+
+sys.path.append('/home/ec2-user/SageMaker/algorithms')
+import lib
+
+
+
+# Pull recordings from the data warehouse
+sql_engine = lib.data.db.connect_mysql('analytics')
+# query = 'SELECT * from recordings WHERE user_id = 69344'
+
+query = """
+SELECT p.description, p.identifier, r.patient_id, r.amazon_file_name, r.created_at
+FROM recordings as r 
+LEFT JOIN analyses as a
+ON r.id = a.recording_id
+LEFT JOIN users as u
+ON r.user_id = u.id
+LEFT JOIN patients as p
+ON r.patient_id=p.id
+WHERE user_id = 69344 AND NOT r.patient_id = 677722 AND NOT r.patient_id = 677723 AND NOT r.patient_id = 677724
+"""
+
+df = pd.read_sql_query(query, sql_engine)
+df.head()
+```
+
+
+
+
+
+
+
+### ==[pandas cheat sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)==
 
 melt/pivot
 
@@ -16,21 +81,9 @@ gather/spread
 
 
 
-==[Data School's top 25 pandas tricks](https://nbviewer.jupyter.org/github/justmarkham/pandas-videos/blob/master/top_25_pandas_tricks.ipynb)==
+### ==[Data School's top 25 pandas tricks](https://nbviewer.jupyter.org/github/justmarkham/pandas-videos/blob/master/top_25_pandas_tricks.ipynb)==
 
 
 
 
-
-
-
-
-
-[如何使用 Pandas 读写Excel](https://mp.weixin.qq.com/s?__biz=MzUzMTEwODk0Ng==&mid=2247489316&idx=1&sn=0119d08865fa6a9d133718798fb01f3b&chksm=fa46d219cd315b0f6cf0ea1c8cf9d5fd209f5ead7a16a9fab9c495afdc24a3a3af7b8ec39424&mpshare=1&scene=1&srcid=&sharer_sharetime=1575560110538&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=618a98a1e39c24e6c8a133fea4e983e7009683d75c15dd142887606449ef1e5b83011a2458894838729940cf8c4b46fcc81cc2e8c89364c8774eb77e5771b7cfdc845cd45bbab25f61a2cc2395fe2d88&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AwHRLcm3bj16cYvSvQt%2BML0%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
-
-[Python处理分析128张Excel表格](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247488730&idx=3&sn=44bb4de7e28d5d4fabe9b75e6d9384a0&chksm=fad463d7cda3eac16083eaf4dd699da89971efddfd20ef9a97bb00d7d84ff2cfafbc34f7b989&mpshare=1&scene=1&srcid=&sharer_sharetime=1581795571700&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=b089ab4307cc93f99412d5f38d5f5574903cfbc36f90ea8ae8d914df33f61ecd95168ad133225b37ab525b9fd1585d369bae1fde62663b612014c90ebc000bfb9b9d71f71c0b47f0bba3e4265599fcf6&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A4GyhtWJTN4MI%2BFqFnDn3wU%3D&pass_ticket=HUmG34FrJdSkkMkGQ8Ek%2BwoKbRgxJGF8CrBlo8fNM6xFwL7s7GVAsC8GW%2FkOSgg6)
-
-[还在抱怨pandas运行速度慢？这几个方法会颠覆你的看法](https://mp.weixin.qq.com/s?__biz=MzU4OTQ1MTA4OQ==&mid=2247484170&idx=1&sn=8f662550a6e01ab191de1c57afb4f2e5&chksm=fdcc1934cabb9022b42ddf51c2c11f8c5069c424ac7f1120550c66dae34e395991b0b3ada92e&mpshare=1&scene=1&srcid=&sharer_sharetime=1575522959679&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=aa397d0f1c3682ba85dc210d24355b5edd123bd41da566c32115a60bdca077a4b648abf84f1b9002187ad3d77d6baec5f099e26f7a440a4e6fc85831696909e1baf3274c4bed4b32c297082c805bffff&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AxRu4fmcVlvQRThRqao5gkE%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
-
-[惊了！大牛换了个思路，就让 Pandas 快了 1000x！](https://mp.weixin.qq.com/s?__biz=Mzg3MTAyMDMxOQ==&mid=2247484088&idx=1&sn=bf127b42706b72ec9a4f34a9ef2df912&chksm=ce85a0c8f9f229de91b2ec02ae5ac23c6699ee66ce29e89ba9ced17fb8e3e935d0f585e6db07&mpshare=1&scene=1&srcid=012560Rv2ZXMKbhhzpWQJbJq&sharer_sharetime=1579909492329&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=47c0c8dda35b3d6ee85d69b7b662ba41d469adc671ed850dd6da47b73a8902f53a6242181efcf6e0242731d540d53e1c845a273de39984b309a2b6943e95b746b08ffb9d6c0fa66e232995ddbc268323&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A8%2BE8Kqp6Tr85gxTfxo4zu0%3D&pass_ticket=lJveRg9gAUeTqWfqKJqPTsmBETtIP04Z4E2W2kBQR9BH39IEkb5%2FusO9Aiu9jq1T)
 

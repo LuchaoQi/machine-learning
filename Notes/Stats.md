@@ -1,5 +1,17 @@
 [toc]
 
+## Statistics
+
+### [kappa statistic](http://sofasofa.io/forum_main_post.php?postid=1000321)
+
+similarity between samples based on confusion matrix
+
+### [Kullback–Leibler divergence](https://github.com/LuchaoQi/HW_JHU/blob/master/machine%20learning_deep%20learning/hw1/DeepLearning_Fall2019_hw1.pdf) Q3
+
+similarity between distributions
+
+
+
 ## AUC & PR & Confusion Matrix
 
 
