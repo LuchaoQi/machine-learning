@@ -1,5 +1,23 @@
 [TOC]
 
+
+
+## R code
+
+```R
+set.seed(111)
+id = sample(dim(y)[1],0.8*dim(y)[1])
+fit = randomForest(BMI ~ ., data = y,ntree = 2000,
+                     subset = id,
+                     importance = T)
+varImpPlot(fit,
+           main = 'Variable Importance Measured by Random Forest')
+```
+
+
+
+
+
 ## Resources
 
 
@@ -65,14 +83,6 @@ we can get a contingency matrix of prediction
 So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
-
-
-
-
-
-
-
-![image.png](https://i.loli.net/2020/02/27/5mX6upNeiMvtEaZ.png)
 
 
 
