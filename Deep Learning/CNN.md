@@ -44,10 +44,6 @@ Use conv_1d for time-series data, check NHAENS project for code
 
 
 
-
-
-
-
 ## Coding
 
 

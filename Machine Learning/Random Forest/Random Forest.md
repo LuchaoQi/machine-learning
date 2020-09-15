@@ -5,6 +5,7 @@
 ## R code
 
 ```R
+library(randomForest)
 set.seed(111)
 id = sample(dim(y)[1],0.8*dim(y)[1])
 fit = randomForest(BMI ~ ., data = y,ntree = 2000,

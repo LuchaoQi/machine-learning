@@ -1,5 +1,23 @@
 [TOC]
 
+## My Functions / Code
+
+
+
+
+
+
+
+## Posts & Resources
+
+### [Tidyverse pipes in Pandas](https://stmorse.github.io/journal/tidyverse-style-pandas.html)
+
+
+
+
+
+### [==作图可以参考图之典==](http://tuzhidian.com/)
+
 
 
 ### [Datawhale 数据分析（EDA）学习总结！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247517999&idx=1&sn=d2b279de42391df4b3acfca3a1088fed&chksm=e8735662df04df74c9409f9229c6dbe5a4f6bcdda81fe31274633575e3104c7d77248ab58cf4&mpshare=1&scene=1&srcid=0730jeBlCzo6CqcsKQo5IEkH&sharer_sharetime=1596081410497&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&exportkey=AwM5S8DLDRy8ZdRY%2BVSsiQ8%3D&pass_ticket=dORmzI2rJPmSiTTJ1Zi%2B65corcsKJJPH6uZpoe6zT%2FMKlPzQoPHVZcbL9F%2FOl7pU&wx_header=0#rd)
@@ -87,6 +105,11 @@ print('Predicted Class: %d' % yhat[0])
 
 
 [Are the Skewness and Kurtosis Useful Statistics?](https://www.spcforexcel.com/knowledge/basic-statistics/are-skewness-and-kurtosis-useful-statistics)
+
+
+
+
+
 
 
 
