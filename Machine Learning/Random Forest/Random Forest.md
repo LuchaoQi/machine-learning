@@ -17,6 +17,28 @@ varImpPlot(fit,
 
 
 
+### %IncMSE / IncNodePurity interpretation
+
+https://stats.stackexchange.com/a/162590
+
+
+
+> %IncMSE is the most robust and informative measure. It is the increase in mse of predictions(estimated with out-of-bag-CV) as a result of variable j being permuted(values randomly shuffled).
+>
+> 1. grow regression forest. Compute OOB-mse, name this mse0.
+> 2. for 1 to j var: permute values of column j, then predict and compute OOB-mse(j)
+> 3. %IncMSE of j'th is (mse(j)-mse0)/mse0 * 100%
+>
+> the higher number, the more important
+>
+> IncNodePurity relates to the loss function which by best splits are chosen. The loss function is mse for regression and gini-impurity for classification. More useful variables achieve higher increases in node purities, that is to find a split which has a high inter node 'variance' and a small intra node 'variance'. IncNodePurity is biased and should only be used if the extra computation time of calculating %IncMSE is unacceptable. Since it only takes ~5-25% extra time to calculate %IncMSE, this would almost never happen.
+>
+> [A similar question and answer](https://stats.stackexchange.com/questions/12605/measures-of-variable-importance-in-random-forests)
+
+
+
+
+
 
 
 ## Resources
