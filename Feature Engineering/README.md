@@ -1,7 +1,5 @@
 [TOC]
 
-## My Functions / Code
-
 
 
 
@@ -10,13 +8,23 @@
 
 ## Posts & Resources
 
+
+
 ### [Tidyverse pipes in Pandas](https://stmorse.github.io/journal/tidyverse-style-pandas.html)
 
 
 
+![image-20200922114727077](https://i.loli.net/2020/09/22/ARQTBiLtO57SNm9.png)
+
+![image-20200922114751020](https://i.loli.net/2020/09/22/XK7Tq5mhGOe19pA.png)
 
 
-### [==作图可以参考图之典==](http://tuzhidian.com/)
+
+https://bcaffo.github.io/MRIcloudTutorial/longVwide/longVwide.html
+
+
+
+### [作图可以参考图之典](http://tuzhidian.com/)
 
 
 
