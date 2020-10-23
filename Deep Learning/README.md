@@ -1,5 +1,15 @@
 [toc]
 
+## Posts
+
+
+
+### [深度学习调参tricks总结！](https://mp.weixin.qq.com/s/kN5AqG5IurOLDDfifSR3mw)
+
+
+
+
+
 
 
 ### [深度学习debug沉思录！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247529586&idx=1&sn=f3d4877055fe74e7776ae1b88b1b6a26&chksm=e873a53fdf042c29fd2b401c943febea52d278c053b91ac2dcca02d164e29298cb7e18f28f13&mpshare=1&scene=1&srcid=0817Ewd0KUbY7uJUS2r5868y&sharer_sharetime=1597639652981&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=18219db88406db27507a23e0a5ddb131020bd4417d065f11eaa2e2bea944673adc4cd016389b7dd9ad85651b806ce785af8825b441fb4b37335aceade6f03dbf94ac376eba06e269c50920f45ba9503da5c48f60246d7a537da6478318c2ba14654c29849a0deb3f6fcebb557eb7137d677d73ddb0d524cfa57d52ac1ff28de6&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A%2FbIQU3xZPLWEeieTK76hts%3D&pass_ticket=RJiOCiWgiYhJoU4j%2FQ6DMqBlcB9%2FkpC9K7bnPInol0YH3h%2BelaucKbVcbDNEA3LI)
@@ -206,7 +216,7 @@ Why activation function?
 
 
 
-
+![](https://miro.medium.com/max/1400/1*p_hyqAtyI8pbt2kEl6siOQ.png)
 
 
 

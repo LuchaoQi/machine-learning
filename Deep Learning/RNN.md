@@ -4,6 +4,16 @@
 
 
 
+### Best material I've seen so far
+
+
+
+https://distill.pub/2016/augmented-rnns/#attentional-interfaces
+
+from John's slides
+
+
+
 ### NHANES time-series RNN
 
 
@@ -153,10 +163,6 @@ https://repl.it/@vzhou842/A-RNN-from-scratch#main.py
 
 
 [namaskar example](https://hackernoon.com/rnn-or-recurrent-neural-network-for-noobs-a9afbb00e860)
-
-
-
-![](https://hackernoon.com/hn-images/1*_mM83sFLjzKt8cRB439Y3Q.gif)
 
 
 

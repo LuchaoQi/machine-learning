@@ -1,5 +1,11 @@
 [TOC]
 
+
+
+### [Wouldn't multiple filters in a convolutional layer learn the same parameter during training?](https://stats.stackexchange.com/questions/351661/wouldnt-multiple-filters-in-a-convolutional-layer-learn-the-same-parameter-duri)
+
+
+
 ### [Deep Learning Multi-Input CNN](https://stackoverflow.com/questions/44394056/deep-learning-multi-input-cnn)
 
 
@@ -39,6 +45,28 @@ Use conv_1d for time-series data, check NHAENS project for code
 > [More recent research](http://mipal.snu.ac.kr/images/1/16/Dropout_ACCV2016.pdf) has shown some value in applying dropout also to convolutional layers, although at much lower levels: p=0.1 or 0.2. Dropout was used after the activation function of each convolutional layer: CONV->RELU->DROP.
 
 
+
+### ==how to set up hyperparameters in fully connected layer?==
+
+
+
+https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
+
+![](https://miro.medium.com/max/7680/1*ZQkGKOELqJsf_6tOdZrDNQ.png)
+
+
+
+https://algorithmia.com/blog/convolutional-neural-nets-in-pytorch
+
+
+
+```python
+def outputSize(in_size, kernel_size, stride, padding):
+
+output = int((in_size - kernel_size + 2*(padding)) / stride) + 1
+
+return(output)
+```
 
 
 
@@ -241,62 +269,6 @@ https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
 
 
 
-
-
-### how to set up hyperparameters in fully connected layer?
-
-https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
-
-
-
-```Python
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(3, 6, 5)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.conv2 = nn.Conv2d(6, 16, 5)
-        self.fc1 = nn.Linear(16 * 5 * 5, 120)
-        self.fc2 = nn.Linear(120, 84)
-        self.fc3 = nn.Linear(84, 10)
-```
-
-注意这里为什么要是`16*5*5`  经过一系列的conv 和 maxpool 最终输出的是16层`5*5`的layer 见Andrew Ng的图
-
-`self.fc1 = nn.Linear(16 * 5 * 5, 120)` 
-
-https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
-
-![](https://miro.medium.com/max/7680/1*ZQkGKOELqJsf_6tOdZrDNQ.png)
-
-
-
-https://algorithmia.com/blog/convolutional-neural-nets-in-pytorch
-
-
-
-```python
-def outputSize(in_size, kernel_size, stride, padding):
-
-output = int((in_size - kernel_size + 2*(padding)) / stride) + 1
-
-return(output)
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Notes
 
 
@@ -325,11 +297,11 @@ https://datascience.stackexchange.com/a/27252
 
 
 
-http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
+
+
+#### ==[Stanford Lecture 5: Convolutional Neural Networks]( http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf)==
 
 如果有padding的话就 (N-F+2P)/S +1
-
-![](https://i.loli.net/2020/02/19/aDzp79ZCBdgwPuV.png)
 
 
 
@@ -338,12 +310,6 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 >  Note the number of filter equals the dimension[3] of the next layer
 >
 > MP (F = 5, S = 1)
-
-![image.png](https://i.loli.net/2020/02/19/4xgPJAoKdBmQeGc.png)
-
-
-
-
 
 
 
@@ -355,7 +321,7 @@ http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf
 
 
 
-### ==[Best material I've ever seen](https://poloclub.github.io/cnn-explainer/)==
+### ==[CNN explainer](https://poloclub.github.io/cnn-explainer/)==
 
 
 
