@@ -2,6 +2,22 @@
 
 
 
+
+
+### Matrix Calculus
+
+[矩阵求导术（上）](https://zhuanlan.zhihu.com/p/24709748)
+
+[矩阵求导术（下）](https://zhuanlan.zhihu.com/p/24863977)
+
+https://explained.ai/matrix-calculus/index.html
+
+http://www.matrixcalculus.org/
+
+
+
+
+
 ### Eigenvalues and Eigenvectors[¶ permalink](http://textbooks.math.gatech.edu/ila/chap-eigenvalues.html)
 
 
@@ -75,11 +91,13 @@ Wayyyy better than using chain-rule
 
 
 
-
-
 ## Resources
 
-[MIT Linear Algebra](https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm)
+[The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+
+
+
+
 
 
 
@@ -87,11 +105,17 @@ Wayyyy better than using chain-rule
 
 
 
-matrix calculus
 
-https://explained.ai/matrix-calculus/index.html
 
-http://www.matrixcalculus.org/
+
+
+
+
+[MIT Linear Algebra](https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm)
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 
 
-## R code
+### R code
 
 ```R
 library(randomForest)
@@ -39,9 +39,25 @@ https://stats.stackexchange.com/a/162590
 
 
 
+### Gini Calculation
 
 
-## Resources
+
+
+
+![image.png](https://i.loli.net/2020/10/30/hWOXZV4BHsu3gJT.png)
+
+
+
+![image.png](https://i.loli.net/2020/10/30/tEkwbMisLg5q8rv.png)
+
+
+
+
+
+
+
+### Resources
 
 
 
@@ -63,7 +79,7 @@ https://stats.stackexchange.com/a/162590
 
 
 
-## Notes
+### Notes
 
 
 
@@ -111,7 +127,7 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
 
-## Pros
+### Pros
 
 * Do not require feature engineering (scaling and normalization)
 
@@ -135,6 +151,6 @@ So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
 
 
 
-## Cons
+### Cons
 
 * Prone to overfitting in case of noisy data

@@ -2,6 +2,20 @@
 
 ## Posts
 
+### [4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
+
+BayesSearchCV  RandomizedSearchCV  GridSearchCV
+
+
+
+
+
+
+
+### [==Kaggle竞赛宝典国内外竞赛方案汇总==](https://mp.weixin.qq.com/s/qYKnM6uzXjX3oTDDYrDoEg)
+
+
+
 ### ==[**图之典**](http://tuzhidian.com/)==
 
 [爱了！安利一个相见恨晚的可视化学习网站](https://mp.weixin.qq.com/s/HpEPM4o_QfyByEp0ryF9Uw)

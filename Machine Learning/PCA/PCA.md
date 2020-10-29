@@ -1,5 +1,13 @@
 [TOC]
 
+
+
+### [Why are principal component scores uncorrelated?](https://stats.stackexchange.com/questions/153928/why-are-principal-component-scores-uncorrelated)
+
+
+
+
+
 ### [Why log-transforming the data before performing principal component analysis?](https://stats.stackexchange.com/questions/164381/why-log-transforming-the-data-before-performing-principal-component-analysis)
 
 
@@ -53,10 +61,9 @@ scale(newdata, pca$center, pca$scale) %*% pca$rotation
 
 
 
-### Loadings
+### ==Loadings==
 
-https://stats.stackexchange.com/a/143949
-
+https://stats.stackexchange.com/a/470545
 
 
 $$
