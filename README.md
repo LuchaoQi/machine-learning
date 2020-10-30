@@ -2,6 +2,14 @@
 
 ## Posts
 
+
+
+### [repeat buyers prediction](https://www.kaggle.com/c/acquire-valued-shoppers-challenge)
+
+[天猫用户重复购买预测](https://mp.weixin.qq.com/s/pFGpYcpBPw73pdcP8OXD0g)
+
+
+
 ### [4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
 
 BayesSearchCV  RandomizedSearchCV  GridSearchCV
