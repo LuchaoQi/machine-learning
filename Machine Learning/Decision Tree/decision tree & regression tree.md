@@ -32,7 +32,7 @@ Besides Gini index, we can also use information gain
 >
 >   i.e. using the feature will make separation worse
 >
->   ![image.png](https://i.loli.net/2020/02/26/U47icV1fuC9oFaw.png)
+>   ![image-20201130114841921](https://i.loli.net/2020/12/01/WzSR5abIyGHZA1X.png)
 >
 > https://youtu.be/7VeUPuFGJHk?t=839
 >
@@ -60,7 +60,7 @@ Besides Gini index, we can also use information gain
 
 > continuous variables
 >
-> ![image.png](https://i.loli.net/2020/02/26/4n9yNpUPMSvE3Z6.png)
+> ![image-20201130125738466](https://i.loli.net/2020/12/01/57ampgZERMjcNtv.png)
 >
 > ![](https://i.loli.net/2019/12/18/kRlTpMeK5oL6tY9.png)
 >

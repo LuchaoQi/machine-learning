@@ -8,7 +8,7 @@
 
 
 
-
+![](https://s3.amazonaws.com/MLMastery/MachineLearningAlgorithms.png?__s=j5spgttw6xiv8t5nozzl)
 
 
 

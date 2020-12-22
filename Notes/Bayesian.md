@@ -1,6 +1,18 @@
 [toc]
 
-## Bayesian
+### Posts
+
+
+
+[Exploring Bayesian Optimization](https://distill.pub/2020/bayesian-optimization/)
+
+[通俗理解贝叶斯优化](https://mp.weixin.qq.com/s/VEMG7e0D9Q1OwRE6wAxrsA)
+
+
+
+
+
+### Bayesian
 
 
 
@@ -22,9 +34,9 @@
 
 ### [如何理解先验概率与后验概率](https://zhuanlan.zhihu.com/p/26464206)
 
-![image.png](https://i.loli.net/2020/05/15/Wrw7Yndz8CxakyD.png)
 
 
+![](https://i.loli.net/2020/05/15/Wrw7Yndz8CxakyD.png)
 
 
 
@@ -34,7 +46,9 @@
 
 
 
-#### What if we don't know prior distribution?
+#### what if one has no previous experience? what if we don't know prior distribution? 
+
+
 
 ![](https://i.loli.net/2020/05/15/lx8BebwDd4j7A5v.png)
 
@@ -58,7 +72,7 @@ https://seeing-theory.brown.edu/bayesian-inference/
 
 
 
-## MLE recall
+### MLE recall
 
 我们假设一个distribution with unknown parameters i.e. $\theta$ 
 

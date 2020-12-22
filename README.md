@@ -1,16 +1,34 @@
 [toc]
 
+
+
+> Platforms: 
+>
+> Kaggle notebooks / Wechat articles / Bilibili / Github
+>
+> https://distill.pub/
+>
+> https://machinelearningmastery.com/
+>
+> https://jalammar.github.io/
+
+
+
 ## Posts
 
 
 
-### [repeat buyers prediction](https://www.kaggle.com/c/acquire-valued-shoppers-challenge)
+[基于Dijkstra算法的武汉地铁路径规划！](https://mp.weixin.qq.com/s/f5OW7_QrzHo4-6EaAt4FhQ)
+
+
+
+[repeat buyers prediction](https://www.kaggle.com/c/acquire-valued-shoppers-challenge)
 
 [天猫用户重复购买预测](https://mp.weixin.qq.com/s/pFGpYcpBPw73pdcP8OXD0g)
 
 
 
-### [4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
+[4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
 
 BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
@@ -18,47 +36,35 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 
 
-
-
-### [==Kaggle竞赛宝典国内外竞赛方案汇总==](https://mp.weixin.qq.com/s/qYKnM6uzXjX3oTDDYrDoEg)
+[==Kaggle竞赛宝典国内外竞赛方案汇总==](https://mp.weixin.qq.com/s/qYKnM6uzXjX3oTDDYrDoEg)
 
 
 
-### ==[**图之典**](http://tuzhidian.com/)==
+==[**图之典**](http://tuzhidian.com/)==
 
 [爱了！安利一个相见恨晚的可视化学习网站](https://mp.weixin.qq.com/s/HpEPM4o_QfyByEp0ryF9Uw)
 
 
 
-### [2020 年度最佳的23个机器学习项目！（附源代码）](https://mp.weixin.qq.com/s/JbUoE48-jkjq97ZvKAqkow)
+[2020 年度最佳的23个机器学习项目！（附源代码）](https://mp.weixin.qq.com/s/JbUoE48-jkjq97ZvKAqkow)
+
+
+
+[Here’s how you can get a 2–6x speed-up on your data pre-processing with Python](https://towardsdatascience.com/heres-how-you-can-get-a-2-6x-speed-up-on-your-data-pre-processing-with-python-847887e63be5)
+
+
+
+[==基于Python的信用评分卡模型分析==](https://zhuanlan.zhihu.com/p/35284849)
+
+
+
+[Kaggle经典数据分析项目：泰坦尼克号生存预测！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247531362&idx=1&sn=8390708f0a8ba20bdc3f371d949e49f4&chksm=e873aa2fdf042339ef70d691589545039d0acd031a5966763d7eef2a0b046ea0db11cc276f57&mpshare=1&scene=1&srcid=0823Ci8oabCRTipUDR2DnQUr&sharer_sharetime=1598195165151&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222b81ff2b97a8ddec779424716b5a31e4ffaa1ee9826e20ac7908903107a083b22118c84eebc1b95070ab145fea786152c379d658001ba3f484dcc758670e4ecd8f0851d1b5f5067d6297b0756d3e0c14eeca904cf6eb8cd14b95e2ca8feb0567395e8b7a2c85573bd8b19226133ec68e7ba4c558c74f94a7f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A9klxGZsPJnX7zcjUWtG8qU%3D&pass_ticket=LwsZZN%2FMotkaVC8yPtvHw8kHQ2SvTHl%2B7Yp3WDll7pN0OGOUnzqsNHyrY2mSnNPn)
 
 
 
 
 
-### [Here’s how you can get a 2–6x speed-up on your data pre-processing with Python](https://towardsdatascience.com/heres-how-you-can-get-a-2-6x-speed-up-on-your-data-pre-processing-with-python-847887e63be5)
-
-
-
-
-
-### [==基于Python的信用评分卡模型分析==](https://zhuanlan.zhihu.com/p/35284849)
-
-
-
-
-
-
-
-### [Kaggle经典数据分析项目：泰坦尼克号生存预测！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247531362&idx=1&sn=8390708f0a8ba20bdc3f371d949e49f4&chksm=e873aa2fdf042339ef70d691589545039d0acd031a5966763d7eef2a0b046ea0db11cc276f57&mpshare=1&scene=1&srcid=0823Ci8oabCRTipUDR2DnQUr&sharer_sharetime=1598195165151&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222b81ff2b97a8ddec779424716b5a31e4ffaa1ee9826e20ac7908903107a083b22118c84eebc1b95070ab145fea786152c379d658001ba3f484dcc758670e4ecd8f0851d1b5f5067d6297b0756d3e0c14eeca904cf6eb8cd14b95e2ca8feb0567395e8b7a2c85573bd8b19226133ec68e7ba4c558c74f94a7f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A9klxGZsPJnX7zcjUWtG8qU%3D&pass_ticket=LwsZZN%2FMotkaVC8yPtvHw8kHQ2SvTHl%2B7Yp3WDll7pN0OGOUnzqsNHyrY2mSnNPn)
-
-
-
-
-
-
-
-### [机器学习之sklearn基础教程！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247526819&idx=1&sn=e718afa1995dd811073b688202688e82&chksm=e873b8eedf0431f85c578f523f18d7e196009d628f7e9598969637b056eae2c9f862da4a435a&mpshare=1&scene=1&srcid=0811Vr1iseNZlYu26MxKjp43&sharer_sharetime=1597106299124&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222d9fbc40b80248c06c26c854f1414e412c8a69f869d3e5c25bb7a2170019f626f89993f7af4b1dcc214218b0eb49682fd2ba22d4ee5d94b7fd6e1a79f9f1469bfdefef332a305f555&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=Azlfihi2JCzpBoLI7uB4VAo%3D&pass_ticket=cXIuNBlVpHC%2BF5iruRH9f2x44CKfdNsybkQ1GA406tpCtXMm5XjOXL5x%2BRz4ETdz)
+[机器学习之sklearn基础教程！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247526819&idx=1&sn=e718afa1995dd811073b688202688e82&chksm=e873b8eedf0431f85c578f523f18d7e196009d628f7e9598969637b056eae2c9f862da4a435a&mpshare=1&scene=1&srcid=0811Vr1iseNZlYu26MxKjp43&sharer_sharetime=1597106299124&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222d9fbc40b80248c06c26c854f1414e412c8a69f869d3e5c25bb7a2170019f626f89993f7af4b1dcc214218b0eb49682fd2ba22d4ee5d94b7fd6e1a79f9f1469bfdefef332a305f555&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=Azlfihi2JCzpBoLI7uB4VAo%3D&pass_ticket=cXIuNBlVpHC%2BF5iruRH9f2x44CKfdNsybkQ1GA406tpCtXMm5XjOXL5x%2BRz4ETdz)
 
 本文内容：
 
@@ -71,23 +77,23 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 
 
-### [Statistical Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/statistical-imputation-for-missing-values-in-machine-learning/?__s=j5spgttw6xiv8t5nozzl)
+[Statistical Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/statistical-imputation-for-missing-values-in-machine-learning/?__s=j5spgttw6xiv8t5nozzl)
 
 
 
-### [How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
+[How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
 
 
 
-### [Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
+[Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
 
 
 
-### [KNN + gridsearch](https://colab.research.google.com/github/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb)
+[KNN + gridsearch](https://colab.research.google.com/github/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb)
 
 
 
-### [机器学习模型评估与超参数调优详解](https://mp.weixin.qq.com/s/LV020zM9EPwABLDP04NSZA)
+[机器学习模型评估与超参数调优详解](https://mp.weixin.qq.com/s/LV020zM9EPwABLDP04NSZA)
 
 > - 用管道简化工作流
 > - 使用k折交叉验证评估模型性能
@@ -97,7 +103,7 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 
 
-### [==大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署==](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
+[==大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署==](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
 > 自动调参
 >
@@ -107,17 +113,19 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 
 
-### [Yellowbrick: Machine Learning Visualization that extend the scikit-learn API](https://www.scikit-yb.org/en/latest/index.html#yellowbrick-machine-learning-visualization)
+[Yellowbrick: Machine Learning Visualization that extend the scikit-learn API](https://www.scikit-yb.org/en/latest/index.html#yellowbrick-machine-learning-visualization)
 
 
 
 
 
-### [【串讲总结】RNN、LSTM、GRU、ConvLSTM、ConvGRU、ST-LSTM](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247500390&idx=2&sn=10f5e822b1d413f9f986afa9b4b8f713&chksm=e873132bdf049a3def27da2ed169b67ced2270e0271a070507dff155a7581b2161585e6f5975&mpshare=1&scene=1&srcid=&sharer_sharetime=1592154482728&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=f49733a29b17598302ceb66206068e4f2977ecf622479cc26f8ba977fa97c6ce961aa523b6ae232f0f4a1c162b0e11eeb06a89f47b14b2efa7a91379c22c390a045af8554069cc19b46feae101de3833&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A4W59ePBPoZK8hPGD33TUds%3D&pass_ticket=6vM7fqouj1zwqsAVfhBBfxHSk4lCj7np0%2BM%2FTldrByNy7NQL43jLUUjjjkZz77Rx)
+[【串讲总结】RNN、LSTM、GRU、ConvLSTM、ConvGRU、ST-LSTM](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247500390&idx=2&sn=10f5e822b1d413f9f986afa9b4b8f713&chksm=e873132bdf049a3def27da2ed169b67ced2270e0271a070507dff155a7581b2161585e6f5975&mpshare=1&scene=1&srcid=&sharer_sharetime=1592154482728&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=f49733a29b17598302ceb66206068e4f2977ecf622479cc26f8ba977fa97c6ce961aa523b6ae232f0f4a1c162b0e11eeb06a89f47b14b2efa7a91379c22c390a045af8554069cc19b46feae101de3833&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A4W59ePBPoZK8hPGD33TUds%3D&pass_ticket=6vM7fqouj1zwqsAVfhBBfxHSk4lCj7np0%2BM%2FTldrByNy7NQL43jLUUjjjkZz77Rx)
 
 
 
 ## Resources
+
+
 
 [Andrew NG Coursera](https://www.coursera.org/courses?query=machine%20learning%20andrew%20ng)
 

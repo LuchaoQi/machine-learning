@@ -1,19 +1,14 @@
 [TOC]
 
+### [Does random forest re-use features at each node when generating a decision tree?](https://datascience.stackexchange.com/questions/10713/does-random-forest-re-use-features-at-each-node-when-generating-a-decision-tree)
 
 
-### R code
 
-```R
-library(randomForest)
-set.seed(111)
-id = sample(dim(y)[1],0.8*dim(y)[1])
-fit = randomForest(BMI ~ ., data = y,ntree = 2000,
-                     subset = id,
-                     importance = T)
-varImpPlot(fit,
-           main = 'Variable Importance Measured by Random Forest')
-```
+![](https://i.stack.imgur.com/l6r4F.jpg)
+
+
+
+
 
 
 
@@ -52,6 +47,19 @@ https://stats.stackexchange.com/a/162590
 ![image.png](https://i.loli.net/2020/10/30/tEkwbMisLg5q8rv.png)
 
 
+
+### R code
+
+```R
+library(randomForest)
+set.seed(111)
+id = sample(dim(y)[1],0.8*dim(y)[1])
+fit = randomForest(BMI ~ ., data = y,ntree = 2000,
+                     subset = id,
+                     importance = T)
+varImpPlot(fit,
+           main = 'Variable Importance Measured by Random Forest')
+```
 
 
 

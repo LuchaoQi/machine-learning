@@ -2,19 +2,23 @@
 
 
 
-More details discussed
+### Posts
 
-http://cs229.stanford.edu/notes/cs229-notes3.pdf
 
-JHU ML slides
 
-https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
-> Geometric representation
->
-> Primal and dual formulation
->
-> Kernel
+
+[Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -25,8 +29,6 @@ https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
 
 https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
-
-![image.png](https://i.loli.net/2020/02/19/HZpKmo4wBYgN3sV.png)
 
 
 
@@ -63,8 +65,6 @@ https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427
 cs231n
 
 ![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
-
-
 
 
 
@@ -130,8 +130,6 @@ So we can further use [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagran
 
 
 
-![image.png](https://i.loli.net/2020/02/15/3iNET4RmJw8MIHx.png)
-
 
 
 https://github.com/wzyonggege/statistical-learning-method/blob/master/SVM/support-vector-machine.ipynb
@@ -156,8 +154,6 @@ $$
 $$
 
 which helps us intuitively understand the `C` term.
-
-
 
 
 
@@ -198,11 +194,19 @@ def svm_cross_validation(train_x, train_y):
 
 ## Resources
 
+More details discussed
 
+http://cs229.stanford.edu/notes/cs229-notes3.pdf
 
-[Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
+JHU ML slides
 
+https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
+> Geometric representation
+>
+> Primal and dual formulation
+>
+> Kernel
 
 
 
@@ -215,10 +219,6 @@ Another pretty good introduction
 [Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
 
 ![](https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2017/02/kernel.png)
-
-
-
-
 
 
 

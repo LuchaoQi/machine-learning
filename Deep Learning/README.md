@@ -2,6 +2,12 @@
 
 ## Posts
 
+### Saddle point & Local Minima
+
+
+
+
+
 
 
 ### [深度学习调参tricks总结！](https://mp.weixin.qq.com/s/kN5AqG5IurOLDDfifSR3mw)
@@ -74,15 +80,21 @@ Recall that in gradient descent (**stochastic/mini-batch/batch**) we have simila
 
 
 
-### ==A pretty good optimization post== 
+### Optimization
 
-https://frnsys.com/ai_notes/foundations/optimization.html
+https://frnsys.com/notes/ai/foundations/optimization.html
 
 stochastic gradient descent (SGD) in deep learning optimization
 
 > In fact, stochastic gradient descent can help with finding the global minimum because instead of computing over a single error surface(whole batch gradient descent), you are working with many different error surfaces varying with the example you are current looking at. So it is possible that in one of these surfaces a local minima does not exist or is less pronounced than in others, which make it easier to surpass.
 >
 > Note, initializations are different across different landscapes. So batch gradient descent still helps find global minimum. The reason we use SGD is the tradeoff b/t computer power and accuracy.
+
+
+
+[How can it be trapped in a saddle point?](https://stats.stackexchange.com/questions/278104/how-can-it-be-trapped-in-a-saddle-point)
+
+saddle points are more problematic in optimization because? # saddle points > # local minima in high-dimensional neural networks
 
 
 
@@ -172,6 +184,14 @@ https://stanford.edu/~shervine/teaching/cs-230/
 
 ## Resources
 
+### Overview of AI
+
+https://frnsys.com/notes/ai/
+
+https://frnsys.com/notes/ai/ai_notes.pdf
+
+
+
 
 
 https://stanford.edu/~shervine/teaching/cs-230/
@@ -186,17 +206,17 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 
-### ==[A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.==
+### [A Step by Step Backpropagation Example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) with a single training set gives intuition on backpropagation.
 
 
 
 [Stanford CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes03-neuralnets.pdf)
 
-### ==[DIVE INTO DEEP LEARNING](https://www.d2l.ai/index.html)==
+### [DIVE INTO DEEP LEARNING](https://www.d2l.ai/index.html)
 
 
 
-### ==A collection of various deep learning architectures, models, and tips==
+### A collection of various deep learning architectures, models, and tips
 
 https://github.com/rasbt/deeplearning-models
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 ### [Why are principal component scores uncorrelated?](https://stats.stackexchange.com/questions/153928/why-are-principal-component-scores-uncorrelated)
 
 
@@ -126,7 +128,11 @@ https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
 
-## Intuition: why we use covariance matrix and why we use eigenpairs?
+## ==Intuition: why we use covariance matrix and why we use eigenpairs?==
+
+> PCA - using eigen-decomposition of covariance matrix
+
+
 
 **Definition of covariance matrix**
 
@@ -144,13 +150,11 @@ https://en.wikipedia.org/wiki/Covariance_matrix#Definition
 
 **Projected distance**
 
+
+
 $\vec{a}*\vec{b} = \vert \vec{a}\vert * \vert \vec{b}\vert * cos\theta$
 
 which is equal to  $\vec{a}^T * \vec{b}$ 
-
-
-
-
 
 Note we denote $S$ as covariance matrix
 
@@ -405,7 +409,13 @@ So in the example it is $1/5 * Z^TZ$ while in code it is $1/4 * Z^TZ$
 
 https://github.com/heucoder/dimensionality_reduction_alo_codes/blob/master/codes/PCA/PCA.py#L13
 
+
+
 ## Resources
+
+
+
+[A STEP BY STEP EXPLANATION OF PRINCIPAL COMPONENT ANALYSIS](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
 
 
 
