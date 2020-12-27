@@ -80,3 +80,37 @@ Boosting
 
 ![image-20200601100556258](https://i.loli.net/2020/06/01/2CyYLs9QWlxN4wX.png)
 
+
+
+### Statistics: Bootstrap vs. Shuffle vs. Permutation
+
+
+
+Shuffle: random numbers **without** replacement
+
+
+
+Permutation: Permutation allows replacement but we do it **without** replacement
+
+A typical application is shown below:
+
+```R
+obs = asb(mean(x[y]) - mean(x[!y]))
+x
+y
+cbind(x, y)
+out = sapply(1 : nosim,
+function(i){
+py = sample(y)
+abs(mean(x[py]) - mean(x[!py]))
+}
+)
+hist(out)
+obs
+out >= obs
+mean(out >= obs)
+```
+
+
+
+Bootstrap: any test or metric that relies on random sampling **with** replacement

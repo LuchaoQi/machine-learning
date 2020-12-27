@@ -2,6 +2,10 @@
 
 ## Statistics
 
+### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
+
+
+
 ### [kappa statistic](http://sofasofa.io/forum_main_post.php?postid=1000321)
 
 similarity between samples based on confusion matrix
