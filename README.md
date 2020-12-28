@@ -13,6 +13,8 @@
 > https://www.pyimagesearch.com/
 >
 > https://jalammar.github.io/
+>
+> https://space.bilibili.com/97068901
 
 
 
@@ -20,7 +22,12 @@
 
 ## Posts
 
+[4 Libraries that can perform EDA in one line of python code](https://radiant-brushlands-42789.herokuapp.com/towardsdatascience.com/4-libraries-that-can-perform-eda-in-one-line-of-python-code-b13938a06ae)
 
+* Pandas-Profiling
+* Sweetviz
+* Autoviz
+* D-Tale
 
 [==大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署==](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
@@ -87,35 +94,21 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 [Andrew NG Coursera](https://www.coursera.org/courses?query=machine%20learning%20andrew%20ng)
 
-
-
 https://github.com/datawhalechina/team-learning
-
-
 
 https://seanlee97.github.io/
 
-
-
 [Google机器学习速成课程Code](https://github.com/yuanxiaosc/Google-Machine-learning-crash-course/tree/master/Google%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%9F%E6%88%90%E8%AF%BE%E7%A8%8BCode)
-
-
 
 [吐血推荐，B站最强学习资源汇总（数据科学，机器学习，python）](https://mp.weixin.qq.com/s?__biz=MzU0OTU5OTI4MA==&mid=2247488792&idx=1&sn=fd2d9d0d3a00ff5efbfa5b560f955e06&chksm=fbac3447ccdbbd5185d85904f9c0de261733622cda4654c1ea67e34584c9b75771f717434329&mpshare=1&scene=1&srcid=&sharer_sharetime=1589137958939&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac837ede674c7e7d728e560933946011d9a7480bdf4091f8c586a27c0226ed60bde37b624c6c721a8b63f6b9be3fb34e2e8985580c2014c1a956c72356597de98d0aec2569644a3673c4&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A3iKkuu2OAAszM6A5houPYg%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
 
-
-
 https://github.com/wqw547243068/wangqiwen
-
-
 
 [收藏、学习一气呵成，2019年机器之心干货教程都在这里了](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247488580&idx=1&sn=97f043e2f2caaf804d1e78bb67d7332a&chksm=e870c509df074c1ff9371cf4ae38bd4891d5b4303029446ecb4446bf34f0aee878b00e34ec86&mpshare=1&scene=1&srcid=&sharer_sharetime=1580091960137&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=47c0c8dda35b3d6e329dc5a47ad0ed38797c3d46576874a0db7c770dfe296e981b5f36b2a7f40a286b24e8a26b35684b3835656b48373833ba51eff0d6c2a643453a5a8d046a37047aeed6d28b483900&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A6VhtNucJYg1jLmAnBDUNjo%3D&pass_ticket=0nai7IifD%2Bg%2FUnnSapxnEyBX8w84oskChWBtJt4fsjhHcDOUPXdxvt%2BaG38aas0a)
 
 
 
 ## Kaggle
-
-
 
 skills you'll need to do independent data science projects
 
