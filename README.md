@@ -4,7 +4,7 @@
 
 > Platforms: 
 >
-> Kaggle notebooks / Wechat articles / Bilibili / Github / DS README Posts
+> Kaggle notebooks / Wechat articles / Bilibili / Github stars/ DS README Posts
 >
 > https://distill.pub/
 >
