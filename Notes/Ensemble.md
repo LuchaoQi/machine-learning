@@ -2,11 +2,123 @@
 
 
 
+[Bagging, boosting and stacking in machine learning](https://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning)
+
+![](https://i.stack.imgur.com/RFfqb.png)
+
+
+
+
+
+
+
+[机器学习中Bagging和Boosting的区别](https://blog.csdn.net/u013709270/article/details/72553282)
+
+Bagging和Boosting的区别：
+
+1）样本选择上：
+
+Bagging：训练集是在原始集中有放回选取的，从原始集中选出的各轮训练集之间是独立的。
+
+Boosting：每一轮的训练集不变，只是训练集中每个样例在分类器中的权重发生变化。而权值是根据上一轮的分类结果进行调整。
+
+2）样例权重：
+
+Bagging：使用均匀取样，每个样例的权重相等
+
+Boosting：根据错误率不断调整样例的权值，错误率越大则权重越大。
+
+3）预测函数：
+
+Bagging：所有预测函数的权重相等。
+
+Boosting：每个弱分类器都有相应的权重，对于分类误差小的分类器会有更大的权重。
+
+4）并行计算：
+
+Bagging：各个预测函数可以并行生成
+
+Boosting：各个预测函数只能顺序生成，因为后一个模型参数需要前一轮模型的结果。
+
+
+
+
+
+==[A Primer to Ensemble Learning – Bagging and Boosting](https://analyticsindiamag.com/primer-ensemble-learning-bagging-boosting/)== 
+
+
+
+![](https://i.loli.net/2021/01/05/1MQHqmW9JIljDhc.png)
+
+
+
+![](https://i.loli.net/2021/01/05/9peIafxYXlEwi5F.png)
+
+
+
+
+
+[Ensemble methods: bagging, boosting and stacking](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+
+
+
+![](https://miro.medium.com/max/1400/1*5pA6iY-qDP2JIsLoyfje-Q@2x.png)
+
+
+
+### Bagging
+
+
+
+![](https://miro.medium.com/max/2000/1*zAMhmZ78a6V9W878zfk5eA@2x.png)
+
+![](https://miro.medium.com/max/2000/1*jEbEHwvfUzAUI00muEAVGw@2x.png)
+
+
+
+Random Forest
+
+![](https://miro.medium.com/max/2000/1*_B5HX2whbTs3DS8M6YBD_w@2x.png)
+
+
+
+
+
+### Boosting
+
+
+
+![](https://miro.medium.com/max/2000/1*6JbndZ2zY2c4QqS73HQ47g@2x.png)
+
+![](https://miro.medium.com/max/892/1*YUJJ5nDbhBi0SkFeccsTxQ@2x.png)
+
+
+
+![](https://miro.medium.com/max/1400/1*7wz2AIdH0pZSIUAxveLlIg@2x.png)
+
+![](https://miro.medium.com/max/1400/1*4Ytrff-V4Xnh0_FKN_t1PA@2x.png)
+
+
+
 ### Stacking
 
 
 
-Use package pycaret
+![](https://miro.medium.com/max/1400/1*ZucZsXkOwrpY2XaPh6teRw@2x.png)
+
+![](https://miro.medium.com/max/4800/1*avYNzmLUeqKr1zWPkn6cwg@2x.png)
+
+
+
+
+
+### Coding
+
+check out package pycaret (preferred) / scikit-learn
+
+
+
+pycaret
 
 ```python
 ridge = create_model('ridge')
@@ -18,11 +130,9 @@ stacker = stack_models(estimator_list = [ridge,lda,gbc], meta_model = xgboost)
 
 
 
-
+scikit-learn
 
 https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/
-
-
 
 ```python
 # compare ensemble to each baseline classifier
@@ -92,20 +202,3 @@ pyplot.boxplot(results, labels=names, showmeans=True)
 pyplot.show()
 ```
 
-
-
-
-
-### combo
-
-[combo](https://github.com/yzhao062/combo) 
-
-[combo：机器学习模型合并工具库](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247487707&idx=1&sn=3d77d7ad4bc03aedb52b3b55809559c8&chksm=e870c196df0748801c848f488e013c7920b7377a26fe37706c42c27ab25884c751a5fbe509a3&mpshare=1&scene=1&srcid=&sharer_sharetime=1575732426582&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=6c7cfae268597b4d1fd7ff6a79e6a7345c522c7fc8b429701aaebd0d54661d54a04df22ccefed44fb857935d12feca3efb6de47f8dbcf9bb1bb95218e8a22780c3803985fe6cfd2975936bf57a4d98bc&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A%2BJ5EsHi5lUcQFEzVsxVR5I%3D&pass_ticket=tyzEx61N28yEuIRkZAHhRyTkW6j%2F83DKcPF8jnc9bESYIMXHWaxMDGPYXA%2BFmLoq) 
-
-
-
-
-
-### Coding
-
-check out package pycaret (preferred) / scikit-learn

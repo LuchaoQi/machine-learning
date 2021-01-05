@@ -10,13 +10,11 @@
 
 
 
-
-
 ### Bayesian
 
 
 
-![image.png](https://i.loli.net/2020/01/14/UrCKEOn6DuXwdIL.png)
+![](https://i.loli.net/2020/01/14/UrCKEOn6DuXwdIL.png)
 
 
 

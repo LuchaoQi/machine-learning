@@ -24,11 +24,6 @@
 
 [4 Libraries that can perform EDA in one line of python code](https://radiant-brushlands-42789.herokuapp.com/towardsdatascience.com/4-libraries-that-can-perform-eda-in-one-line-of-python-code-b13938a06ae)
 
-* Pandas-Profiling
-* Sweetviz
-* Autoviz
-* D-Tale
-
 [==大赞！分享一个数据科学利器 PyCaret，几行代码搞定从数据处理到模型部署==](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247491777&idx=1&sn=0b5d44f0f0094551e2879055a509e4ce&chksm=fad797cccda01edac41be9ee972e54934bb0e9007200cc8096f88be5ccdfa9c65931ec8c77c5&mpshare=1&scene=1&srcid=&sharer_sharetime=1591534268758&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=31b516006248d178bc9138f3b1a009289d54ee4ba4d65787d721c16bb91130a690f18269de880ba8f62949b769ce7cd593eac09a51358e0559f15a0f9809e36a41df8c550596b5fb48ffe7411cfedf10&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A7lUu%2FYbxcyqUwyec9CCDEQ%3D&pass_ticket=cYx0%2BhLbX1UacbLG4i3o0AGYx8n5VKUGf0JlAY7afdjH%2F4ciVDWwW6Fqn6wXUZNt)
 
 [基于Dijkstra算法的武汉地铁路径规划！](https://mp.weixin.qq.com/s/f5OW7_QrzHo4-6EaAt4FhQ)
@@ -38,8 +33,6 @@
 [天猫用户重复购买预测](https://mp.weixin.qq.com/s/pFGpYcpBPw73pdcP8OXD0g)
 
 [4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
-
-BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 [==Kaggle竞赛宝典国内外竞赛方案汇总==](https://mp.weixin.qq.com/s/qYKnM6uzXjX3oTDDYrDoEg)
 
@@ -57,15 +50,6 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 
 [机器学习之sklearn基础教程！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247526819&idx=1&sn=e718afa1995dd811073b688202688e82&chksm=e873b8eedf0431f85c578f523f18d7e196009d628f7e9598969637b056eae2c9f862da4a435a&mpshare=1&scene=1&srcid=0811Vr1iseNZlYu26MxKjp43&sharer_sharetime=1597106299124&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222d9fbc40b80248c06c26c854f1414e412c8a69f869d3e5c25bb7a2170019f626f89993f7af4b1dcc214218b0eb49682fd2ba22d4ee5d94b7fd6e1a79f9f1469bfdefef332a305f555&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=Azlfihi2JCzpBoLI7uB4VAo%3D&pass_ticket=cXIuNBlVpHC%2BF5iruRH9f2x44CKfdNsybkQ1GA406tpCtXMm5XjOXL5x%2BRz4ETdz)
 
-本文内容：
-
-- 数据准备
-- 逻辑回归
-- 支持向量机
-- 决策树
-- 随机森林
-- KNN
-
 [Statistical Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/statistical-imputation-for-missing-values-in-machine-learning/?__s=j5spgttw6xiv8t5nozzl)
 
 [How I made top 0.3% on a Kaggle competition](https://www.kaggle.com/lavanyashukla01/how-i-made-top-0-3-on-a-kaggle-competition)
@@ -75,12 +59,6 @@ BayesSearchCV  RandomizedSearchCV  GridSearchCV
 [KNN + gridsearch](https://colab.research.google.com/github/LuchaoQi/books/blob/master/Feature%20Engineering%20Made%20Easy/KNN%20%2B%20GridSearchCV.ipynb)
 
 [机器学习模型评估与超参数调优详解](https://mp.weixin.qq.com/s/LV020zM9EPwABLDP04NSZA)
-
-- 用管道简化工作流
-- 使用k折交叉验证评估模型性能
-- 使用学习和验证曲线调试算法
-- 通过网格搜索进行超参数调优
-- 比较不同的性能评估指标
 
 [Yellowbrick: Machine Learning Visualization that extend the scikit-learn API](https://www.scikit-yb.org/en/latest/index.html#yellowbrick-machine-learning-visualization)
 

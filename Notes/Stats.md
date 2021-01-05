@@ -1,5 +1,42 @@
 [toc]
 
+
+
+## Bootstrap vs. Shuffle vs. Permutation
+
+
+
+Shuffle: random numbers **without** replacement
+
+Permutation: Permutation allows replacement but we do it **without** replacement
+
+A typical application is shown below:
+
+```R
+obs = asb(mean(x[y]) - mean(x[!y]))
+# x [1,2,3,4,5,6,7,8,9]
+# y [T,F,T,F,T,F,T,F,T]
+cbind(x, y)
+out = sapply(1 : nosim,
+function(i){
+py = sample(y)
+abs(mean(x[py]) - mean(x[!py]))
+}
+)
+hist(out)
+obs
+out >= obs
+mean(out >= obs)
+
+# abs(repeated results) >= abs(observed results)
+```
+
+Bootstrap: any test or metric that relies on random sampling **with** replacement
+
+
+
+
+
 ## Statistics
 
 ### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
@@ -10,9 +47,7 @@
 
 similarity between samples based on confusion matrix
 
-### [Kullback–Leibler divergence](https://github.com/LuchaoQi/HW_JHU/blob/master/machine%20learning_deep%20learning/hw1/DeepLearning_Fall2019_hw1.pdf) Q3
 
-similarity between distributions
 
 
 
@@ -66,12 +101,36 @@ https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-cl
 
 
 
-## Test
+## Test & Distributions
+
+
+
+### Entropy between distributions
+
+
+
+[Kullback–Leibler divergence](https://github.com/LuchaoQi/HW_JHU/blob/master/machine%20learning_deep%20learning/hw1/DeepLearning_Fall2019_hw1.pdf) Q3
+
+https://machinelearningmastery.com/cross-entropy-for-machine-learning/
+
+```python
+# calculate entropy between two distributions
+# calculate cross entropy
+def cross_entropy(p, q):
+	return -sum([p[i]*log2(q[i]) for i in range(len(p))])
+
+# calculate the kl divergence
+def kl_divergence(p, q):
+	return sum(p[i] * log2(p[i]/q[i]) for i in range(len(p)))
+```
 
 
 
 ### [T-test 知乎](https://zhuanlan.zhihu.com/p/38243421)
 
-
+![](https://pic1.zhimg.com/80/v2-67bec9e25f295b5d05659bd57722ae74_1440w.jpg)
 
 ### [distribution-is-all-you-need](https://github.com/graykode/distribution-is-all-you-need)
+
+![](https://github.com/graykode/distribution-is-all-you-need/raw/master/overview.png)
+
