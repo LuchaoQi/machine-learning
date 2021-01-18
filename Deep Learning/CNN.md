@@ -22,11 +22,23 @@ https://keras.io/guides/functional_api/
 
 
 
-### CNN for time-series data
+### 1d CNN for time-series data
 
 
 
-Use conv_1d for time-series data, check NHAENS project for code
+For forecasting,  data [samples, timesteps, features] would be divided into multiple sequences [samples*x, timesteps/x , features] containing past information.
+
+[How to Develop Convolutional Neural Network Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/)
+
+For regression problems, data is usually not reformatted.
+
+https://colab.research.google.com/drive/1zjh0tUPYJYgJJunpLC9fW5uf--O0LKeZ?usp=sharing
+
+[How to Use Convolutional Neural Networks for Time Series Classification](https://medium.com/@Rehan_Sayyad/how-to-use-convolutional-neural-networks-for-time-series-classification-80575131a474)
+
+
+
+
 
 
 
@@ -34,7 +46,7 @@ Use conv_1d for time-series data, check NHAENS project for code
 
 
 
-![image-20200529114808787](https://i.loli.net/2020/05/29/IPxuJ43oOB8nXZA.png)
+![](https://i.loli.net/2020/05/29/IPxuJ43oOB8nXZA.png)
 
 
 
@@ -277,10 +289,6 @@ https://www.bilibili.com/video/av35157971?from=search&seid=4061842832168997589
 
 
 
-
-
-
-
 http://cs231n.github.io/convolutional-networks/
 
 > INPUT [32x32x3] will hold the raw pixel values of the image, in this case an image of width 32, height 32, and with three color channels R,G,B.
@@ -295,10 +303,6 @@ https://datascience.stackexchange.com/a/27252
 
 
 
-
-
-
-
 #### ==[Stanford Lecture 5: Convolutional Neural Networks]( http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf)==
 
 如果有padding的话就 (N-F+2P)/S +1
@@ -307,11 +311,9 @@ https://datascience.stackexchange.com/a/27252
 
 ![image.png](https://i.loli.net/2020/03/10/ohDOVv9BAsjdfqm.png)
 
->  Note the number of filter equals the dimension[3] of the next layer
+>  ==Note the number of filter equals the dimension[3] of the next layer==
 >
 > MP (F = 5, S = 1)
-
-
 
 
 
@@ -325,9 +327,11 @@ https://datascience.stackexchange.com/a/27252
 
 
 
-CNN cheat sheet
+### ==CNN cheat sheet==
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
+
+
 
 **Convolution layer (CONV)**
 
@@ -386,6 +390,8 @@ Applications: Images/Sound/Text
 
 
 ### Cons
+
+
 
 Data must be "spatial".
 

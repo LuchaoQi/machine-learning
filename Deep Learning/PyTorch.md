@@ -1,6 +1,12 @@
 [TOC]
 
-## Performance Improvement
+
+
+
+
+[[D] Here are 17 ways of making PyTorch training faster – what did I miss?](https://www.reddit.com/r/MachineLearning/comments/kvs1ex/d_here_are_17_ways_of_making_pytorch_training/)
+
+
 
 Labs session lab5~6
 
