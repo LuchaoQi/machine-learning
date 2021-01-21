@@ -32,8 +32,6 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 
 
-
-
 [理解Hinge Loss (折页损失函数、铰链损失函数)](https://blog.csdn.net/fendegao/article/details/79968994)
 
 
@@ -127,8 +125,6 @@ So we can further use [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagran
 [从KKT条件下的拉格朗日乘法到拉格朗日对偶问题](https://blog.csdn.net/dpengwang/article/details/88355744)
 
 [BILIBILI - Math behind the model (Chinese)](https://www.bilibili.com/video/av70839977/?p=28&spm_id_from=333.788.b_6d756c74695f70616765.28)
-
-
 
 
 
