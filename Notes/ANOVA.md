@@ -10,7 +10,7 @@ http://www.sthda.com/english/wiki/one-way-anova-test-in-r
 
 
 
-### anova() in R 
+### anova() in R: nested models comparison
 
 > When you use anova(lm.1,lm.2,test="Chisq"), it performs the Chi-square test to compare lm.1 and lm.2 (i.e. it tests whether reduction in the ==residual sum of squares== are statistically significant or not). Note that this makes sense only if lm.1 and lm.2 are nested models.
 >
@@ -24,7 +24,11 @@ http://www.sthda.com/english/wiki/one-way-anova-test-in-r
 
 
 
-### F test
+#### F test
+
+
+
+[How the F test works to compare models](https://www.graphpad.com/guides/prism/latest/curve-fitting/reg_howtheftestworks.htm)
 
 
 
