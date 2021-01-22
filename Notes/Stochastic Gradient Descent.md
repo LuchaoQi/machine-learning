@@ -34,12 +34,6 @@ https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k8yqdpv04ek4gz
 
 
 
-
-
-
-
-
-
 ==A pretty good optimization post== 
 
 https://frnsys.com/ai_notes/foundations/optimization.html
@@ -61,18 +55,6 @@ Batch gradient descent
 ​	◦ Utilize the gradient of all the data 
 
 ​	◦ Slow: need to consider all the data before making a single update
-
-
-
-
-
-![image.png](https://i.loli.net/2020/02/11/cY1m3xL45gfjIA9.png)
-
-
-
-
-
-
 
 
 

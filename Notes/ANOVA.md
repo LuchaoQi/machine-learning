@@ -6,7 +6,7 @@ http://www.sthda.com/english/wiki/one-way-anova-test-in-r
 
 
 
-![image-20201019094639592](https://i.loli.net/2020/10/19/pYHmCNSdFMI5POj.png)
+![](https://i.loli.net/2020/10/19/pYHmCNSdFMI5POj.png)
 
 
 
@@ -56,10 +56,6 @@ res.aov <- aov(weight ~ group, data = my_data)
 # Summary of the analysis
 summary(res.aov)
 ```
-
-
-
-
 
 
 

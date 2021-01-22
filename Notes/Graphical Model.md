@@ -8,11 +8,13 @@ http://ir.hit.edu.cn/~jguo/docs/notes/report-in-princeton-research.pdf
 
 http://statweb.stanford.edu/~tibs/ftp/glasso-bio.pdf
 
-![image.png](https://i.loli.net/2020/05/11/c5KQtlf6gARkHEN.png)
+![](https://i.loli.net/2020/05/11/c5KQtlf6gARkHEN.png)
+
+
 
 http://fieryfish.github.io/blog/2014/07/17/ggm/
 
-![image.png](https://i.loli.net/2020/05/07/pHNzxXjFeMULQAt.png)
+![](https://i.loli.net/2020/05/07/pHNzxXjFeMULQAt.png)
 
 
 
@@ -71,10 +73,6 @@ the regularizer acts like sigmoid function
 
 
 
-
-
-
-
 ## Basics
 
 ### ==[高斯图模型 Gaussian Graphical Model](http://fieryfish.github.io/blog/2014/07/17/ggm/)==
@@ -104,6 +102,8 @@ Shaded X means event X is observed
 knowing X -> estimate Y
 
 In EM paper, knowing coin flip sequence -> estimate P(head A)/P(head B)
+
+
 
 ![image.png](https://i.loli.net/2020/05/05/cgjJpeGDTOuyU8W.png)
 
@@ -153,7 +153,13 @@ Definition
 
 
 
-![image.png](https://i.loli.net/2020/05/05/KNtmXiGMFVu1lCq.png)
+
+
+https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k8nwfu22ai156q
+
+
+
+![](https://i.loli.net/2020/05/05/KNtmXiGMFVu1lCq.png)
 
 
 
