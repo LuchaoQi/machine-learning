@@ -4,6 +4,8 @@
 
 ### Cross Entropy
 
+
+
 ==great introduction: cross entropy and kl divergence==
 
 https://machinelearningmastery.com/cross-entropy-for-machine-learning/
@@ -31,9 +33,17 @@ https://medium.com/activating-robotic-minds/demystifying-cross-entropy-e80e3ad54
 
 ### Hinge Loss
 
+
+
 http://cs231n.stanford.edu/slides/2020/lecture_3.pdf
 
 ![](https://i.loli.net/2020/05/27/owbd6zT3HcnWLx2.png)
 
-### ![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
+
+
+https://cs231n.github.io/linear-classify/
+
+
+
+![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
 

@@ -1,4 +1,4 @@
-### Posts
+
 
 
 
@@ -10,7 +10,15 @@
 
 
 
-### Resources
 
-### [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)
+
+
+
+[daily-paper-computer-vision](https://github.com/amusi/daily-paper-computer-vision)
+
+[microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)
+
+
+
+
 

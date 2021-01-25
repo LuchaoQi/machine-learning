@@ -2,6 +2,18 @@
 
 
 
+https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php
+
+
+
+> **Note:** Pearson's correlation coefficient is a measure of the strength of a linear association between two variables. Put another way, it determines whether there is a linear component of association between two continuous variables. As such, linearity is not strictly an "assumption" of Pearson's correlation. However, you would not normally want to use Pearson's correlation to determine the strength and direction of a linear relationship when you already know the relationship between your two variables is not linear. Instead, the relationship between your two variables might be better described by another statistical measure (Cohen, 2013). For this reason, it is not uncommon to view the relationship between your two variables in a scatterplot to see if running a Pearson's correlation is the best choice as a measure of association or whether another measure would be better.
+
+
+
+
+
+
+
 ### Spearman or Pearson
 
 
