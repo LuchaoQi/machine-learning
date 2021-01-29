@@ -2,6 +2,8 @@
 
 
 
+[超形象图解数学中抽象的概念](https://www.bilibili.com/video/BV11z4y1S7HE)
+
 
 
 [卷积究竟卷了啥？——17分钟了解什么是卷积](https://www.bilibili.com/video/BV1JX4y1K7Dr?p=1&share_medium=iphone&share_plat=ios&share_source=GENERIC&share_tag=s_i&timestamp=1611333658&unique_k=3HiIGK)
