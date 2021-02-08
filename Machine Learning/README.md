@@ -14,7 +14,15 @@
 
 
 
+
+
 ## Resources
+
+
+
+[阿泽](https://www.zhihu.com/people/is-aze/posts)
+
+
 
 [shuhuai008](https://space.bilibili.com/97068901)
 
@@ -25,16 +33,6 @@
 
 
 [Seeing Theory](https://seeing-theory.brown.edu/)
-
-
-
-https://stanford.edu/~shervine/
-
-
-
-some real python code to achieve different dimension reduction algorithms
-
-https://github.com/heucoder/dimensionality_reduction_alo_codes
 
 
 
@@ -50,6 +48,12 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes
 
 
 
+some real python code to achieve different dimension reduction algorithms
+
+https://github.com/heucoder/dimensionality_reduction_alo_codes
+
+
+
 [Notes from Coursera Deep Learning courses by Andrew Ng](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng?from_action=save)
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/LVScfv9qw9pv0b" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng" title="Notes from Coursera Deep Learning courses by Andrew Ng" target="_blank">Notes from Coursera Deep Learning courses by Andrew Ng</a> </strong> from <strong><a href="https://www.slideshare.net/TessFerrandez" target="_blank">Tess Ferrandez</a></strong> </div>
@@ -60,6 +64,8 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes
 [图解机器学习](https://my.oschina.net/taogang/blog/1544709)
 
 
+
+https://stanford.edu/~shervine/
 
 
 

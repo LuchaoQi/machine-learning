@@ -42,9 +42,11 @@ https://mp.weixin.qq.com/s/syRW1dLQLU1XlUP-kcj6zg
 
 
 
-[牛逼！一行代码让 pandas 的 apply 速度飙到极致！](https://mp.weixin.qq.com/s/vVuQIjG6usKXMB7Db8GK6Q)
-
 [Tidyverse pipes in Pandas](https://stmorse.github.io/journal/tidyverse-style-pandas.html)
+
+[系列: pandas100个骚操作](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUzODYwMDAzNA==&action=getalbum&album_id=1699019347278561282&scene=21#wechat_redirect)
+
+[一行代码让 pandas 的 apply 速度飙到极致！](https://mp.weixin.qq.com/s/vVuQIjG6usKXMB7Db8GK6Q)
 
 [高效的 10 个Pandas函数，你都用过吗？](https://mp.weixin.qq.com/s?__biz=MzUzODYwMDAzNA==&mid=2247497424&idx=2&sn=74af656fdf9cd92825b4005a03ca937f&chksm=fad781ddcda008cb1f34e9d7166d823687a07baf1d10b86e9869082840348fea25b9a8962c3d&mpshare=1&scene=1&srcid=0820K2WR4aLPBzkdjc1z2x55&sharer_sharetime=1597907390294&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=b9392b7c27e91e19d40916ed6435efb6fd4d871a4b3ae90c5314a43eba30d65d75dff321986e9081de7e405d6bf49352e6008f3705389700dfc25c55690b8ef4ce38e7f2df57501fbd80a787fcbc8167543356b3613e285f25b07b862288facb69d34964afb3a008e8c2e80b9d2cdbc4b7acbcab0985a3c053206eb755fd468f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A0rTTvHkZVYcZ9K%2F9qAyzvw%3D&pass_ticket=dl5Iy2qsBZ9gzq%2FRfs1Q4CEN%2Fhyil2Dm7RHxB%2B8%2FfwwGzOwxi2eJVPN0mhlXaHf0)
 
@@ -55,8 +57,6 @@ https://mp.weixin.qq.com/s/syRW1dLQLU1XlUP-kcj6zg
 [还在抱怨pandas运行速度慢？这几个方法会颠覆你的看法](https://mp.weixin.qq.com/s?__biz=MzU4OTQ1MTA4OQ==&mid=2247484170&idx=1&sn=8f662550a6e01ab191de1c57afb4f2e5&chksm=fdcc1934cabb9022b42ddf51c2c11f8c5069c424ac7f1120550c66dae34e395991b0b3ada92e&mpshare=1&scene=1&srcid=&sharer_sharetime=1575522959679&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=aa397d0f1c3682ba85dc210d24355b5edd123bd41da566c32115a60bdca077a4b648abf84f1b9002187ad3d77d6baec5f099e26f7a440a4e6fc85831696909e1baf3274c4bed4b32c297082c805bffff&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=AxRu4fmcVlvQRThRqao5gkE%3D&pass_ticket=ee2Re0y5GRDC7Z5JO2IRPQMYtoeI2sD8LkuPcXANvvpCdl6NlB9x9gylFsx2yZyu)
 
 [惊了！大牛换了个思路，就让 Pandas 快了 1000x！](https://mp.weixin.qq.com/s?__biz=Mzg3MTAyMDMxOQ==&mid=2247484088&idx=1&sn=bf127b42706b72ec9a4f34a9ef2df912&chksm=ce85a0c8f9f229de91b2ec02ae5ac23c6699ee66ce29e89ba9ced17fb8e3e935d0f585e6db07&mpshare=1&scene=1&srcid=012560Rv2ZXMKbhhzpWQJbJq&sharer_sharetime=1579909492329&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=47c0c8dda35b3d6ee85d69b7b662ba41d469adc671ed850dd6da47b73a8902f53a6242181efcf6e0242731d540d53e1c845a273de39984b309a2b6943e95b746b08ffb9d6c0fa66e232995ddbc268323&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62070158&lang=en&exportkey=A8%2BE8Kqp6Tr85gxTfxo4zu0%3D&pass_ticket=lJveRg9gAUeTqWfqKJqPTsmBETtIP04Z4E2W2kBQR9BH39IEkb5%2FusO9Aiu9jq1T)
-
-
 
 
 

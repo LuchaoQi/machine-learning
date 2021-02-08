@@ -24,8 +24,6 @@ Basics
 
 https://towardsdatascience.com/the-vanishing-gradient-problem-69bf08b15484
 
-
-
 > Certain activation functions, like the sigmoid function, squishes a large input space into a small input space between 0 and 1. Therefore, a large change in the input of the sigmoid function will cause a small change in the output. Hence, the derivative becomes small.
 >
 > For shallow network with only a few layers that use these activations, this isn’t a big problem. However, when more layers are used, it can cause the gradient to be too small for training to work effectively.

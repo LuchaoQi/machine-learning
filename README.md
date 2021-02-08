@@ -84,7 +84,9 @@ https://github.com/ml-tooling/best-of-ml-python
 
 ## Resources
 
+[Learn-Datascience-For-Free](https://github.com/therealsreehari/Learn-Datascience-For-Free)
 
+![](https://camo.githubusercontent.com/b6482a1fcf61b0f1b479c9f129b00e09ffb100026db15502b351b083f4f5fd3f/687474703a2f2f6e6972766163616e612e636f6d2f74686f75676874732f77702d636f6e74656e742f75706c6f6164732f323031332f30372f526f6164546f44617461536369656e74697374312e706e67)
 
 [Andrew NG Coursera](https://www.coursera.org/courses?query=machine%20learning%20andrew%20ng)
 
