@@ -2,7 +2,11 @@
 
 
 
+[Nested versus non-nested cross-validation](https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html#nested-versus-non-nested-cross-validation)
 
+
+
+### Notes
 
 
 
@@ -11,8 +15,6 @@
 
 
 
-
-### Notes
 
 
 
