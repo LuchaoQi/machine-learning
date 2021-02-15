@@ -18,9 +18,15 @@ https://www.pyimagesearch.com/
 
 https://jalammar.github.io/
 
+
+
+
+
 [shuhuai008](https://space.bilibili.com/97068901)
 
 [超形象图解数学中抽象的概念](https://www.bilibili.com/video/BV11z4y1S7HE)
+
+[Physics Videos by Eugene Khutoryansky](https://www.youtube.com/channel/UCJ0yBou72Lz9fqeMXh9mkog)
 
 
 

@@ -2,6 +2,8 @@
 
 
 
+### [Eigenvalues and Eigenvectors, Imaginary and Real](https://www.youtube.com/watch?v=8F0gdO643Tc&ab_channel=PhysicsVideosbyEugeneKhutoryansky)
+
 
 
 ### [Why are principal component scores uncorrelated?](https://stats.stackexchange.com/questions/153928/why-are-principal-component-scores-uncorrelated)
@@ -93,8 +95,6 @@ PC1_scores = prcomp(d)$x[,'PC1']
 ### [PCA on a categorical variable?](https://piazza.com/class/k1zer6tg6s04bb?cid=443)
 
 > Unfortunately, no. PCA is really only appropriate for real-valued features. Even ordinal features (categories with order, e.g. first, second, third, ...) shouldn't use PCA because there is a "distance" implied. Only use PCA for xi∈R.
->
-> 
 >
 > They mention correspondence analysis, which is a method I haven't looked into myself, but here's a link to the paper information (it's from 1935): https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/connection-between-correlation-and-contingency/D3A75249B56AF5DDC436938F1B6EABD1
 >

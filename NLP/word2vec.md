@@ -24,13 +24,9 @@
 
 ## Posts
 
-
+[【机器学习】白板推导系列(三十六) ～ 词向量(Word Vector)](https://www.bilibili.com/video/BV1hy4y1n7ik)
 
 [一文总结词向量的计算、评估与优化](https://mp.weixin.qq.com/s/RrR-iAdlnuSnRai1cwcw3A)
-
-
-
-
 
 https://cs224d.stanford.edu/lecture_notes/notes1.pdf
 
@@ -46,23 +42,13 @@ https://cs224d.stanford.edu/lecture_notes/notes1.pdf
 
 http://alexminnaar.com/2015/04/12/word2vec-tutorial-skipgram.html
 
-
-
 http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
-
-
 
 https://towardsdatascience.com/a-beginners-guide-to-word-embedding-with-gensim-word2vec-model-5970fa56cc92
 
 
 
-
-
 ## Skip-Gram
-
-
-
-
 
 
 
