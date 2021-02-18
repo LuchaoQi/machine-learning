@@ -1,5 +1,3 @@
-[TOC]
-
 Platforms: 
 
 Workona / DS README / Github stars
@@ -48,7 +46,7 @@ https://github.com/ml-tooling/best-of-ml-python
 
 [4 Hyper-Parameter Tuning Techniques and Limitations](https://medium.com/swlh/4-hyper-parameter-tuning-techniques-924cb188d199)
 
-[<mark>Kaggle竞赛宝典国内外竞赛方案汇总</mark>](https://mp.weixin.qq.com/s/qYKnM6uzXjX3oTDDYrDoEg)
+[<mark>Kaggle竞赛宝典国内外竞赛方案汇总</mark>](https://mp.weixin.qq.com/s/MlL0mfXsZvzo0strp4MBhg)
 
 [图之典](http://tuzhidian.com/)
 
@@ -56,7 +54,7 @@ https://github.com/ml-tooling/best-of-ml-python
 
 [Here’s how you can get a 2–6x speed-up on your data pre-processing with Python](https://towardsdatascience.com/heres-how-you-can-get-a-2-6x-speed-up-on-your-data-pre-processing-with-python-847887e63be5)
 
-[<mark>基于Python的信用评分卡模型分析</mark>](https://zhuanlan.zhihu.com/p/35284849)
+[基于Python的信用评分卡模型分析](https://zhuanlan.zhihu.com/p/35284849)
 
 [Kaggle经典数据分析项目：泰坦尼克号生存预测！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247531362&idx=1&sn=8390708f0a8ba20bdc3f371d949e49f4&chksm=e873aa2fdf042339ef70d691589545039d0acd031a5966763d7eef2a0b046ea0db11cc276f57&mpshare=1&scene=1&srcid=0823Ci8oabCRTipUDR2DnQUr&sharer_sharetime=1598195165151&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=feb849ed6c1e8222b81ff2b97a8ddec779424716b5a31e4ffaa1ee9826e20ac7908903107a083b22118c84eebc1b95070ab145fea786152c379d658001ba3f484dcc758670e4ecd8f0851d1b5f5067d6297b0756d3e0c14eeca904cf6eb8cd14b95e2ca8feb0567395e8b7a2c85573bd8b19226133ec68e7ba4c558c74f94a7f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A9klxGZsPJnX7zcjUWtG8qU%3D&pass_ticket=LwsZZN%2FMotkaVC8yPtvHw8kHQ2SvTHl%2B7Yp3WDll7pN0OGOUnzqsNHyrY2mSnNPn)
 
