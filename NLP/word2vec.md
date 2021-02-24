@@ -2,7 +2,7 @@
 
 ## Posts
 
-[【机器学习】白板推导系列(三十六) ～ 词向量(Word Vector)](https://www.bilibili.com/video/BV1hy4y1n7ik)
+<mark>[【机器学习】白板推导系列(三十六) ～ 词向量(Word Vector)](https://www.bilibili.com/video/BV1hy4y1n7ik)</mark>
 
 [一文总结词向量的计算、评估与优化](https://mp.weixin.qq.com/s/RrR-iAdlnuSnRai1cwcw3A)
 
