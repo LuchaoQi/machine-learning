@@ -55,25 +55,23 @@ similarity between samples based on confusion matrix
 
 
 
+https://glassboxmedicine.com/2019/03/02/measuring-performance-auprc/
+
+> It’s a bit trickier to interpret AUPRC than it is to interpret AUROC ([the area under the receiver operating characteristic](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)). That’s because the baseline for AUROC is always going to be 0.5 — a random classifier, or a coin toss, will get you an AUROC of 0.5. But with AUPRC, the baseline is equal to the fraction of positives ([Saito et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432)), where the fraction of positives is calculated as (# positive examples / total # examples). That means that different classes have different AUPRC baselines. A class with 12% positives has a baseline AUPRC of 0.12, so obtaining an AUPRC of 0.40 on this class is great. However a class with 98% positives has a baseline AUPRC of 0.98, which means that obtaining an AUPRC of 0.40 on this class is bad.
+
+
+
 ### https://en.wikipedia.org/wiki/F1_score
-
-
 
 ![](https://i.loli.net/2020/08/28/nUZ6DvgG7WMuFsO.png)
 
 
 
-### [==F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?==](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
-
-
-
-
+### [<mark>F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?</mark>](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
 
 
 
 ### Intuition
-
-
 
 For binary classifier, we use **threshold** to distinguish classifications.
 

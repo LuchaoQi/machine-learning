@@ -1,22 +1,20 @@
 [TOC]
 
+
+
+
+
+
+
 ### [Does random forest re-use features at each node when generating a decision tree?](https://datascience.stackexchange.com/questions/10713/does-random-forest-re-use-features-at-each-node-when-generating-a-decision-tree)
 
-
-
 ![](https://i.stack.imgur.com/l6r4F.jpg)
-
-
-
-
 
 
 
 ### %IncMSE / IncNodePurity interpretation
 
 https://stats.stackexchange.com/a/162590
-
-
 
 > %IncMSE is the most robust and informative measure. It is the increase in mse of predictions(estimated with out-of-bag-CV) as a result of variable j being permuted(values randomly shuffled).
 >
@@ -35,8 +33,6 @@ https://stats.stackexchange.com/a/162590
 
 
 ### Gini Calculation
-
-
 
 
 
@@ -85,15 +81,9 @@ varImpPlot(fit,
 
 
 
+### Model Construction: Bootstrap/ Bagging
 
-
-### Notes
-
-
-
-**Bootstrap/ Bagging**
-
-**Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of decision trees so we can get a random forest**
+Randomly choose features (usually around  $\sqrt {n} $  ) to build hundreds of decision trees so we can get a random forest
 
 Usage
 
@@ -128,8 +118,6 @@ we can get a contingency matrix of prediction
 |         90          |           10            |
 
 So out-of-bag error is $\dfrac {90}{90 + 10}=0.9$
-
-
 
 
 
