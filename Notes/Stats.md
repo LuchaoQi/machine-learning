@@ -2,9 +2,76 @@
 
 
 
+
+
+## Statistics
+
+### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
+
+
+
+### [kappa statistic](http://sofasofa.io/forum_main_post.php?postid=1000321)
+
+similarity between samples based on confusion matrix
+
+
+
+
+
+## AUC & PR & Confusion Matrix
+
+
+
+### [<mark>F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?</mark>](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
+
+
+
+### [When to Use ROC vs. Precision-Recall Curves?](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)
+
+> Generally, the use of ROC curves and precision-recall curves are as follows:
+>
+> - ROC curves should be used when there are roughly equal numbers of observations for each class.
+> - Precision-Recall curves should be used when there is a moderate to large class imbalance.
+
+Intuition: think about the fistula exmaple in previous internship, the dataset is pretty imbalanced and the AUROC is around 0.9 yet the model doesn't really perform well. Why? Assume the model predicts all the samples as negatives and the ground truth consists of 0.1 positives and 0.9 negatives. The result would be overly optimistic.
+
+
+
+### [Measuring Performance: AUPRC and Average Precision](https://glassboxmedicine.com/2019/03/02/measuring-performance-auprc/)
+
+> It’s a bit trickier to interpret AUPRC than it is to interpret AUROC ([the area under the receiver operating characteristic](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)). That’s because the baseline for AUROC is always going to be 0.5 — a random classifier, or a coin toss, will get you an AUROC of 0.5. But with AUPRC, the baseline is equal to the fraction of positives ([Saito et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432)), where the fraction of positives is calculated as (# positive examples / total # examples). That means that different classes have different AUPRC baselines. A class with 12% positives has a baseline AUPRC of 0.12, so obtaining an AUPRC of 0.40 on this class is great. However a class with 98% positives has a baseline AUPRC of 0.98, which means that obtaining an AUPRC of 0.40 on this class is bad.
+
+
+
+### https://en.wikipedia.org/wiki/F1_score
+
+![](https://i.loli.net/2020/08/28/nUZ6DvgG7WMuFsO.png)
+
+
+
+
+
+### Intuition
+
+For binary classifier, we use **threshold** to distinguish classifications.
+
+e.g. in logistic regression, y_pred > **0.5**  or y_pred > **0.4**
+
+For each threshold, we got a confusion matrix and then we calculate different metrics thus we can plot 
+
+ROC(TPR VS. FPR)
+
+![](https://i.loli.net/2020/08/28/5v8HcaZu7xzKPA6.png)
+
+ PRC(PRECISION VS. RECALL)
+
+![](https://i.loli.net/2020/08/28/p9oAmlrTgsZEuzv.png)
+
+
+
+
+
 ## Bootstrap vs. Shuffle vs. Permutation
-
-
 
 Shuffle: random numbers **without** replacement
 
@@ -34,66 +101,6 @@ mean(out >= obs)
 Bootstrap: any test or metric that relies on random sampling **with** replacement
 
 
-
-
-
-## Statistics
-
-### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
-
-
-
-### [kappa statistic](http://sofasofa.io/forum_main_post.php?postid=1000321)
-
-similarity between samples based on confusion matrix
-
-
-
-
-
-## AUC & PR & Confusion Matrix
-
-
-
-https://glassboxmedicine.com/2019/03/02/measuring-performance-auprc/
-
-> It’s a bit trickier to interpret AUPRC than it is to interpret AUROC ([the area under the receiver operating characteristic](https://glassboxmedicine.com/2019/02/23/measuring-performance-auc-auroc/)). That’s because the baseline for AUROC is always going to be 0.5 — a random classifier, or a coin toss, will get you an AUROC of 0.5. But with AUPRC, the baseline is equal to the fraction of positives ([Saito et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432)), where the fraction of positives is calculated as (# positive examples / total # examples). That means that different classes have different AUPRC baselines. A class with 12% positives has a baseline AUPRC of 0.12, so obtaining an AUPRC of 0.40 on this class is great. However a class with 98% positives has a baseline AUPRC of 0.98, which means that obtaining an AUPRC of 0.40 on this class is bad.
-
-
-
-### https://en.wikipedia.org/wiki/F1_score
-
-![](https://i.loli.net/2020/08/28/nUZ6DvgG7WMuFsO.png)
-
-
-
-### [<mark>F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?</mark>](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
-
-
-
-### Intuition
-
-For binary classifier, we use **threshold** to distinguish classifications.
-
-e.g. in logistic regression, y_pred > **0.5**  or y_pred > **0.4**
-
-For each threshold, we got a confusion matrix and then we calculate different metrics thus we can plot 
-
-ROC(TPR VS. FPR)
-
-![](https://i.loli.net/2020/08/28/5v8HcaZu7xzKPA6.png)
-
- PRC(PRECISION VS. RECALL)
-
-![](https://i.loli.net/2020/08/28/p9oAmlrTgsZEuzv.png)
-
-
-
-### Python Code
-
-
-
-https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/
 
 
 
