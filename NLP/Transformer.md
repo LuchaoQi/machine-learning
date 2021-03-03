@@ -1,10 +1,8 @@
-
+[Transformers资料汇总！从原理到应用](https://mp.weixin.qq.com/s/xKksLUzmtrx5NIN0D9tW0w)
 
 [图解Transformer（完整版）！](https://mp.weixin.qq.com/s/cJqhESxTMy5cfj0EXh9s4w)
 
 http://jalammar.github.io/illustrated-transformer/
-
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-QH8fRhqFHM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

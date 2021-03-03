@@ -112,7 +112,7 @@ Bootstrap: any test or metric that relies on random sampling **with** replacemen
 
 ### Entropy between distributions
 
-
+> Those metrics can be used to rank the importance of features across different datasets i.e. the output the package [featuretools](https://github.com/alteryx/featuretools)
 
 [Kullback–Leibler divergence](https://github.com/LuchaoQi/HW_JHU/blob/master/machine%20learning_deep%20learning/hw1/DeepLearning_Fall2019_hw1.pdf) Q3
 

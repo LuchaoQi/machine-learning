@@ -1,4 +1,12 @@
-## Posts & Resources
+[toc]
+
+
+
+
+
+### [一键数据分析&自动化特征工程！](https://mp.weixin.qq.com/s/dgm7hXJ3d7N5qb4SOLK4yg)
+
+> pandas_profiling | [featuretools](https://github.com/alteryx/featuretools)
 
 ### [Tidyverse pipes in Pandas](https://stmorse.github.io/journal/tidyverse-style-pandas.html)
 
