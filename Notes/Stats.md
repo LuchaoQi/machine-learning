@@ -6,6 +6,12 @@
 
 ## Statistics
 
+### [Probability Cheat Sheet](https://web.cs.elte.hu/~mesti/valszam/kepletek)
+
+pdf / cdf
+
+
+
 ### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
 
 
