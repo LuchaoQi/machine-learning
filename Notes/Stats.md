@@ -79,6 +79,8 @@ ROC(TPR VS. FPR)
 
 ## Bootstrap vs. Shuffle vs. Permutation
 
+<mark>Permutation example: https://www.jwilber.me/permutationtest/ </mark>
+
 Shuffle: random numbers **without** replacement
 
 Permutation: Permutation allows replacement but we do it **without** replacement
