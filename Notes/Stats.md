@@ -79,13 +79,21 @@ ROC(TPR VS. FPR)
 
 ## Bootstrap vs. Shuffle vs. Permutation
 
-<mark>Permutation example: https://www.jwilber.me/permutationtest/ </mark>
+
+
+
 
 Shuffle: random numbers **without** replacement
 
 Permutation: Permutation allows replacement but we do it **without** replacement
 
-A typical application is shown below:
+<mark>Permutation example: https://www.jwilber.me/permutationtest/ </mark>
+
+![](https://i.loli.net/2021/03/19/1rPJcIKtmWNZQnf.png)
+
+
+
+Typical R code for permutation is shown below:
 
 ```R
 obs = asb(mean(x[y]) - mean(x[!y]))

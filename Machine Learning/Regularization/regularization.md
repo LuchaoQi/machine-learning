@@ -50,12 +50,6 @@ $||w_i|| = \sum|w_i|$
 
 
 
-
-
-
-
-
-
 [Data Science - Part XII - Ridge Regression, LASSO, and Elastic Nets](https://www.youtube.com/watch?v=ipb2MhSRGdw)
 
 
