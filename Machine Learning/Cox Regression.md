@@ -1,1 +1,0 @@
-http://www.sthda.com/english/wiki/cox-proportional-hazards-model
