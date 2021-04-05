@@ -6,14 +6,6 @@
 
 ## Statistics
 
-### [Probability Cheat Sheet](https://web.cs.elte.hu/~mesti/valszam/kepletek)
-
-pdf / cdf
-
-
-
-### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
-
 
 
 ### [kappa statistic](http://sofasofa.io/forum_main_post.php?postid=1000321)
@@ -21,6 +13,18 @@ pdf / cdf
 similarity between samples based on confusion matrix
 
 
+
+### [stanford-cme-106-probability-and-statistics](https://github.com/shervinea/stanford-cme-106-probability-and-statistics)
+
+
+
+### [Probability Cheat Sheet](https://web.cs.elte.hu/~mesti/valszam/kepletek)
+
+pdf / cdf
+
+### basic Rules for the Mean, Variance, Covariance, and Correlation for the expectation of random variables
+
+http://www.kaspercpa.com/statisticalreview.htm
 
 
 
