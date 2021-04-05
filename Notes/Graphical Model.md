@@ -26,19 +26,19 @@ https://arxiv.org/pdf/1707.04345.pdf
 
 
 
-==[regarding conditional independence and its graphical representation](https://stats.stackexchange.com/a/73730)==
+<mark>[regarding conditional independence and its graphical representation](https://stats.stackexchange.com/a/73730)</mark>
+
+
 
 ![](https://i.stack.imgur.com/EftcN.png)
 
 
 
+<mark>note that var(x) = cov(x,x) and var(x) = var(z) + var(e_1) + 2cov(z,e_1) so var(x) = 1+ 1 = 2</mark>
+
 
 
 ![](https://i.stack.imgur.com/NJ4gb.png)
-
-
-
-==note that var(x) = var(z) + var(e_1) so var(x) = 1+ 1 = 2==
 
 
 
