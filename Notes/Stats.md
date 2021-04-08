@@ -85,13 +85,13 @@ ROC(TPR VS. FPR)
 
 
 
+Shuffle (纸牌发牌): random numbers **without** replacement 
 
+Bootstrap (shuffle with replacement): any test or metric that relies on random sampling **with** replacement 
 
-Shuffle: random numbers **without** replacement
+Permutation (排列 order matters): Permutation allows replacement but we do it **without** replacement
 
-Permutation: Permutation allows replacement but we do it **without** replacement
-
-<mark>Permutation example: https://www.jwilber.me/permutationtest/ </mark>
+<mark>Permutation test example: https://www.jwilber.me/permutationtest/ </mark>
 
 ![](https://i.loli.net/2021/03/19/1rPJcIKtmWNZQnf.png)
 
@@ -117,12 +117,6 @@ mean(out >= obs)
 
 # abs(repeated results) >= abs(observed results)
 ```
-
-Bootstrap: any test or metric that relies on random sampling **with** replacement
-
-
-
-
 
 
 
