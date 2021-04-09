@@ -83,7 +83,9 @@ ROC(TPR VS. FPR)
 
 ## Bootstrap vs. Shuffle vs. Permutation
 
+https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability#introduction
 
+![](https://i.loli.net/2021/04/10/wMoZnhd6NG5Omle.png)
 
 Shuffle (纸牌发牌): random numbers **without** replacement 
 
