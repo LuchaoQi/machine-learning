@@ -1,6 +1,8 @@
 # Others
 .vscode
+env
 **/.git
+
 
 # R
 .Rproj.user
