@@ -1,5 +1,3 @@
-### Resources
-
 
 
 https://www.tensorflow.org/tutorials/keras/regression
@@ -13,8 +11,6 @@ https://www.tensorflow.org/tutorials/keras/regression
 https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book
 
 [ch06-神经网络.ipynb](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book/blob/master/ch06-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/ch06-%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.ipynb)
-
-
 
 
 
