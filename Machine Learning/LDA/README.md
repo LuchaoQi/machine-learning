@@ -6,10 +6,6 @@
 
 
 
-
-
-
-
 On the projected vector, the new axis should follow two criteria
 
 1. Maximize the distance between means
@@ -19,10 +15,7 @@ On the projected vector, the new axis should follow two criteria
 
 
 
-
-
 ## Resources
 
 [StatQuest: Linear Discriminant Analysis (LDA) clearly explained.](https://www.youtube.com/watch?v=azXCzI57Yfc)
-
 

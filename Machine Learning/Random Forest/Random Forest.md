@@ -4,6 +4,16 @@
 
 
 
+> Decision tree split nodes based on node impurity (gini / entropy / variance / chi squared).
+>
+> In random forest, for each node level, a random subset of features were chosen and we split node using the same method in decision tree. Note already used feature should not be used <mark>within the same branch</mark>. Then bag the output of all the decision trees at the end. 
+
+
+
+### [In Random Forest, why is a random subset of features chosen at the node level rather than at the tree level?](https://stats.stackexchange.com/questions/357990/in-random-forest-why-is-a-random-subset-of-features-chosen-at-the-node-level-ra)
+
+https://stats.stackexchange.com/a/405150/272857
+
 
 
 ### [Does random forest re-use features at each node when generating a decision tree?](https://datascience.stackexchange.com/questions/10713/does-random-forest-re-use-features-at-each-node-when-generating-a-decision-tree)
@@ -30,11 +40,7 @@ https://stats.stackexchange.com/a/162590
 
 
 
-
-
 ### Gini Calculation
-
-
 
 ![image.png](https://i.loli.net/2020/10/30/hWOXZV4BHsu3gJT.png)
 

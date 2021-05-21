@@ -40,22 +40,6 @@ Besides Gini index, we can also use information gain
 
 
 
-
-
-
-
-
-
-### Pros and Cons
-
-![image.png](https://i.loli.net/2020/02/27/6I8xOuA7HXeEV9a.png)
-
-
-
-
-
-
-
 ## [Regression Trees, Clearly Explained!!!](https://youtu.be/g9c66TUylZ4?t=1254)
 
 > continuous variables
