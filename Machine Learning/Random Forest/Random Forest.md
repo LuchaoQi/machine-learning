@@ -6,15 +6,26 @@
 
 > Decision tree split nodes based on node impurity (gini / entropy / variance / chi squared).
 >
-> In random forest, for each node level, a random subset of features were chosen and we split node using the same method in decision tree. Note already used feature should not be used <mark>within the same branch</mark>. Then bag the output of all the decision trees at the end. 
+> In random forest, for each node level, a random subset of <mark>full features</mark> were chosen and we split node using the same method in decision tree. Note already used feature should not be used <mark>within the same branch</mark>. 
+>
+> When training, each tree in a random forest learns from a random sample of the data points. <mark>The samples are drawn with replacement, known as bootstrapping, which means that some samples will be used multiple times in a single tree.</mark> Then bag the output of all the decision trees at the end. 
 
 
+
+### [Why bagging multiple trees sometimes doesn't improve the performance of random forest?](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
+
+The problem with boosted trees is that they are greedy and likely to be overfitted. As such, even with bagging, those trees can have lots of structural similarities and thus have high correlation in their predictions. e.g. suggestions from three same-level engineers in a team are highly similar and can be viewed as only one suggestion from high-level.
+
+With that saying, combining predictions from trees that are uncorrelated or at best weakly correlated works better. That's why randomness is important in random forest - random subset of features ensures that trees are highly structurally unsimilar.
+
+### [How  does random forest introduce randomness?](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76)
+
+1. Bootstrap samples when training trees
+2. Random subset of all features are chosen at node level when growing trees
 
 ### [In Random Forest, why is a random subset of features chosen at the node level rather than at the tree level?](https://stats.stackexchange.com/questions/357990/in-random-forest-why-is-a-random-subset-of-features-chosen-at-the-node-level-ra)
 
 https://stats.stackexchange.com/a/405150/272857
-
-
 
 ### [Does random forest re-use features at each node when generating a decision tree?](https://datascience.stackexchange.com/questions/10713/does-random-forest-re-use-features-at-each-node-when-generating-a-decision-tree)
 
