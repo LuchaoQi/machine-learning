@@ -2,6 +2,14 @@
 
 
 
+
+
+### Assumptions of linear regression model
+
+1. Linear relationship
+2. iid Variables are normally distributed
+3. homoscedasticity - iid residuals / errors are likely to be normally distributed
+
 ### Explaining GLM outputs in R (RSS/R2/F VALUE) with formula
 
 https://stats.stackexchange.com/a/172161

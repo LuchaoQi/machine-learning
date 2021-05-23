@@ -1,3 +1,24 @@
+[toc]
+
+
+
+
+
+
+
+### [Assumptions of logistic regression](https://www.statology.org/assumptions-of-logistic-regression/)
+
+First, logistic regression does not require a linear relationship between the dependent and independent variables. Second, the error terms (residuals) do not need to be normally distributed. Third, homoscedasticity is not required. Finally, the dependent variable in logistic regression is not measured on an interval or ratio scale.
+
+So the assumptions of logistic regression are:
+
+1. iid and binary observations
+2. iid variables
+3. linear relationship between variables and logit of response
+4. large sample size
+
+
+
 ### Logistic regression
 
 
