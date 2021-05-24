@@ -65,7 +65,9 @@ scale(newdata, pca$center, pca$scale) %*% pca$rotation
 
 
 
-### ==Loadings==
+### <mark>Loadings</mark>
+
+loadings are the direction of principal component (non-unit)
 
 https://stats.stackexchange.com/a/470545
 
@@ -76,7 +78,7 @@ $$
 
 
 
-raw data %*% loadings = rotated data
+principal component scores = raw data %*% loadings = rotated data = projected vectors on the principal component direction
 
 ```R
 loadings = prcomp(d)$rotation[,'PC1']
