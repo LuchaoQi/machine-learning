@@ -18,7 +18,7 @@ The problem with boosted trees is that they are greedy and likely to be overfitt
 
 With that saying, combining predictions from trees that are uncorrelated or at best weakly correlated works better. That's why randomness is important in random forest - random subset of features ensures that trees are highly structurally unsimilar.
 
-### [How  does random forest introduce randomness?](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76)
+### [How does random forest introduce randomness?](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76)
 
 1. Bootstrap samples when training trees
 2. Random subset of all features are chosen at node level when growing trees

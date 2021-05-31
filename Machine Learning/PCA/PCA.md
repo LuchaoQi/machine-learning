@@ -2,7 +2,7 @@
 
 
 
-### [Eigenvalues and Eigenvectors, Imaginary and Real](https://www.youtube.com/watch?v=8F0gdO643Tc&ab_channel=PhysicsVideosbyEugeneKhutoryansky)
+
 
 
 
@@ -14,7 +14,19 @@
 
 ### [Why log-transforming the data before performing principal component analysis?](https://stats.stackexchange.com/questions/164381/why-log-transforming-the-data-before-performing-principal-component-analysis)
 
+### Does mean centering or feature scaling affect a Principal Component Analysis?
 
+https://stats.stackexchange.com/a/69159/272857
+
+| Before Normalization                     | After Normalization                      |
+| ---------------------------------------- | ---------------------------------------- |
+| ![](https://i.stack.imgur.com/lS3wA.png) | ![](https://i.stack.imgur.com/rqYHf.png) |
+
+https://sebastianraschka.com/faq/docs/pca-scaling.html
+
+<mark>We need to normalize / standardize data and make sure features are on the same unit. </mark>
+
+https://builtin.com/data-science/step-step-explanation-principal-component-analysis
 
 
 
@@ -114,23 +126,9 @@ https://stackoverflow.com/a/40801571/11964524
 
 
 
-### Does mean centering or feature scaling affect a Principal Component Analysis?
-
-https://stats.stackexchange.com/a/69159/272857
-
-| Before Normalization                     | After Normalization                      |
-| ---------------------------------------- | ---------------------------------------- |
-| ![](https://i.stack.imgur.com/lS3wA.png) | ![](https://i.stack.imgur.com/rqYHf.png) |
-
-https://sebastianraschka.com/faq/docs/pca-scaling.html
 
 
-
-
-
-
-
-## ==Intuition: why we use covariance matrix and why we use eigenpairs?==
+### <mark>Intuition: why we use covariance matrix and why we use eigenpairs?</mark>
 
 > PCA - using eigen-decomposition of covariance matrix
 
@@ -150,9 +148,7 @@ https://en.wikipedia.org/wiki/Covariance_matrix#Definition
 
 
 
-**Projected distance**
-
-
+**Projected distance** 
 
 $\vec{a}*\vec{b} = \vert \vec{a}\vert * \vert \vec{b}\vert * cos\theta$
 
@@ -193,7 +189,7 @@ DONE! $u_1$ is eigenvector and $\lambda$ is eigenvalue
 
 
 
-## Example
+### Example
 
 
 
@@ -304,11 +300,7 @@ Rotation (n x k) = (2 x 2):
 [2,] 0.7071068 -0.7071068
 ```
 
-
-
 `Rotation` or `loadings` in princomp() is the matrix of **standardized** variable loadings (i.e., a matrix whose columns contain the eigenvectors).
-
-
 
 sdev	
 the standard deviations of the principal components (i.e., the square roots of the eigenvalues of the covariance/correlation matrix, though the calculation is actually done with the singular values of the data matrix). 
@@ -318,11 +310,7 @@ the standard deviations of the principal components (i.e., the square roots of t
 [1] 1.5811388 0.7071068
 ```
 
-
-
 So you can see `Standard deviations` are the list of square root of eigenvalues
-
-
 
 ```R
 d_cov = cov(d)
@@ -344,11 +332,7 @@ $vectors
 [2,] 0.7071068  0.7071068
 ```
 
-
-
-==i.e. if you want to know the rotated data==
-
-
+<mark>i.e. if you want to know the rotated data</mark>
 
 ```R
 prcomp(d)$x 
@@ -385,9 +369,7 @@ prcomp(d)$rotation
 
 
 
-
-
-==Note it is different from the Example b/c  we are using formula==
+<mark>Note it is different from the Example b/c  we are using formula</mark>
 
 $cov(x,y) = \frac{1}{N-1} Z^TZ$
 
@@ -415,11 +397,11 @@ https://github.com/heucoder/dimensionality_reduction_alo_codes/blob/master/codes
 
 ## Resources
 
+[Principal Component Analysis in 3 Simple Steps](https://sebastianraschka.com/Articles/2015_pca_in_3_steps.html)
 
+[Eigenvalues and Eigenvectors, Imaginary and Real](https://www.youtube.com/watch?v=8F0gdO643Tc&ab_channel=PhysicsVideosbyEugeneKhutoryansky)
 
 [A STEP BY STEP EXPLANATION OF PRINCIPAL COMPONENT ANALYSIS](https://builtin.com/data-science/step-step-explanation-principal-component-analysis)
-
-
 
 https://www.bilibili.com/video/av70839977?p=24
 
