@@ -79,7 +79,11 @@ scale(newdata, pca$center, pca$scale) %*% pca$rotation
 
 ### <mark>Loadings</mark>
 
-loadings are the direction of principal component (non-unit)
+loadings, or essentially vectors, are the linear combinations of raw axe directions to form the principal component axe (non-unit)
+
+e.g. the first principal component axe = x * loading of x + y * loading of y = (x,y)  %*% (loading of x, loading of y)
+
+magnitude of loadings reflect the weight of different raw axes to form the new principal component axe
 
 https://stats.stackexchange.com/a/470545
 
