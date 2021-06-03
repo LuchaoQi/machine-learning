@@ -12,6 +12,14 @@
 
 
 
+
+
+### [Random forest vs. Adaboost vs. GBDT](https://cuijiahua.com/blog/2017/11/ml_10_adaboost.html)
+
+> - Bagging + 决策树 = 随机森林
+> - AdaBoost + 决策树 = 提升树
+> - Gradient Boosting + 决策树 = GBDT
+
 ### [Why bagging multiple trees sometimes doesn't improve the performance of random forest?](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/)
 
 The problem with boosted trees is that they are greedy and likely to be overfitted. As such, even with bagging, those trees can have lots of structural similarities and thus have high correlation in their predictions. e.g. suggestions from three same-level engineers in a team are highly similar and can be viewed as only one suggestion from high-level.

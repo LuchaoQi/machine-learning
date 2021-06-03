@@ -2,39 +2,17 @@
 
 
 
-### Posts
+### What are support vectors in SVM?
 
-
-
-
-
-[Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
-
-
-
-
-
-
-
-
-
-
-
-
+> Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
 
 
 
 ### hinge loss in SVM
 
-
-
 https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
-
-
 [理解Hinge Loss (折页损失函数、铰链损失函数)](https://blog.csdn.net/fendegao/article/details/79968994)
-
-
 
 http://cs231n.github.io/linear-classify/#loss
 
@@ -56,8 +34,6 @@ $$
 
 
 
-
-
 https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427#Question_4.1
 
 cs231n
@@ -71,8 +47,6 @@ cs231n
 
 
 ## Intuition
-
-
 
 Besides directly calculating the distance between point and plane (Euclidean distance)
 
@@ -157,13 +131,9 @@ which helps us intuitively understand the `C` term.
 
 ## Code
 
-
-
 ### SVM from scratch
 
 https://github.com/wzyonggege/statistical-learning-method/blob/master/SVM/support-vector-machine.ipynb
-
-
 
 [SVM 调参策略](https://blog.csdn.net/u014484783/article/details/78220646)
 
@@ -190,6 +160,8 @@ def svm_cross_validation(train_x, train_y):
 
 ## Resources
 
+[Datawhale 一文详尽之支持向量机算法！SVM + gridSearch](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247491332&idx=1&sn=a725c3b08aa316edce4ebcc33b296703&chksm=e870ce49df07475f88beb3c255191725fceead8d365721adef4dbfd029ab445e2e955ef6af84&mpshare=1&scene=1&srcid=&sharer_sharetime=1589138577518&sharer_shareid=54d7b6bf73b347d381a7bff3f78b99d1&key=d324c761f914ac83f364740fdc5de4dd185c4386e0c5340dc9482d85b34539056c85823dd22fa64f97bd5c9875a844dd57b5511090512dc62793a7a8ac5d866a1c179f860a609b381ccdd0fd1fbdc39f&ascene=1&uin=NzA3NTE3MTMz&devicetype=Windows+10&version=62080085&lang=en&exportkey=A2I%2BQxKzfIgQzczFd6odkws%3D&pass_ticket=brI2mzO8Bei9ubTp1AqKp9LlM9tFQbjRMdFKagYkIJtNTV2%2FSQO0M6gBXqreowWR)
+
 More details discussed
 
 http://cs229.stanford.edu/notes/cs229-notes3.pdf
@@ -208,15 +180,11 @@ https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k6itvlmiw5c4sp
 
 [Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1)
 
-
-
 Another pretty good introduction
 
 [Simple Tutorial on SVM and Parameter Tuning in Python and R](https://www.hackerearth.com/blog/developers/simple-tutorial-svm-parameter-tuning-python-r/)
 
 ![](https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2017/02/kernel.png)
-
-
 
 
 

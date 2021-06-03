@@ -19,8 +19,6 @@ Decide which stumps receive most amount of say
 
 
 
-
-
 ### Resources
 
 https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k73pxhr3im7655
@@ -34,4 +32,3 @@ https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k73pxhr3im7655
 >- Bagging + Decision Tree = Random Forest
 >- Boosting + Decision Tree = AdaBoost
 >- Gradient Boosting + Decision Tree = GBDT
-
