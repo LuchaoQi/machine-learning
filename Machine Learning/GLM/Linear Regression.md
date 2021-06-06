@@ -2,6 +2,8 @@
 
 
 
+### [Least Square Estimates of $\beta_{0}$ and $\beta_{1}$](https://www.amherst.edu/system/files/media/1287/SLR_Leastsquares.pdf)
+
 
 
 ### Assumptions of linear regression model
