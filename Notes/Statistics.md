@@ -87,9 +87,9 @@ https://stanford.edu/~shervine/teaching/cme-106/cheatsheet-probability#introduct
 
 ![](https://i.loli.net/2021/04/10/wMoZnhd6NG5Omle.png)
 
-Shuffle (纸牌发牌): random numbers **without** replacement 
+Bootstrap (shuffle with replacement): any test or metric that relies on random sampling **with** replacement
 
-Bootstrap (shuffle with replacement): any test or metric that relies on random sampling **with** replacement 
+Shuffle (纸牌发牌): random numbers **without** replacement - shuffle == permutation in some cases
 
 Permutation (排列 order matters): Permutation allows replacement but we do it **without** replacement
 
