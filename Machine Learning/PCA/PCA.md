@@ -140,8 +140,6 @@ https://stackoverflow.com/a/40801571/11964524
 
 **Definition of covariance matrix**
 
-
-
 https://www.bilibili.com/video/BV1aE411o7qd?p=23
 
 https://en.wikipedia.org/wiki/Covariance_matrix#Definition
@@ -182,28 +180,20 @@ $$
 $$
 
 
-use Lagrange equation
+with [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier) and [matrix calculus](https://en.wikipedia.org/wiki/Matrix_calculus)
 
 $$
 \begin{array}{c}{\mathcal{L}\left(u_{1}, \lambda\right)=u_{1}^{\top} S u_{1}+\lambda\left(1-u_{1}^{\top} u\right)} \\ {\frac{\partial \mathcal{L}}{\partial u_{1}}=2 S \cdot u_{1}-\lambda \cdot 2 u_{1}=0} \\ {S u_{1}=\lambda u_{1}}\end{array}
 $$
-DONE! $u_1$ is eigenvector and $\lambda$ is eigenvalue
-
-
+BAM! For matrix S, $u_1$ is eigenvector and $\lambda$ is eigenvalue
 
 
 
 ### Example
 
-
-
 centering the data before PCA
 
-
-
 e.g. we have five 2-D data points after centering
-
-
 
 $$
 A = \begin{pmatrix}
@@ -222,8 +212,6 @@ C = \frac{1}{5} * \begin{pmatrix}-1 & -1 & 0 & 2 & 0 \\
 -2 & 0  & 0 & 1 & 1\end{pmatrix} * \begin{pmatrix}-1 & -2 \\ -1 & 0 \\ 0 & 0 \\ 2 & 1 \\ 0 & 1\end{pmatrix} = \begin{pmatrix} \frac{6}{5} & \frac{4}{5} \\ \frac{4}{5} & \frac{6}{5}\end{pmatrix}
 \end{align*}
 $$
-
-
 
 eigenvalues/eigenvectors
 
@@ -267,8 +255,6 @@ DONE! the projected 1-D points are shown as below
 
 
 ![](https://i.loli.net/2020/06/05/Zhzjl2tHmn43vEU.png)
-
-
 
 
 
