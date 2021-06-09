@@ -40,7 +40,7 @@
 
 
 
-### ==[Bayesian Statistics explained to Beginners in Simple English](https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/)==
+### <mark>[Bayesian Statistics explained to Beginners in Simple English](https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/)</mark>
 
 
 
@@ -83,7 +83,6 @@ https://seeing-theory.brown.edu/bayesian-inference/
 ### 另外的投硬币例子
 
 https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Discrete_distribution,_finite_parameter_space
-
 
 
 
