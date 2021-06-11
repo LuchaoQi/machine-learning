@@ -58,9 +58,7 @@ https://colab.research.google.com/drive/1zjh0tUPYJYgJJunpLC9fW5uf--O0LKeZ?usp=sh
 
 
 
-### ==how to set up hyperparameters in fully connected layer?==
-
-
+### <mark>how to set up hyperparameters in fully connected layer?</mark>
 
 https://towardsdatascience.com/understanding-and-calculating-the-number-of-parameters-in-convolution-neural-networks-cnns-fc88790d530d
 
@@ -303,11 +301,9 @@ https://datascience.stackexchange.com/a/27252
 
 
 
-#### ==[Stanford Lecture 5: Convolutional Neural Networks]( http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf)==
+#### <mark>[Stanford Lecture 5: Convolutional Neural Networks]( http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture05.pdf)</mark>
 
 如果有padding的话就 (N-F+2P)/S +1
-
-
 
 ![image.png](https://i.loli.net/2020/03/10/ohDOVv9BAsjdfqm.png)
 
@@ -323,11 +319,15 @@ https://datascience.stackexchange.com/a/27252
 
 
 
-### ==[CNN explainer](https://poloclub.github.io/cnn-explainer/)==
+### [从“卷积”、到“图像卷积操作”、再到“卷积神经网络”，“卷积”意义的3次改变](https://www.bilibili.com/video/BV1VV411478E?spm_id_from=333.851.b_7265636f6d6d656e64.5)
 
 
 
-### ==CNN cheat sheet==
+### <mark>[CNN explainer](https://poloclub.github.io/cnn-explainer/)</mark>
+
+
+
+### CNN cheat sheet
 
 https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks
 
