@@ -42,9 +42,7 @@ Boosting：各个预测函数只能顺序生成，因为后一个模型参数需
 
 
 
-
-
-==[A Primer to Ensemble Learning – Bagging and Boosting](https://analyticsindiamag.com/primer-ensemble-learning-bagging-boosting/)== 
+<mark>A Primer to Ensemble Learning – Bagging and Boosting </mark>
 
 
 
