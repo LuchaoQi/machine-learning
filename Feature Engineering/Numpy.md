@@ -2,9 +2,13 @@
 
 
 
+### [这可能是我见过最好的 NumPy 图解教程！](https://mp.weixin.qq.com/s/5_6QKacG9lcyjwHJfLqYSA)
+
+### [Here’s How to Use CuPy to Make Numpy Over 10X Faster](https://towardsdatascience.com/heres-how-to-use-cupy-to-make-numpy-700x-faster-4b920dda1f56)
 
 
-#### axis in numpy
+
+### axis in numpy
 
 ```python
 a = np.arange(6).reshape(2,3) # [[0,1,2],[3,4,5]]
@@ -42,7 +46,7 @@ test_x = normalize_stats_image_by_image(test_x/255)
 
 
 
-#### [numpy-100](https://github.com/rougier/numpy-100)
+### [numpy-100](https://github.com/rougier/numpy-100)
 
 
 
@@ -75,7 +79,7 @@ b = np.zeros_like(a)
 
 
 
-#### cheat sheet
+### cheat sheet
 
 https://datacamp-community-prod.s3.amazonaws.com/e9f83f72-a81b-42c7-af44-4e35b48b20b7
 
@@ -85,10 +89,3 @@ https://datacamp-community-prod.s3.amazonaws.com/e9f83f72-a81b-42c7-af44-4e35b48
 
 
 
-
-
-### Resources
-
-
-
-[Here’s How to Use CuPy to Make Numpy Over 10X Faster](https://towardsdatascience.com/heres-how-to-use-cupy-to-make-numpy-700x-faster-4b920dda1f56)
