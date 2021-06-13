@@ -21,6 +21,8 @@ Decide which stumps receive most amount of say
 
 ### Resources
 
+https://github.com/LuchaoQi/books/tree/master/Lihang
+
 https://piazza.com/class_profile/get_resource/k1zer6tg6s04bb/k73pxhr3im7655
 
 [Basic Ensemble Learning (Random Forest, AdaBoost, Gradient Boosting)- Step by Step Explained](https://towardsdatascience.com/basic-ensemble-learning-random-forest-adaboost-gradient-boosting-step-by-step-explained-95d49d1e2725)
