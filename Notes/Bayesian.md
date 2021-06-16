@@ -1,6 +1,6 @@
 [toc]
 
-### Posts
+## Posts
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-### Bayesian
+## Bayesian
 
 
 
@@ -22,15 +22,37 @@
 
 
 
-### Likelihood
+## Likelihood
 
-![image.png](https://i.loli.net/2020/05/15/yZLQUFDNTjHJMwW.png)
+Let $X$ be a discrete [random variable](https://en.wikipedia.org/wiki/Random_variable) with [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) $p$ depending on a parameter $\theta$ Then the function
+
+$\mathcal{L}(\theta \mid x) = p_\theta (x) = P_\theta (X=x)$
+
+helps estimate the parameter $\theta$ based on given x
+
+### MLE recall
+
+我们假设一个distribution with unknown parameters i.e. $\theta$ 
+
+然后根据sampling distribution把sampled x代入假设的distribution
+
+得到关于$\theta$的likelihood方程求导即可
+
+![image.png](https://i.loli.net/2020/01/14/RpJxmaFH7y4NX1g.png)
+
+### Intuition / example
+
+[<mark> seeing theory</mark>](https://seeing-theory.brown.edu/bayesian-inference/)
+
+[Examples](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Examples)
+
+[投硬币例子 - Discrete distribution](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Discrete_distribution,_finite_parameter_space)
+
+[How to derive the likelihood and loglikelihood of the poisson distribution ](https://math.stackexchange.com/questions/2399613/how-to-derive-the-likelihood-and-loglikelihood-of-the-poisson-distribution)
 
 
 
-
-
-### [如何理解先验概率与后验概率](https://zhuanlan.zhihu.com/p/26464206)
+## [如何理解先验概率与后验概率](https://zhuanlan.zhihu.com/p/26464206)
 
 
 
@@ -40,11 +62,11 @@
 
 
 
-### <mark>[Bayesian Statistics explained to Beginners in Simple English](https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/)</mark>
+## <mark>[Bayesian Statistics explained to Beginners in Simple English](https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/)</mark>
 
 
 
-#### what if one has no previous experience? what if we don't know prior distribution? 
+### what if one has no previous experience? what if we don't know prior distribution? 
 
 
 
@@ -67,22 +89,6 @@ https://seeing-theory.brown.edu/bayesian-inference/
 ![image.png](https://i.loli.net/2020/01/14/QI453BDpgaZivc2.png)
 
 
-
-
-
-### MLE recall
-
-我们假设一个distribution with unknown parameters i.e. $\theta$ 
-
-然后根据sampling distribution把sampled x代入假设的distribution
-
-得到关于$\theta$的likelihood方程求导即可
-
-![image.png](https://i.loli.net/2020/01/14/RpJxmaFH7y4NX1g.png)
-
-### 另外的投硬币例子
-
-https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Discrete_distribution,_finite_parameter_space
 
 
 
