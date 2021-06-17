@@ -4,9 +4,9 @@
 
 ### What are support vectors in SVM?
 
-> Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
+> Support vectors are data points that are **closest** to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
 
-
+![](https://www.saedsayad.com/images/SVM_2.png)
 
 ### hinge loss in SVM
 
@@ -54,7 +54,9 @@ Besides directly calculating the distance between point and plane (Euclidean dis
 
 [Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1) provides another understanding of optimization problem.
 
-For two vectors
+Define the function $y_{i} = W^T x_{i} +b$ where $y_{i}$ is the label and $x_{i}$ is the coordinate
+
+For two vectors $x_{1},x_{2}$ we have:
 
 
 $$
@@ -67,14 +69,11 @@ $$
 \frac{\omega^{T}\left(x_{1}-x_{2}\right)}{\|\omega\|}=\frac{2}{\|\omega\|}
 $$
 
-s.t. for two classifications/labels $y_i = 1/-1$ 
-$$
-y_i*(w^Tx_i+b) \geq 1
-$$
+s.t. for two classifications/labels $y_i = 1/-1$, $y_i*(w^Tx_i+b) \geq 1$
 
+**Why? Because $w^T$ is the direction vertical to the hyperplane so the left part means exactly the projected distance of the vector $x_{1} - x_{2}$  on unit vector $w^T / \|w^T\|$**
 
-
-**Note $w^T$ is the direction vertical to the hyperplane so the left part means exactly the projected distance between two points!!!**
+![](https://www.researchgate.net/publication/304611323/figure/fig8/AS:668377215406089@1536364954428/Classification-of-data-by-support-vector-machine-SVM.png)
 
 > Why $w^T$ is vertical to the hyperplane?
 >
@@ -84,25 +83,23 @@ $$
 >
 > $w^T(x_1-x_2)=0$
 >
-> bam!!!
+> $x_{1} - x_{2}$ is the vector on/parallel the hyperplane and $W^T$ is the normal vector. bam!!!
 
 Maximizing the margin equals to minimizing the reciprocal along with monotone
 
 
 
 $$
-\begin{array}{l}{\max \frac{2}{\| w_{1}\|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}
+\begin{array}{l}{\max \frac{2}{\| w \|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}
 $$
 
 
 
-So we can further use [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier#Examples)/ KKT conditions to solve this problem.
+So we can further use [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier#Examples) and [KKT conditions](https://bookdown.org/edxu96/matrixoptim/kkt-conditions.html) to solve this problem.
 
 [从KKT条件下的拉格朗日乘法到拉格朗日对偶问题](https://blog.csdn.net/dpengwang/article/details/88355744)
 
 [BILIBILI - Math behind the model (Chinese)](https://www.bilibili.com/video/av70839977/?p=28&spm_id_from=333.788.b_6d756c74695f70616765.28)
-
-
 
 https://github.com/wzyonggege/statistical-learning-method/blob/master/SVM/support-vector-machine.ipynb
 
