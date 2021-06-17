@@ -8,11 +8,15 @@
 
 ![](https://www.saedsayad.com/images/SVM_2.png)
 
+
+
 ### hinge loss in SVM
 
-https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
+> Loss function in SVM is used mainly for stochastic gradient descent. With that said, we are trying to find the best hyperplane using gradient descent where the kernel is complicated and hard to find local/global minima using mathematical derivations directly.
+>
+> That's why we don't need it when trying to maximize margins in the Intuition part.
 
-[理解Hinge Loss (折页损失函数、铰链损失函数)](https://blog.csdn.net/fendegao/article/details/79968994)
+https://piazza.com/class_profile/get_resource/k5so7na4z3n3st/k5zhsdztzpa41r
 
 http://cs231n.github.io/linear-classify/#loss
 
@@ -31,8 +35,6 @@ $$
 
 
 ![](http://cs231n.github.io/assets/margin.jpg)
-
-
 
 https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427#Question_4.1
 
@@ -87,19 +89,17 @@ s.t. for two classifications/labels $y_i = 1/-1$, $y_i*(w^Tx_i+b) \geq 1$
 
 Maximizing the margin equals to minimizing the reciprocal along with monotone
 
-
-
 $$
 \begin{array}{l}{\max \frac{2}{\| w \|}} \\ {\min 1 / 2\|w\|^{2}}\end{array}
 $$
 
-
-
 So we can further use [Lagrange multiplier](https://en.wikipedia.org/wiki/Lagrange_multiplier#Examples) and [KKT conditions](https://bookdown.org/edxu96/matrixoptim/kkt-conditions.html) to solve this problem.
 
-[从KKT条件下的拉格朗日乘法到拉格朗日对偶问题](https://blog.csdn.net/dpengwang/article/details/88355744)
-
-[BILIBILI - Math behind the model (Chinese)](https://www.bilibili.com/video/av70839977/?p=28&spm_id_from=333.788.b_6d756c74695f70616765.28)
+> [从KKT条件下的拉格朗日乘法到拉格朗日对偶问题](https://blog.csdn.net/dpengwang/article/details/88355744)
+>
+> [BILIBILI - Math behind the model (Chinese)](https://www.bilibili.com/video/av70839977/?p=28&spm_id_from=333.788.b_6d756c74695f70616765.28)
+>
+> https://www.pkudodo.com/2018/12/16/1-8/
 
 https://github.com/wzyonggege/statistical-learning-method/blob/master/SVM/support-vector-machine.ipynb
 
@@ -123,8 +123,6 @@ $$
 $$
 
 which helps us intuitively understand the `C` term.
-
-
 
 
 
