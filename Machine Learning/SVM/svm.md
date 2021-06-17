@@ -48,6 +48,8 @@ cs231n
 
 ## Intuition
 
+[点到直线与面的距离公式](https://zhuanlan.zhihu.com/p/63499708)
+
 Besides directly calculating the distance between point and plane (Euclidean distance)
 
 [Udacity](https://www.youtube.com/watch?v=5yzSv4jYMyI&list=PLgIPpm6tJZoShjm7r8Npia7CMsMlRWeuZ&index=1) provides another understanding of optimization problem.
