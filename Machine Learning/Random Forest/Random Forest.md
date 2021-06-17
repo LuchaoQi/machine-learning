@@ -4,13 +4,13 @@
 
 
 
-> Decision tree split nodes based on node impurity (gini / entropy / variance / chi squared).
+> Decision trees split nodes based on node impurity (gini / entropy / variance / chi squared).
 >
 > In random forest, for each node level, a random subset of <mark>full features</mark> were chosen and we split node using the same method in decision tree. Note already used feature should not be used <mark>within the same branch</mark>. 
 >
 > When training, each tree in a random forest learns from a random sample of the data points. <mark>The samples are drawn with replacement, known as bootstrapping, which means that some samples will be used multiple times in a single tree.</mark> Then bag the output of all the decision trees at the end. 
-
-
+>
+> When calculating feature importance, each tree has its own out-of-bag sample of data that was not used during construction. First, the prediction accuracy on the out-of-bag sample is measured. Then, <mark>the values of the variable in the out-of-bag-sample are randomly shuffled, keeping all other variables the same. Finally, the decrease in prediction accuracy on the shuffled data is measured.</mark> The mean decrease in accuracy across all trees is reported.
 
 
 
@@ -41,7 +41,9 @@ https://stats.stackexchange.com/a/405150/272857
 
 
 
-### %IncMSE / IncNodePurity interpretation
+### How is Variable Importance Calculated for a Random Forest? %IncMSE / IncNodePurity interpretation
+
+https://www.displayr.com/how-is-variable-importance-calculated-for-a-random-forest/
 
 https://stats.stackexchange.com/a/162590
 
@@ -57,8 +59,6 @@ https://stats.stackexchange.com/a/162590
 >
 > [A similar question and answer](https://stats.stackexchange.com/questions/12605/measures-of-variable-importance-in-random-forests)
 
-
-
 ### Gini Calculation
 
 ![image.png](https://i.loli.net/2020/10/30/hWOXZV4BHsu3gJT.png)
@@ -67,7 +67,7 @@ https://stats.stackexchange.com/a/162590
 
 ![image.png](https://i.loli.net/2020/10/30/tEkwbMisLg5q8rv.png)
 
-
+​	
 
 ### R code
 
