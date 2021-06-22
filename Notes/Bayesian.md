@@ -53,7 +53,7 @@ $$
 
 [投硬币例子 - Discrete distribution](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation#Discrete_distribution,_finite_parameter_space)
 
-[How to derive the likelihood and loglikelihood of the poisson distribution ](https://math.stackexchange.com/questions/2399613/how-to-derive-the-likelihood-and-loglikelihood-of-the-poisson-distribution)
+[<mark>How to derive the likelihood and loglikelihood of the poisson distribution</mark>](https://math.stackexchange.com/questions/2399613/how-to-derive-the-likelihood-and-loglikelihood-of-the-poisson-distribution)
 
 
 
