@@ -1,10 +1,40 @@
 [toc]
 
+
+
+### [The difference between correlation and covariance](https://bbs.pinggu.org/thread-3766147-1-1.html)
+
+$$
+cov = E[(x_{i}-\bar{x})(y_{i}-\bar{y})] \\
+cor = E[(x_{i}-\bar{x})(y_{i}-\bar{y})] / \sigma x \sigma y
+$$
+
+recall the product between two vectors
+$$
+\vec{a}\times\vec{b} = \left| \vec{a} \right|\left| \vec{b} \right| cos\theta \\
+cov = \sigma x \sigma y * cor
+$$
+so we can intuitively understand that
+
+covariance measures both direction and extent between two variables ($\vec{a}\times\vec{b}$)
+
+correlation measures direction only between two variables ($cos\theta$)
+
+That's why large covariance doesn't necessarily comes with large correlation because the magnitude of vectors affect covariance but not correlation
+
+### [Intuitive explanation for dividing by n−1n−1 when calculating standard deviation?](https://www.zhihu.com/question/20099757)
+
+![](https://pic1.zhimg.com/80/dff0de718d34e83e9fd3f6c931675889_720w.jpg?source=1940ef5c)
+
 ### [Is Pearson's R inappropriate for measuring regression accuracy?](https://stats.stackexchange.com/questions/224217/is-pearsons-r-inappropriate-for-measuring-regression-accuracy)
 
 Use Spearman correlation to measure correlation between prediction and actual values
 
+Think about the error term $e_{i}$ which follows normal distribution in the linear regression
 
+![](https://www.gstatic.com/education/formulas2/355397047/en/regression_analysis.svg)
+
+Assume $f(X_{i},\beta)$ is perfectly the same as target but we still need to add $e_{i}$ at the end, the relationship between truth $Y_{i}$ and prediction $f(X_{i},\beta)$ is monotonic instead of linear.
 
 https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php
 

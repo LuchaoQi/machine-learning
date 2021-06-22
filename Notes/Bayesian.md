@@ -24,11 +24,16 @@
 
 ## Likelihood
 
-Let $X$ be a discrete [random variable](https://en.wikipedia.org/wiki/Random_variable) with [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) $p$ depending on a parameter $\theta$ Then the function
+Let $y$ be a discrete [random variable](https://en.wikipedia.org/wiki/Random_variable) with [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) $f$ depending on a parameter $\theta$ Then the function
+$$
+L_{n}(\theta) = L_{n}(\theta; \mathbf{y}) = \prod f_{n}(\mathbf{y}; \theta)
+$$
+For independent and identically distributed random variables, $\prod f_{n}(\mathbf{y}; \theta)$ will be the product of univariate density functions.
 
-$\mathcal{L}(\theta \mid x) = p_\theta (x) = P_\theta (X=x)$
-
-helps estimate the parameter $\theta$ based on given x
+The goal of maximum likelihood estimation is to find the values of the model parameters that maximize the likelihood function over the parameter space, that is: 
+$$
+\hat{\theta} = \underset{\theta\in\Theta}{\operatorname{arg\;max}}\,\widehat L_{n}(\theta\,;\mathbf{y})
+$$
 
 ### MLE recall
 
