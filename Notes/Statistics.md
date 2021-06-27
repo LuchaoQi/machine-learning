@@ -95,8 +95,6 @@ Permutation (排列 order matters): Permutation allows replacement but we do it 
 
 <mark>Permutation test example: https://www.jwilber.me/permutationtest/ </mark>
 
-![](https://i.loli.net/2021/03/19/1rPJcIKtmWNZQnf.png)
-
 
 
 Typical R code for permutation is shown below:
