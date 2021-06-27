@@ -22,7 +22,7 @@ http://cs231n.github.io/linear-classify/#loss
 
 
 $$
-l(\mathbf{w}, \mathbf{x}, y)=\max (0,1-y(\mathbf{w} \cdot \mathbf{x}))
+\ell(y) = \max(0, 1 + \max_{y \ne t} \mathbf{w}_y \mathbf{x} - \mathbf{w}_t \mathbf{x})
 $$
 
 
@@ -30,15 +30,14 @@ $$
 
 
 $$
-L_{i}=\sum_{j \neq y_{i}} \max \left(0, w_{j}^{T} x_{i}-w_{y_{i}}^{T} x_{i}+\Delta\right)
+\ell(y) = \sum_{y \ne t} \max(0, 1 + \mathbf{w}_y \mathbf{x} - \mathbf{w}_t \mathbf{x})
 $$
 
 
-![](http://cs231n.github.io/assets/margin.jpg)
 
-https://www.gradescope.com/courses/85498/assignments/353669/submissions/30302427#Question_4.1
+[<mark>cs231n</mark>](https://cs231n.github.io/linear-classify/#multiclass-support-vector-machine-loss)
 
-cs231n
+![](https://cs231n.github.io/assets/margin.jpg)
 
 ![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
 
