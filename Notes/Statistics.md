@@ -100,15 +100,15 @@ Permutation (排列 order matters): Permutation allows replacement but we do it 
 Typical R code for permutation is shown below:
 
 ```R
-obs = asb(mean(x[y]) - mean(x[!y]))
-# x [1,2,3,4,5,6,7,8,9]
-# y [T,F,T,F,T,F,T,F,T]
-cbind(x, y)
+x = c(1,2,3,4,5,6,7,8,9)
+y = c(T,F,T,F,T,F,T,F,T)
+obs = abs(mean(x[y]) - mean(x[!y]))
+nosim = 1000
 out = sapply(1 : nosim,
-function(i){
-py = sample(y)
-abs(mean(x[py]) - mean(x[!py]))
-}
+             function(i){
+               py = sample(y)
+               abs(mean(x[py]) - mean(x[!py]))
+             }
 )
 hist(out)
 obs
