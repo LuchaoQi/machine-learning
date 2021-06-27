@@ -95,7 +95,9 @@ Permutation (排列 order matters): Permutation allows replacement but we do it 
 
 <mark>Permutation test example: https://www.jwilber.me/permutationtest/ </mark>
 
+We will get a histogram of x after doing (e.g. 1000) permutations
 
+The histogram is a frequency distribution for testing the null hypothesis that Xobs was drawn at random from the distribution of Xsim.
 
 Typical R code for permutation is shown below:
 
