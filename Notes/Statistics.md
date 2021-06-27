@@ -93,11 +93,19 @@ Shuffle (纸牌发牌): random numbers **without** replacement - shuffle == perm
 
 Permutation (排列 order matters): Permutation allows replacement but we do it **without** replacement
 
-<mark>Permutation test example: https://www.jwilber.me/permutationtest/ </mark>
 
-We will get a histogram of x after doing (e.g. 1000) permutations
 
-> [The histogram is a frequency distribution for testing the null hypothesis that Xobs was drawn at random from the distribution of Xsim.](https://www.uvm.edu/~ngotelli/manuscriptpdfs/Ecology81p2606.pdf)
+### Permutation test
+
+
+
+example testing the difference: https://www.jwilber.me/permutationtest/
+
+example testing the matchness/co-occurrence: https://www.uvm.edu/~ngotelli/manuscriptpdfs/Ecology81p2606.pdf
+
+> The histogram is a frequency distribution for testing the null hypothesis that Xobs was drawn at random from the distribution of Xsim.
+
+
 
 Typical R code for permutation is shown below:
 
@@ -126,11 +134,7 @@ mean(out >= obs)
 
 
 
-### Entropy between distributions
-
-> Those metrics can be used to rank the importance of features across different datasets i.e. the output the package [featuretools](https://github.com/alteryx/featuretools)
-
-[Kullback–Leibler divergence](https://github.com/LuchaoQi/HW_JHU/blob/master/machine%20learning_deep%20learning/hw1/DeepLearning_Fall2019_hw1.pdf) Q3
+### Cross-Entropy Versus KL Divergence
 
 https://machinelearningmastery.com/cross-entropy-for-machine-learning/
 
