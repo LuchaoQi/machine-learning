@@ -37,11 +37,11 @@ $$
 
 [<mark>cs231n</mark>](https://cs231n.github.io/linear-classify/#multiclass-support-vector-machine-loss)
 
+
+
 ![](https://cs231n.github.io/assets/margin.jpg)
 
 ![](https://i.loli.net/2020/05/27/Wbj84KBhV7DZO2f.png)
-
-
 
 
 
@@ -84,7 +84,7 @@ s.t. for two classifications/labels $y_i = 1/-1$, $y_i*(w^Tx_i+b) \geq 1$
 >
 > $w^T(x_1-x_2)=0$
 >
-> $x_{1} - x_{2}$ is the vector on/parallel the hyperplane and $W^T$ is the normal vector. bam!!!
+> $x_{1} - x_{2}$ is the vector on the hyperplane and thus $w ^T$ is the normal vector. bam!!!
 
 Maximizing the margin equals to minimizing the reciprocal along with monotone
 
