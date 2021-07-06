@@ -28,6 +28,12 @@ http://www.kaspercpa.com/statisticalreview.htm
 
 
 
+### [Power](https://www.youtube.com/watch?v=Rsc5znwR5FA&t=329s&ab_channel=StatQuestwithJoshStarmer)
+
+power is the probability that we will corretly reject the null hypothesis
+
+we need a power anlysis to determine how many measurements to collect to have a good amount of power.
+
 ## AUC & PR & Confusion Matrix
 
 
