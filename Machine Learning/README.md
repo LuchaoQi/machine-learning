@@ -18,13 +18,13 @@
 
 ## Resources
 
-### 最好的从原理实现资料: [<mark>Lihang</mark>](https://github.com/LuchaoQi/books/tree/master/Lihang)
+### 最好的从原理实现资料: Lihang
+
+[shuhuai008](https://space.bilibili.com/97068901)
 
 [南瓜书PumpkinBook](https://github.com/datawhalechina/pumpkin-book)
 
 [阿泽](https://www.zhihu.com/people/is-aze/posts)
-
-[shuhuai008](https://space.bilibili.com/97068901)
 
 [STATQUEST](https://statquest.org/video-index/)
 
