@@ -105,13 +105,15 @@ Note: word vectors are sometimes called word embeddings or word representations.
 
 https://cs224d.stanford.edu/lecture_notes/notes1.pdf
 
-http://mccormickml.com/2016/04/27/word2vec-resources/
-
 http://web.stanford.edu/class/cs224n/readings/
 
 http://web.stanford.edu/class/cs224n/slides/
 
-https://piazza.com/jhu/spring2020/cs482682/resources
+
+
+http://mccormickml.com/2016/04/27/word2vec-resources/
+
+[图解Word2vec，读这一篇就够了！](https://mp.weixin.qq.com/s/GVGR48rDn5Am-JhDZUxyOg)
 
 [建模角度理解word embedding及tensorflow实现](https://www.jianshu.com/p/d44ce1e3ec2f)
 
